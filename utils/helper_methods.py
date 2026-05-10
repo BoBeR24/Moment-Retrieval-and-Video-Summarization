@@ -38,14 +38,6 @@ def split_video_ffmpeg(input_file, chunk_size=150):
 
 
 def extract_clips(input_file, output_file, timecodes):
-    """
-    Extracts multiple clips from a video and joins them into one.
-
-    :param input_file: Path to the source video.
-    :param output_file: Path for the final output.
-    :param timecodes: List of tuples (start, end) in seconds or "HH:MM:SS".
-    """
-
     filter_complex = ""
     inputs = ""
 
