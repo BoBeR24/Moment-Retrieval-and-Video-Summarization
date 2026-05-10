@@ -34,6 +34,8 @@ all_results = []
 for query in events:
 
     # Predicting...
+    best_prediction = None
+    best_score = -1
     i = 0
 
     for chunk_file in sorted(os.listdir(chunks_dir)):
@@ -46,8 +48,12 @@ for query in events:
             "score": result["pred_relevant_windows"][0][2]
         }
 
-        all_results.append(prediction)
+        if prediction["score"] > best_score:
+            best_score = prediction["score"]
+            best_result = prediction
+
         i += 1
+    all_results.append(prediction)
 
 print("\nALL RESULTS:")
 for r in all_results:
