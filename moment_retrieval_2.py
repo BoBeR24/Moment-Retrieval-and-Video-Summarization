@@ -1,6 +1,5 @@
 import torch
 from lighthouse.models import QDDETRPredictor
-from utils.expand_query import expand_query
 from utils.video_splitter import split_video_ffmpeg
 import os
 
@@ -13,11 +12,10 @@ query = "The Kings mascot passes by waving."
 # Split Video
 chunks_dir = split_video_ffmpeg(video_path, chunk_size=150)
 
-
 # Load Model
 # Weights downloaded from https://zenodo.org/records/13960580
 model = QDDETRPredictor(
-    'model_weights/clip_qd_detr_qvhighlight.ckpt',
+    'model_weights/clip_slowfast_pann_qd_detr_qvhighlight.ckpt',
     device=device,
     feature_name="clip"
 )
