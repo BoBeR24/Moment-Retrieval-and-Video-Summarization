@@ -1,15 +1,16 @@
-A student's voice explains the concept of the laurel chain college parade, 00:03 - 00:12, 2
-Student's voice explains what they do during the ceremony, 00:14 - 00:21, 2
-Young women in white dresses pick up a laurel chain resembling a vine, 00:22 - 00:26, 2
-Women with purple accessories walk while holding a banner with a year on it, 00:29 - 00:31, 1
-A student's voice explains why the ceremony is so important to her, 00:32 - 00:42, 1
-A parade of elderly women holding yellow attributes and a banner with a year on it, 01:08 - 01:16, 1
-A group of bandpipe players in uniform is performing, 01:33 - 01:34, 1
-An elderly college alumna talks about her ancestors participating in the parade, 02:18 - 02:29, 2
-Different signs are held by the participants of the parade, 02:46 - 02:52, -1
-A birth of a new tradition of "scarfing ceremony" is explained and shown, 03:03 - 03:07, 1
-A college student explains how the parade connects the generations of college alumni, 03:35 - 03:42, 1
-An elderly alumna explains what she felt during her graduation laurel parade, 04:40 - 04:47, 1
-An elderly alumna explains how she enjoys being at the parade and looking at the graduating women, 04:56 - 05:02, -2
-It is shown how graduating women students are holding a vine looking chain, 05:34 - 05:53, 2
-A grave of the college founder is shown surrounded by vines and greenery, 05:54 - 05:57, -1
+annotation,timestamp,subjectivity_rating
+A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2
+Student's voice explains what they do during the ceremony,00:14 - 00:21,2
+Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2
+Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1
+A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1
+A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1
+A group of bandpipe players in uniform is performing,01:33 - 01:34,1
+An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2
+Different signs are held by the participants of the parade,02:46 - 02:52,-1
+A birth of a new tradition of "scarfing ceremony" is explained and shown,03:03 - 03:07,1
+A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1
+An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1
+An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2
+It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2
+A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1
