@@ -1,21 +1,23 @@
 import torch
 from lighthouse.models import QDDETRPredictor
-from utils.video_splitter import split_video_ffmpeg
+from utils.helper_methods import split_video_ffmpeg, create_speedup_video
 import os
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-video_path = "TVSum/video_25.mp4"
-
-query = "The Kings mascot passes by waving."
-
-# Split Video
-chunks_dir = split_video_ffmpeg(video_path, chunk_size=150)
+# Create 2x video
+video_path_25 = "TVSum/video_25_2x.mp4"
+# video_path_25 = create_speedup_video(video_path_25, speed=2)
+video_path_26 = "TVSum/video_26.mp4"
+video_path_27 = "TVSum/video_27_3x.mp4"
+# video_path_27 = create_speedup_video(video_path_27, speed=3)
+video_path_28 = "TVSum/video_28_2x.mp4"
+# video_path_28 = create_speedup_video(video_path_28, speed=2)
 
 # Load Model
 # Weights downloaded from https://zenodo.org/records/13960580
 model = QDDETRPredictor(
-    'model_weights/clip_slowfast_pann_qd_detr_qvhighlight.ckpt',
+    'model_weights/clip_qd_detr_qvhighlight.ckpt',
     device=device,
     feature_name="clip"
 )
@@ -34,24 +36,19 @@ for query in events:
     # Predicting...
     best_prediction = None
     best_score = -1
-    i = 0
 
-    for chunk_file in sorted(os.listdir(chunks_dir)):
-        chunk_path = os.path.join(chunks_dir, chunk_file)
+    result = model.predict(query, model.encode_video(video_path_25))
+    prediction = {
+        "start": result["pred_relevant_windows"][0][0],
+        "end": result["pred_relevant_windows"][0][1],
+        "score": result["pred_relevant_windows"][0][2]
+    }
 
-        result = model.predict(query, model.encode_video(chunk_path))
-        prediction = {
-            "start": result["pred_relevant_windows"][0][0] + (150*i),
-            "end": result["pred_relevant_windows"][0][1] + (150*i),
-            "score": result["pred_relevant_windows"][0][2]
-        }
+    if prediction["score"] > best_score:
+        best_score = prediction["score"]
+        best_result = prediction
 
-        if prediction["score"] > best_score:
-            best_score = prediction["score"]
-            best_result = prediction
-
-        i += 1
-    all_results.append(prediction)
+    all_results.append(best_result)
 
 print("\nALL RESULTS:")
 for r in all_results:

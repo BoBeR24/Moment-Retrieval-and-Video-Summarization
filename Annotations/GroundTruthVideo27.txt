@@ -1,0 +1,12 @@
+annotation,timestamp,subjectivity_rating
+A group of women walking in white dresses.,00:05-00:09,2
+Student's voice explains what they do during the ceremony,00:14 - 00:21,2
+Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,0
+Older Women in white with purple accessories walk while holding a banner with a year on it,00:30-00:36,2
+A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,-1
+A group of bandpipe players in uniform is performing,01:33 - 01:34,-1
+Old pictures from the ceremony a hundred years ago while An elderly college alumna talks about her ancestors participating in the parade,02:16-02:29,0
+A birth of a new tradition of "scarfing ceremony" is explained and shown,03:03 - 03:07,2
+Current year graduates carrying the rope together,03:43-03:47,1
+An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1
+It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2

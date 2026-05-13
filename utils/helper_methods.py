@@ -36,6 +36,32 @@ def split_video_ffmpeg(input_file, output_dir, chunk_size=150):
 
     return output_dir
 
+def extract_video_segment(video_path, start_time, end_time, output_dir="clips"):
+    os.makedirs(output_dir, exist_ok=True)
+
+    video_name = os.path.splitext(
+        os.path.basename(video_path)
+    )[0]
+
+    output_path = os.path.join(
+        output_dir,
+        f"{video_name}_{start_time:.1f}_{end_time:.1f}.mp4"
+    )
+
+    duration = end_time - start_time
+
+    subprocess.run([
+        "ffmpeg",
+        "-y",
+        "-ss", str(start_time),
+        "-i", video_path,
+        "-t", str(duration),
+        "-c", "copy",
+        output_path
+    ], check=True)
+
+    return output_path
+
 
 def extract_clips(input_file, output_file, timecodes):
     filter_complex = ""
@@ -136,3 +162,27 @@ def parse_timestamps(timestamps: str):
     end_time = mins * 60 + secs
 
     return float(start_time), float(end_time)
+
+def create_speedup_video(video_path, speed=2, speedup=True):
+    video_name = os.path.splitext(os.path.basename(video_path))[0]
+    video_dir = os.path.dirname(video_path)
+
+    fast_video_path = os.path.join(
+        video_dir,
+        f"{video_name}_{speed}x.mp4"
+    )
+
+    if speedup
+        pts_factor = 1 / speed
+
+    subprocess.run([
+        "ffmpeg",
+        "-i",
+        video_path,
+        "-filter:v",
+        f"setpts={pts_factor}*PTS",
+        "-an",
+        fast_video_path
+    ], check=True)
+
+    return fast_video_path

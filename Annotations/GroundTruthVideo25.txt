@@ -1,0 +1,11 @@
+annotation,timestamp,subjectivity_rating
+Two young men are traveling on a train and recording each other with cameras,00:03 - 00:07,2
+A group of young people are warming up together,00:27 - 00:37,-1
+A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2
+A young man films a company of young people on a camera,00:52 - 00:56,-1
+A young man staring at a monument in the middle of the city,01:15-01:19,-1
+A group of friends is having fun and filming each other,01:41 - 01:48,-1
+A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,1
+A man greets his friend or a team members with a fistbump,03:30 - 03:40,1
+A man laying in bed while grabbing the recording on the camera,03:50-03:56,-1
+A group photo of young people is shown,04:19 - 04:22,0

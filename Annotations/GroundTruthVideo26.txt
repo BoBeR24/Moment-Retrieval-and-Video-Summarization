@@ -1,0 +1,10 @@
+annotation,timestamp,subjectivity_rating
+A cityscape of New York is shown,00:00 - 00:04,-1
+An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,0
+A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2
+A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,0
+A bunch of parade performers carrying a golden dragon.,00:37-00:39,0
+A group of asian looking women are walking and celebrating,00:40 - 00:42,0
+Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,0
+A man in colourful festival costume is walking through the street,01:27 - 01:29,0
+A cleaning car cleaning the city after the parade.,01:38-01:40,0
