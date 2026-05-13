@@ -278,6 +278,120 @@
         "Various individuals, including the person with the beige coat, walk through the busy streets and crowds.",
         "Passersby gather behind barricades to watch the festival or parade, taking photos or waving flags."
       ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video starts with an aerial view showcasing tall buildings and trees, transitioning to various scenes including people sitting on subway cars dressed warmly for cold weather, street performers playing traditional instruments like bagpipes or fiddles by metal bars, bustling city streets filled with pedestrians under clear skies, festive crowds gathered at intersections during parades, individuals behind barricades watching events unfold, lively parade performances featuring colorful costumes and props amidst cheering spectators, vibrant celebrations marked by confetti-filled sidewalks, diverse cultural attire worn by participants, energetic dance routines performed outdoors against urban backdrops, close views capturing intricate details such as ornate headpieces and detailed costume designs, dynamic movements captured mid-performance, joyful expressions among attendees, children participating enthusiastically, celebratory moments highlighted through bright lights and confetti falling onto the ground, interactions between festival goers, and concluding with promotional messages encouraging viewers to follow their neighborhood's Facebook page.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 50,
+      "timestamp": "2026-05-13T10:50:29.394787+00:00",
+      "raw_response": "1. The video begins with an aerial view of a cityscape featuring tall buildings and trees before transitioning to various scenes on the ground.\n2. People dressed warmly for cold weather are seen sitting on subway cars during rush hour, highlighting the daily life of city dwellers.\n3. Street performers, including musicians playing traditional instruments like bagpipes or fiddles, perform on metal bars in bustling city streets.\n4. Festive crowds gather at intersections and parades, adding to the city's vibrant atmosphere.\n5. Individuals behind barricades watch events unfold, providing a unique perspective on the celebrations.\n6. Lively parade performances feature colorful costumes and props, accompanied by cheering spectators who are actively engaged in the festivities.\n7. Vibrant celebrations are marked by confetti-filled sidewalks, diverse cultural attire, and energetic dance routines performed outdoors against urban backdrops.\n8. Close-up shots capture intricate details such as ornate headpieces and detailed costume designs, showcasing the craftsmanship behind the performers' attire.\n9. Dynamic movements are captured mid-performance, conveying the energy and dynamism of the festival events.\n10. The video concludes with joyful expressions among attendees, children participating enthusiastically, and celebratory moments highlighted through bright lights and confetti falling onto the ground.",
+      "parsed_events": [
+        "The video begins with an aerial view of a cityscape featuring tall buildings and trees before transitioning to various scenes on the ground.",
+        "People dressed warmly for cold weather are seen sitting on subway cars during rush hour, highlighting the daily life of city dwellers.",
+        "Street performers, including musicians playing traditional instruments like bagpipes or fiddles, perform on metal bars in bustling city streets.",
+        "Festive crowds gather at intersections and parades, adding to the city's vibrant atmosphere.",
+        "Individuals behind barricades watch events unfold, providing a unique perspective on the celebrations.",
+        "Lively parade performances feature colorful costumes and props, accompanied by cheering spectators who are actively engaged in the festivities.",
+        "Vibrant celebrations are marked by confetti-filled sidewalks, diverse cultural attire, and energetic dance routines performed outdoors against urban backdrops.",
+        "Close-up shots capture intricate details such as ornate headpieces and detailed costume designs, showcasing the craftsmanship behind the performers' attire.",
+        "Dynamic movements are captured mid-performance, conveying the energy and dynamism of the festival events.",
+        "The video concludes with joyful expressions among attendees, children participating enthusiastically, and celebratory moments highlighted through bright lights and confetti falling onto the ground."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video starts with an aerial view showcasing tall buildings and trees, transitioning to various scenes including people sitting on subway cars dressed warmly for cold weather, street performers playing traditional instruments like bagpipes or fiddles by metal bars, bustling city streets filled with pedestrians under clear skies, festive crowds gathered at intersections during parades, individuals behind barricades watching events unfold, lively parade performances featuring colorful costumes and props amidst cheering spectators, vibrant celebrations marked by confetti-filled sidewalks, diverse cultural attire worn by participants, energetic dance routines performed outdoors against urban backdrops, close views capturing intricate details such as ornate headpieces and detailed costume designs, dynamic movements captured mid-performance, joyful expressions among attendees, children participating enthusiastically, celebratory moments highlighted through bright lights and confetti falling onto the ground, interactions between festival goers, and concluding with promotional messages encouraging viewers to follow their neighborhood's Facebook page.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 50,
+      "timestamp": "2026-05-13T10:50:40.279647+00:00",
+      "raw_response": "1. Aerial view of tall buildings and trees transitions to a scene of people sitting on subway cars dressed warmly for cold weather.\n2. Street performers play traditional instruments like bagpipes or fiddles by metal bars in bustling city streets.\n3. Festive crowds gather at intersections during parades, with individuals behind barricades watching events unfold.\n4. Lively parade performances feature colorful costumes and props amidst cheering spectators.\n5. Vibrant celebrations are marked by confetti-filled sidewalks, showcasing diverse cultural attire worn by participants.\n6. Energetic dance routines are performed outdoors against urban backdrops, capturing joyful expressions among attendees.\n7. Close views reveal intricate details such as ornate headpieces and detailed costume designs, with dynamic movements captured mid-performance.\n8. Children participate enthusiastically in the celebrations, adding to the overall joyful atmosphere.\n9. Promotional messages encourage viewers to follow their neighborhood's Facebook page before concluding.",
+      "parsed_events": [
+        "Aerial view of tall buildings and trees transitions to a scene of people sitting on subway cars dressed warmly for cold weather.",
+        "Street performers play traditional instruments like bagpipes or fiddles by metal bars in bustling city streets.",
+        "Festive crowds gather at intersections during parades, with individuals behind barricades watching events unfold.",
+        "Lively parade performances feature colorful costumes and props amidst cheering spectators.",
+        "Vibrant celebrations are marked by confetti-filled sidewalks, showcasing diverse cultural attire worn by participants.",
+        "Energetic dance routines are performed outdoors against urban backdrops, capturing joyful expressions among attendees.",
+        "Close views reveal intricate details such as ornate headpieces and detailed costume designs, with dynamic movements captured mid-performance.",
+        "Children participate enthusiastically in the celebrations, adding to the overall joyful atmosphere.",
+        "Promotional messages encourage viewers to follow their neighborhood's Facebook page before concluding."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows. Later, we see people walking down a busy street during what appears to be a parade or festival. The scene then shifts indoors where two men sit next to each other; one wears a hat while holding musical instruments. Finally, there's footage showing children playing basketball outdoors against a backdrop featuring tall buildings under clear skies.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 50,
+      "timestamp": "2026-05-13T10:50:46.891245+00:00",
+      "raw_response": "1. A young girl is sitting alone in an elevator, looking out at the city with her hands clasped together.\n2. The scene shifts to people walking down a busy street during what appears to be a parade or festival.\n3. Two men sit next to each other indoors, one wearing a hat while holding musical instruments.\n4. Footage shows children playing basketball outdoors under clear skies and tall buildings in the background.",
+      "parsed_events": [
+        "A young girl is sitting alone in an elevator, looking out at the city with her hands clasped together.",
+        "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+        "Two men sit next to each other indoors, one wearing a hat while holding musical instruments.",
+        "Footage shows children playing basketball outdoors under clear skies and tall buildings in the background."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows. Later, we see people walking down a busy street during what appears to be a parade or festival. The scene then shifts indoors where two men sit next to each other; one wears a hat while holding musical instruments. Finally, there's footage showing children playing basketball outdoors against a backdrop featuring tall buildings under clear skies.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 50,
+      "timestamp": "2026-05-13T10:50:57.656206+00:00",
+      "raw_response": "1. A young girl sits inside an elevator with her hands clasped together, looking out the large windows at the city outside.\n2. People walk down a busy street during a parade or festival, likely in celebration of something specific.\n3. Two men sit next to each other indoors, one wearing a hat while holding musical instruments.\n4. A person who is not directly shown raises their hands and then lowers them after a brief pause, possibly indicating a cue for the performance.\n5. The two musicians begin playing a lively tune on their instruments.\n6. Children play basketball outdoors against a backdrop of tall buildings under clear skies.\n7. One of the children scores a basket, prompting cheers from their teammates.\n8. A group of people in costumes walk by, waving and smiling at the camera or each other.\n9. The scene transitions to an audience watching the parade/festival from a rooftop or elevated area, enjoying the music and festivities.\n10. The performance ends with applause and confetti falling from the sky, celebrating the joyful occasion.",
+      "parsed_events": [
+        "A young girl sits inside an elevator with her hands clasped together, looking out the large windows at the city outside.",
+        "People walk down a busy street during a parade or festival, likely in celebration of something specific.",
+        "Two men sit next to each other indoors, one wearing a hat while holding musical instruments.",
+        "A person who is not directly shown raises their hands and then lowers them after a brief pause, possibly indicating a cue for the performance.",
+        "The two musicians begin playing a lively tune on their instruments.",
+        "Children play basketball outdoors against a backdrop of tall buildings under clear skies.",
+        "One of the children scores a basket, prompting cheers from their teammates.",
+        "A group of people in costumes walk by, waving and smiling at the camera or each other.",
+        "The scene transitions to an audience watching the parade/festival from a rooftop or elevated area, enjoying the music and festivities.",
+        "The performance ends with applause and confetti falling from the sky, celebrating the joyful occasion."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl sits inside an elevator with her hands clasped together as she looks around at other passengers. She then gets off onto a subway platform where another person wearing a beige coat stands next to someone else who has fallen asleep while sitting down. The scene shifts indoors again before showing two men playing bagpipes outside near some buildings. Next up is a view through train windows looking towards tall apartment blocks under overcast skies. Inside a moving vehicle, we see more trains passing by against cityscapes filled with skyscrapers. We return back into the building's interior once more for shots of various individuals walking along busy streets lined with shops and signs advertising different businesses like \"Holiday Inn Downtown Hotel\" and \"NYC Chinese Baptist Church.\" Finally, there’s footage capturing street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.” There seems to be music being played here too!",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 50,
+      "timestamp": "2026-05-13T10:51:08.796181+00:00",
+      "raw_response": "1. A young girl gets off an elevator onto a subway platform, observing her surroundings.\n2. She finds another person wearing a beige coat standing next to someone who has fallen asleep on the subway platform.\n3. The scene shifts indoors again, showing two men playing bagpipes outside near buildings.\n4. Viewers see train windows looking towards tall apartment blocks under overcast skies as trains pass by in the background.\n5. Inside a moving vehicle, more trains pass by against cityscapes filled with skyscrapers.\n6. The camera returns to the building's interior for shots of various individuals walking along busy streets lined with shops and signs advertising local businesses.\n7. Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”\n8. There appears to be music being played during these festival scenes.\n9. The scene transitions from one vibrant setting to another, showcasing the city's diverse atmosphere and various modes of transportation.",
+      "parsed_events": [
+        "A young girl gets off an elevator onto a subway platform, observing her surroundings.",
+        "She finds another person wearing a beige coat standing next to someone who has fallen asleep on the subway platform.",
+        "The scene shifts indoors again, showing two men playing bagpipes outside near buildings.",
+        "Viewers see train windows looking towards tall apartment blocks under overcast skies as trains pass by in the background.",
+        "Inside a moving vehicle, more trains pass by against cityscapes filled with skyscrapers.",
+        "The camera returns to the building's interior for shots of various individuals walking along busy streets lined with shops and signs advertising local businesses.",
+        "Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+        "There appears to be music being played during these festival scenes.",
+        "The scene transitions from one vibrant setting to another, showcasing the city's diverse atmosphere and various modes of transportation."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl sits inside an elevator with her hands clasped together as she looks around at other passengers. She then gets off onto a subway platform where another person wearing a beige coat stands next to someone else who has fallen asleep while sitting down. The scene shifts indoors again before showing two men playing bagpipes outside near some buildings. Next up is a view through train windows looking towards tall apartment blocks under overcast skies. Inside a moving vehicle, we see more trains passing by against cityscapes filled with skyscrapers. We return back into the building's interior once more for shots of various individuals walking along busy streets lined with shops and signs advertising different businesses like \"Holiday Inn Downtown Hotel\" and \"NYC Chinese Baptist Church.\" Finally, there’s footage capturing street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.” There seems to be music being played here too!",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 50,
+      "timestamp": "2026-05-13T10:51:17.041142+00:00",
+      "raw_response": "1. The young girl gets off the elevator onto a subway platform, where she encounters another person wearing a beige coat.\n2. A third person falls asleep while sitting on a bench next to the beige-coated individual.\n3. Two men playing bagpipes are seen outside buildings near tall apartment blocks under overcast skies.\n4. Passengers viewing train windows observe tall apartment blocks with skyscrapers, including cityscapes with numerous trains passing by.\n5. A young woman walks down busy streets lined with shops and signs advertising local businesses.\n6. The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+      "parsed_events": [
+        "The young girl gets off the elevator onto a subway platform, where she encounters another person wearing a beige coat.",
+        "A third person falls asleep while sitting on a bench next to the beige-coated individual.",
+        "Two men playing bagpipes are seen outside buildings near tall apartment blocks under overcast skies.",
+        "Passengers viewing train windows observe tall apartment blocks with skyscrapers, including cityscapes with numerous trains passing by.",
+        "A young woman walks down busy streets lined with shops and signs advertising local businesses.",
+        "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”"
+      ]
     }
   ]
 }
