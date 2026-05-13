@@ -2,227 +2,21 @@
   "video_id": 26,
   "evaluations": [
     {
-      "combo_key": "vlm=long__frames=30__llm=detailed",
-      "vlm_prompt_type": "long",
-      "vlm_frame_count": 30,
-      "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T08:59:52.974462+00:00",
-      "threshold": 0.5,
-      "human_annotations": [
-        "annotation,timestamp,subjectivity_rating",
-        "A cityscape of New York is shown,00:00 - 00:04,1",
-        "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-        "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-        "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-        "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-        "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-        "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-        "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2"
-      ],
-      "generated_events": [
-        "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
-        "A crowd gathers around another man playing traditional Chinese instruments near a building entrance, as individuals walk along sidewalks lined with shops selling various goods.",
-        "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-        "One performer wears elaborate headgear while others dance joyfully under bright lights, with confetti falling over participants dressed in festive attire holding balloons aloft.",
-        "Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides.",
-        "People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day.",
-        "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
-        "A crowd of people watches in joy as performers dance and celebrate together.",
-        "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
-        "Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration."
-      ],
-      "metrics": {
-        "num_human": 9,
-        "num_generated": 10,
-        "detected": 2,
-        "missed": 7,
-        "recall": 0.2222,
-        "avg_best_similarity": 0.4018
-      },
-      "per_annotation": [
-        {
-          "human_event": "annotation,timestamp,subjectivity_rating",
-          "best_match": "Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration.",
-          "score": 0.1293,
-          "detected": false
-        },
-        {
-          "human_event": "A cityscape of New York is shown,00:00 - 00:04,1",
-          "best_match": "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
-          "score": 0.2753,
-          "detected": false
-        },
-        {
-          "human_event": "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-          "best_match": "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
-          "score": 0.626,
-          "detected": true
-        },
-        {
-          "human_event": "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-          "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.4365,
-          "detected": false
-        },
-        {
-          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-          "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.5579,
-          "detected": true
-        },
-        {
-          "human_event": "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-          "best_match": "A crowd of people watches in joy as performers dance and celebrate together.",
-          "score": 0.3872,
-          "detected": false
-        },
-        {
-          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-          "best_match": "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
-          "score": 0.4599,
-          "detected": false
-        },
-        {
-          "human_event": "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-          "best_match": "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
-          "score": 0.4183,
-          "detected": false
-        },
-        {
-          "human_event": "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2",
-          "best_match": "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
-          "score": 0.3257,
-          "detected": false
-        }
-      ],
-      "similarity_matrix": [
-        [
-          -0.0070118168368935585,
-          -0.09939008951187134,
-          0.024767199531197548,
-          0.10510189831256866,
-          0.09438063949346542,
-          0.06894481182098389,
-          0.05865751579403877,
-          0.08534784615039825,
-          -0.02019759640097618,
-          0.12934906780719757
-        ],
-        [
-          0.27527695894241333,
-          0.07103335112333298,
-          0.12109076231718063,
-          0.10441295057535172,
-          0.16469228267669678,
-          0.16182702779769897,
-          0.13102439045906067,
-          0.08154056966304779,
-          0.12541034817695618,
-          0.18051296472549438
-        ],
-        [
-          0.15044265985488892,
-          0.3782539963722229,
-          0.04180675372481346,
-          0.18784508109092712,
-          -0.02455887198448181,
-          0.09420865774154663,
-          0.05642346292734146,
-          0.20127055048942566,
-          0.6259973049163818,
-          0.05811977759003639
-        ],
-        [
-          0.12473393231630325,
-          0.28614354133605957,
-          0.43653374910354614,
-          0.21747171878814697,
-          0.3714507222175598,
-          0.25828659534454346,
-          0.22151818871498108,
-          0.3441448211669922,
-          0.22942617535591125,
-          0.3503960371017456
-        ],
-        [
-          0.06237445026636124,
-          0.3958529531955719,
-          0.557918131351471,
-          0.48518699407577515,
-          0.2491336613893509,
-          0.40524566173553467,
-          0.5548324584960938,
-          0.5441795587539673,
-          0.38411450386047363,
-          0.2906460464000702
-        ],
-        [
-          0.058375243097543716,
-          0.19063463807106018,
-          0.3340509831905365,
-          0.21780146658420563,
-          0.24110190570354462,
-          0.28766411542892456,
-          0.3067155182361603,
-          0.38719111680984497,
-          0.047461047768592834,
-          0.3175264596939087
-        ],
-        [
-          0.18902304768562317,
-          0.35978662967681885,
-          0.4350605309009552,
-          0.3531956076622009,
-          0.35820573568344116,
-          0.3712802529335022,
-          0.4598757028579712,
-          0.42250680923461914,
-          0.2383342683315277,
-          0.34298694133758545
-        ],
-        [
-          0.07054543495178223,
-          0.33893969655036926,
-          0.3924090564250946,
-          0.31720006465911865,
-          0.16239291429519653,
-          0.10168275237083435,
-          0.41827690601348877,
-          0.22448185086250305,
-          0.2936079502105713,
-          0.25834447145462036
-        ],
-        [
-          0.32566770911216736,
-          0.18945494294166565,
-          0.11838830262422562,
-          0.017239008098840714,
-          0.089431032538414,
-          0.09425225853919983,
-          0.10665132105350494,
-          0.11493363976478577,
-          0.09924888610839844,
-          0.09533298760652542
-        ]
-      ]
-    },
-    {
       "combo_key": "vlm=long__frames=30__llm=concise",
       "vlm_prompt_type": "long",
       "vlm_frame_count": 30,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T09:01:12.410730+00:00",
+      "timestamp": "2026-05-13T11:00:24.510766+00:00",
       "threshold": 0.5,
       "human_annotations": [
-        "annotation,timestamp,subjectivity_rating",
-        "A cityscape of New York is shown,00:00 - 00:04,1",
-        "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-        "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-        "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-        "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-        "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-        "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-        "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2"
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
       ],
       "generated_events": [
         "An aerial view of tall buildings against a clear blue sky sets the scene for the video.",
@@ -237,177 +31,345 @@
         "People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day."
       ],
       "metrics": {
-        "num_human": 9,
+        "num_human": 8,
         "num_generated": 10,
         "detected": 3,
-        "missed": 6,
-        "recall": 0.3333,
-        "avg_best_similarity": 0.4093
+        "missed": 5,
+        "recall": 0.375,
+        "avg_best_similarity": 0.4787
       },
       "per_annotation": [
         {
-          "human_event": "annotation,timestamp,subjectivity_rating",
-          "best_match": "Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides of the street.",
-          "score": 0.0948,
-          "detected": false
-        },
-        {
-          "human_event": "A cityscape of New York is shown,00:00 - 00:04,1",
+          "human_event": "A cityscape of New York is shown",
           "best_match": "A map appears, highlighting \"Car Sia St\" and pointing towards different locations within Chinatown, with red arrows indicating directions.",
-          "score": 0.3636,
+          "score": 0.3569,
           "detected": false
         },
         {
-          "human_event": "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
           "best_match": "More individuals gather around a man playing traditional Chinese instruments near a building entrance.",
-          "score": 0.5355,
+          "score": 0.5569,
           "detected": true
         },
         {
-          "human_event": "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
           "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.4365,
+          "score": 0.4883,
           "detected": false
         },
         {
-          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
           "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.5579,
+          "score": 0.605,
           "detected": true
         },
         {
-          "human_event": "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
+          "human_event": "A group of asian looking women are walking and celebrating",
           "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.3341,
+          "score": 0.3922,
           "detected": false
         },
         {
-          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
           "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.4351,
+          "score": 0.4568,
           "detected": false
         },
         {
-          "human_event": "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
+          "human_event": "A man in colourful festival costume is walking through the street",
           "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
-          "score": 0.3924,
+          "score": 0.4183,
           "detected": false
         },
         {
-          "human_event": "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2",
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
           "best_match": "A map appears, highlighting \"Car Sia St\" and pointing towards different locations within Chinatown, with red arrows indicating directions.",
-          "score": 0.5341,
+          "score": 0.5549,
           "detected": true
         }
       ],
       "similarity_matrix": [
         [
-          -0.04828633368015289,
-          -0.02517978847026825,
-          0.03893991932272911,
-          -0.13443654775619507,
-          -0.028789443895220757,
-          0.024767190217971802,
-          0.09185388684272766,
-          0.035203877836465836,
-          0.09478475153446198,
-          0.0689447894692421
+          0.3371616005897522,
+          0.22209760546684265,
+          0.35686957836151123,
+          0.08664575219154358,
+          0.2692859470844269,
+          0.15927207469940186,
+          0.13292841613292694,
+          0.10318417847156525,
+          0.20327946543693542,
+          0.14474986493587494
         ],
         [
-          0.35388293862342834,
-          0.15459811687469482,
-          0.3635881841182709,
-          0.073475182056427,
-          0.21468648314476013,
-          0.12109073996543884,
-          0.11032868176698685,
-          0.05696822702884674,
-          0.17202430963516235,
-          0.1618269681930542
+          0.010059796273708344,
+          0.11482412368059158,
+          0.05639170855283737,
+          0.556926965713501,
+          -0.04783277586102486,
+          0.034707870334386826,
+          0.23506180942058563,
+          0.024298429489135742,
+          -0.05483822897076607,
+          0.064893938601017
         ],
         [
-          0.0787319615483284,
-          0.13292475044727325,
-          0.08701425790786743,
-          0.5354604721069336,
-          -0.03615677356719971,
-          0.041806720197200775,
-          0.23539572954177856,
-          0.0033782199025154114,
-          -0.025353170931339264,
-          0.09420865774154663
+          0.20147112011909485,
+          0.1214618980884552,
+          0.1268908530473709,
+          0.33600446581840515,
+          0.3148401975631714,
+          0.4883285164833069,
+          0.19480490684509277,
+          0.21056874096393585,
+          0.3767883777618408,
+          0.2770698666572571
         ],
         [
-          0.20470908284187317,
-          0.1173388659954071,
-          0.11235131323337555,
-          0.28307053446769714,
-          0.2520676851272583,
-          0.43653374910354614,
-          0.17788685858249664,
-          0.1770651936531067,
-          0.34291762113571167,
-          0.25828656554222107
+          0.06878247857093811,
+          0.10889667272567749,
+          0.1488199234008789,
+          0.5043807625770569,
+          0.2727300226688385,
+          0.6049571633338928,
+          0.5077282786369324,
+          0.3353402018547058,
+          0.27793604135513306,
+          0.4457453489303589
         ],
         [
-          0.06711193174123764,
-          0.12067601084709167,
-          0.1344938725233078,
-          0.4383181929588318,
-          0.23449334502220154,
-          0.5579180717468262,
-          0.45517611503601074,
-          0.3105977773666382,
-          0.23591294884681702,
-          0.40524572134017944
+          -0.06711114943027496,
+          0.07998725771903992,
+          0.196634903550148,
+          0.18805590271949768,
+          0.2553803324699402,
+          0.3921920657157898,
+          0.30417540669441223,
+          0.25711536407470703,
+          0.2646777033805847,
+          0.2974289059638977
         ],
         [
-          0.012040086090564728,
-          0.08052802085876465,
-          0.1948758363723755,
-          0.1400122493505478,
-          0.24096077680587769,
-          0.3340509235858917,
-          0.2613038420677185,
-          0.20809045433998108,
-          0.2373213768005371,
-          0.28766411542892456
+          0.1423054337501526,
+          0.1331493854522705,
+          0.24854342639446259,
+          0.332599937915802,
+          0.4283432066440582,
+          0.4567876160144806,
+          0.4007384479045868,
+          0.19095665216445923,
+          0.4184933304786682,
+          0.3781905770301819
         ],
         [
-          0.16401880979537964,
-          0.12993258237838745,
-          0.26346415281295776,
-          0.3037678599357605,
-          0.3966640532016754,
-          0.4350605010986328,
-          0.36748674511909485,
-          0.18814361095428467,
-          0.3760135769844055,
-          0.3712802231311798
+          0.01695987582206726,
+          0.05473153665661812,
+          0.12095274031162262,
+          0.31715837121009827,
+          0.35859739780426025,
+          0.41834744811058044,
+          0.3264837861061096,
+          0.2491443157196045,
+          0.22012688219547272,
+          0.10144592821598053
         ],
         [
-          0.05555079132318497,
-          0.0805172398686409,
-          0.15207621455192566,
-          0.2676115036010742,
-          0.34899282455444336,
-          0.39240890741348267,
-          0.3007012605667114,
-          0.22952085733413696,
-          0.19400346279144287,
-          0.10168278217315674
+          0.12940584123134613,
+          0.27572861313819885,
+          0.554947018623352,
+          0.17614901065826416,
+          0.2381037473678589,
+          0.12841230630874634,
+          0.040847063064575195,
+          0.04967793449759483,
+          0.09425142407417297,
+          0.0938088446855545
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=long__frames=30__llm=detailed",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T11:00:24.560940+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
+        "A crowd gathers around another man playing traditional Chinese instruments near a building entrance, as individuals walk along sidewalks lined with shops selling various goods.",
+        "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
+        "One performer wears elaborate headgear while others dance joyfully under bright lights, with confetti falling over participants dressed in festive attire holding balloons aloft.",
+        "Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides.",
+        "People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day.",
+        "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
+        "A crowd of people watches in joy as performers dance and celebrate together.",
+        "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
+        "Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration."
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 10,
+        "detected": 2,
+        "missed": 6,
+        "recall": 0.25,
+        "avg_best_similarity": 0.4633
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
+          "score": 0.317,
+          "detected": false
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
+          "score": 0.629,
+          "detected": true
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
+          "score": 0.4883,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
+          "score": 0.605,
+          "detected": true
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "A crowd of people watches in joy as performers dance and celebrate together.",
+          "score": 0.4347,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
+          "score": 0.466,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
+          "score": 0.4285,
+          "detected": false
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
+          "score": 0.3378,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.31703659892082214,
+          0.1095331683754921,
+          0.15927207469940186,
+          0.13862459361553192,
+          0.1964183896780014,
+          0.14474990963935852,
+          0.14436767995357513,
+          0.08638917654752731,
+          0.12115506827831268,
+          0.2070668339729309
         ],
         [
-          0.1280139684677124,
-          0.26586228609085083,
-          0.5341475009918213,
-          0.16353045403957367,
-          0.21690905094146729,
-          0.11838828772306442,
-          0.044359348714351654,
-          0.036725983023643494,
-          0.09971024096012115,
-          0.09425222873687744
+          0.10988441109657288,
+          0.3945406675338745,
+          0.03470788523554802,
+          0.19797544181346893,
+          -0.05069112032651901,
+          0.06489396095275879,
+          0.04710688814520836,
+          0.20304694771766663,
+          0.6290450692176819,
+          0.03253587335348129
+        ],
+        [
+          0.11697785556316376,
+          0.3516460955142975,
+          0.4883284568786621,
+          0.2421516478061676,
+          0.4148039221763611,
+          0.27706989645957947,
+          0.232649028301239,
+          0.3768012821674347,
+          0.2402142882347107,
+          0.381894052028656
+        ],
+        [
+          0.04038418084383011,
+          0.4581916034221649,
+          0.6049572229385376,
+          0.5350205302238464,
+          0.2953289747238159,
+          0.44574543833732605,
+          0.5839053392410278,
+          0.5864192247390747,
+          0.43391188979148865,
+          0.33296680450439453
+        ],
+        [
+          0.028136156499385834,
+          0.2322913259267807,
+          0.39219212532043457,
+          0.25753265619277954,
+          0.276452898979187,
+          0.29742881655693054,
+          0.3403414487838745,
+          0.4346628785133362,
+          0.07177677750587463,
+          0.36081400513648987
+        ],
+        [
+          0.17879563570022583,
+          0.4024748206138611,
+          0.45678770542144775,
+          0.38187187910079956,
+          0.3950347900390625,
+          0.3781905174255371,
+          0.46597611904144287,
+          0.4464181065559387,
+          0.2475408911705017,
+          0.37502336502075195
+        ],
+        [
+          0.01877971738576889,
+          0.39113789796829224,
+          0.4183475375175476,
+          0.3396778106689453,
+          0.1833503544330597,
+          0.10144595801830292,
+          0.4284897446632385,
+          0.23673349618911743,
+          0.3416473865509033,
+          0.28105083107948303
+        ],
+        [
+          0.33778584003448486,
+          0.2113487720489502,
+          0.12841227650642395,
+          0.020469240844249725,
+          0.08684445917606354,
+          0.0938088446855545,
+          0.10361141711473465,
+          0.10962643474340439,
+          0.109927237033844,
+          0.0938090905547142
         ]
       ]
     },
@@ -416,18 +378,17 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 30,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T09:06:41.359444+00:00",
+      "timestamp": "2026-05-13T11:00:24.606437+00:00",
       "threshold": 0.5,
       "human_annotations": [
-        "annotation,timestamp,subjectivity_rating",
-        "A cityscape of New York is shown,00:00 - 00:04,1",
-        "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-        "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-        "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-        "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-        "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-        "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-        "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2"
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
       ],
       "generated_events": [
         "A man is seen playing an instrument while sitting outside near graffiti-covered buildings, setting the scene for a lively atmosphere.",
@@ -436,123 +397,111 @@
         "After the parade/festival footage, the video cuts to a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for local news updates."
       ],
       "metrics": {
-        "num_human": 9,
+        "num_human": 8,
         "num_generated": 4,
-        "detected": 2,
+        "detected": 1,
         "missed": 7,
-        "recall": 0.2222,
-        "avg_best_similarity": 0.3675
+        "recall": 0.125,
+        "avg_best_similarity": 0.3995
       },
       "per_annotation": [
         {
-          "human_event": "annotation,timestamp,subjectivity_rating",
-          "best_match": "After the parade/festival footage, the video cuts to a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for local news updates.",
-          "score": 0.1208,
-          "detected": false
-        },
-        {
-          "human_event": "A cityscape of New York is shown,00:00 - 00:04,1",
+          "human_event": "A cityscape of New York is shown",
           "best_match": "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
-          "score": 0.3041,
+          "score": 0.3148,
           "detected": false
         },
         {
-          "human_event": "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
           "best_match": "A man is seen playing an instrument while sitting outside near graffiti-covered buildings, setting the scene for a lively atmosphere.",
-          "score": 0.5475,
+          "score": 0.5303,
           "detected": true
         },
         {
-          "human_event": "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
           "best_match": "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
-          "score": 0.3438,
+          "score": 0.3497,
           "detected": false
         },
         {
-          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
           "best_match": "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
-          "score": 0.3514,
+          "score": 0.3772,
           "detected": false
         },
         {
-          "human_event": "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
+          "human_event": "A group of asian looking women are walking and celebrating",
           "best_match": "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
-          "score": 0.329,
+          "score": 0.3467,
           "detected": false
         },
         {
-          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
           "best_match": "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
-          "score": 0.4372,
+          "score": 0.414,
           "detected": false
         },
         {
-          "human_event": "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
+          "human_event": "A man in colourful festival costume is walking through the street",
           "best_match": "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
-          "score": 0.5139,
-          "detected": true
+          "score": 0.4956,
+          "detected": false
         },
         {
-          "human_event": "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2",
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
           "best_match": "After the parade/festival footage, the video cuts to a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for local news updates.",
-          "score": 0.3602,
+          "score": 0.3674,
           "detected": false
         }
       ],
       "similarity_matrix": [
         [
-          -0.026934389024972916,
-          0.08302929997444153,
-          0.029829490929841995,
-          0.1207544207572937
+          0.20989377796649933,
+          0.31476980447769165,
+          0.25313448905944824,
+          0.1998720020055771
         ],
         [
-          0.1675739884376526,
-          0.3041217625141144,
-          0.24295321106910706,
-          0.24870404601097107
+          0.5302659273147583,
+          -0.0035761166363954544,
+          0.020064108073711395,
+          -0.06557756662368774
         ],
         [
-          0.5474867820739746,
-          0.043155573308467865,
-          0.05560190975666046,
-          -0.002524835988879204
+          0.14380553364753723,
+          0.34971845149993896,
+          0.21428856253623962,
+          0.20383530855178833
         ],
         [
-          0.12173959612846375,
-          0.34377121925354004,
-          0.2173161804676056,
-          0.22642770409584045
+          0.10880977660417557,
+          0.37720704078674316,
+          0.22215305268764496,
+          0.1352798044681549
         ],
         [
-          0.08445247262716293,
-          0.35142970085144043,
-          0.21676966547966003,
-          0.1432727873325348
+          -0.11989086866378784,
+          0.34671729803085327,
+          0.17831562459468842,
+          0.16028618812561035
         ],
         [
-          -0.09236984699964523,
-          0.32904085516929626,
-          0.18723894655704498,
-          0.1746293604373932
+          0.21941867470741272,
+          0.41403019428253174,
+          0.24997597932815552,
+          0.2126065492630005
         ],
         [
-          0.2013387680053711,
-          0.4371543824672699,
-          0.2544366717338562,
-          0.2622949779033661
+          0.29783064126968384,
+          0.4955751299858093,
+          0.2647382915019989,
+          0.20760151743888855
         ],
         [
-          0.25830432772636414,
-          0.5138639807701111,
-          0.27789759635925293,
-          0.27050909399986267
-        ],
-        [
-          0.010946660302579403,
-          0.19877056777477264,
-          0.16400009393692017,
-          0.360221266746521
+          0.03023928962647915,
+          0.19893470406532288,
+          0.16090933978557587,
+          0.36739808320999146
         ]
       ]
     },
@@ -561,18 +510,17 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 30,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T09:07:00.853730+00:00",
+      "timestamp": "2026-05-13T11:00:24.660970+00:00",
       "threshold": 0.5,
       "human_annotations": [
-        "annotation,timestamp,subjectivity_rating",
-        "A cityscape of New York is shown,00:00 - 00:04,1",
-        "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-        "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-        "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-        "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-        "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-        "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-        "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2"
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
       ],
       "generated_events": [
         "A man plays a melody on his instrument while sitting outside amidst graffiti art.",
@@ -587,177 +535,300 @@
         "The camera lingers on the graffiti art as the music fades away."
       ],
       "metrics": {
-        "num_human": 9,
+        "num_human": 8,
         "num_generated": 10,
         "detected": 2,
-        "missed": 7,
-        "recall": 0.2222,
-        "avg_best_similarity": 0.3617
+        "missed": 6,
+        "recall": 0.25,
+        "avg_best_similarity": 0.4195
       },
       "per_annotation": [
         {
-          "human_event": "annotation,timestamp,subjectivity_rating",
-          "best_match": "The camera lingers on the graffiti art as the music fades away.",
-          "score": 0.13,
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "People throw confetti into the air, celebrating in the streets.",
+          "score": 0.2191,
           "detected": false
         },
         {
-          "human_event": "A cityscape of New York is shown,00:00 - 00:04,1",
-          "best_match": "The black screen displays a call-to-action to follow the neighborhood Facebook page for more information.",
-          "score": 0.2398,
-          "detected": false
-        },
-        {
-          "human_event": "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
           "best_match": "A crowd gathers around the man as he plays his instrument.",
-          "score": 0.5124,
+          "score": 0.5199,
           "detected": true
         },
         {
-          "human_event": "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-          "best_match": "Firefighters hand out confetti to the crowd from the moving fire trucks.",
-          "score": 0.2972,
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "People walk down the street, participating in what appears to be a parade or festival.",
+          "score": 0.3182,
           "detected": false
         },
         {
-          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
           "best_match": "People walk down the street, participating in what appears to be a parade or festival.",
-          "score": 0.3175,
+          "score": 0.3574,
           "detected": false
         },
         {
-          "human_event": "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
+          "human_event": "A group of asian looking women are walking and celebrating",
           "best_match": "People walk down the street, participating in what appears to be a parade or festival.",
-          "score": 0.3579,
+          "score": 0.4256,
           "detected": false
         },
         {
-          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
           "best_match": "People walk down the street, participating in what appears to be a parade or festival.",
-          "score": 0.4206,
+          "score": 0.4631,
           "detected": false
         },
         {
-          "human_event": "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
+          "human_event": "A man in colourful festival costume is walking through the street",
           "best_match": "People walk down the street, participating in what appears to be a parade or festival.",
-          "score": 0.5122,
+          "score": 0.5527,
           "detected": true
         },
         {
-          "human_event": "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2",
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
           "best_match": "The black screen displays a call-to-action to follow the neighborhood Facebook page for more information.",
-          "score": 0.468,
+          "score": 0.4997,
           "detected": false
         }
       ],
       "similarity_matrix": [
         [
-          0.025279585272073746,
-          0.020073335617780685,
-          -0.04083004966378212,
-          0.10688081383705139,
-          -0.02694348245859146,
-          0.05649352818727493,
-          0.08808451890945435,
-          0.05656125396490097,
-          0.06258717179298401,
-          0.12998056411743164
+          0.08878959715366364,
+          0.21567602455615997,
+          0.1639672964811325,
+          0.18746554851531982,
+          -0.005212994292378426,
+          0.07391387224197388,
+          0.21914228796958923,
+          0.21842370927333832,
+          0.07307867705821991,
+          0.178725928068161
         ],
         [
-          0.043911103159189224,
-          0.16509142518043518,
-          0.13929703831672668,
-          0.2200503647327423,
-          -0.0004810858517885208,
-          0.05305606126785278,
-          0.16528624296188354,
-          0.2398204356431961,
-          0.09211252629756927,
-          0.20111432671546936
+          0.44730648398399353,
+          -0.023985018953680992,
+          -0.02387942560017109,
+          -0.07587782293558121,
+          0.5199460983276367,
+          0.004727082327008247,
+          0.0164128877222538,
+          -0.05445726960897446,
+          0.417357861995697,
+          0.1843913495540619
         ],
         [
-          0.44435328245162964,
-          -0.024548333138227463,
-          -0.020627647638320923,
-          -0.03366931527853012,
-          0.5124479532241821,
-          0.011935465037822723,
-          0.012011803686618805,
-          -0.010437113232910633,
-          0.4371219575405121,
-          0.20707319676876068
+          0.010228779166936874,
+          0.31823450326919556,
+          0.1498284488916397,
+          0.1291482299566269,
+          0.3098820149898529,
+          0.3110024929046631,
+          0.28842997550964355,
+          0.1226777732372284,
+          0.06477198004722595,
+          0.10841374099254608
         ],
         [
-          -0.00686303898692131,
-          0.27783727645874023,
-          0.1320120245218277,
-          0.13936787843704224,
-          0.28101566433906555,
-          0.2971686124801636,
-          0.2535976767539978,
-          0.12460803240537643,
-          0.0625028908252716,
-          0.11426998674869537
+          0.04807180538773537,
+          0.3573518991470337,
+          0.12677833437919617,
+          -0.050322771072387695,
+          0.3009241819381714,
+          0.3109146058559418,
+          0.314192533493042,
+          -0.03188584744930267,
+          0.08493537455797195,
+          0.18348808586597443
         ],
         [
-          0.02770225517451763,
-          0.31747084856033325,
-          0.11030778288841248,
-          -0.052641354501247406,
-          0.2600933909416199,
-          0.28764471411705017,
-          0.28248727321624756,
-          -0.028897497802972794,
-          0.07396091520786285,
-          0.16323812305927277
+          -0.15545739233493805,
+          0.42561569809913635,
+          0.11833363026380539,
+          0.07198529690504074,
+          -0.022837962955236435,
+          0.24438081681728363,
+          0.37193506956100464,
+          0.046524159610271454,
+          -0.08132907748222351,
+          0.06869102269411087
         ],
         [
-          -0.14071793854236603,
-          0.3579450249671936,
-          0.10964785516262054,
-          0.07267280668020248,
-          -0.041072845458984375,
-          0.21498659253120422,
-          0.32187527418136597,
-          0.052439846098423004,
-          -0.07702818512916565,
-          0.08726006746292114
+          0.1554575264453888,
+          0.4630844295024872,
+          0.20558372139930725,
+          0.06150069832801819,
+          0.2049388736486435,
+          0.16984276473522186,
+          0.39858344197273254,
+          0.12275388091802597,
+          0.10168725252151489,
+          0.23517990112304688
         ],
         [
-          0.13431473076343536,
-          0.42063644528388977,
-          0.1720438450574875,
-          0.10719455778598785,
-          0.18671081960201263,
-          0.15696623921394348,
-          0.3567487299442291,
-          0.1623225212097168,
-          0.10650774836540222,
-          0.2449171096086502
+          0.28008392453193665,
+          0.5527445077896118,
+          0.22598126530647278,
+          -0.020649544894695282,
+          0.21347643435001373,
+          0.15142735838890076,
+          0.3389858603477478,
+          0.003455672413110733,
+          0.13286583125591278,
+          0.1420525312423706
         ],
         [
-          0.22849391400814056,
-          0.5122098922729492,
-          0.20564380288124084,
-          0.04285025969147682,
-          0.17563211917877197,
-          0.1520271599292755,
-          0.31015026569366455,
-          0.058687373995780945,
-          0.12201274931430817,
-          0.14256331324577332
+          -0.019959887489676476,
+          0.18330693244934082,
+          0.10073251277208328,
+          0.47206196188926697,
+          -0.06993948668241501,
+          0.05586624890565872,
+          0.15122276544570923,
+          0.49969545006752014,
+          0.03678865358233452,
+          0.11856763809919357
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=short__frames=30__llm=concise",
+      "vlm_prompt_type": "short",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T11:00:24.698616+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.",
+        "A person playing traditional Chinese instruments on steps is shown leading into various festive activities.",
+        "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
+        "At night, the festivities culminate under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants.",
+        "Social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events."
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 5,
+        "detected": 2,
+        "missed": 6,
+        "recall": 0.25,
+        "avg_best_similarity": 0.4291
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.",
+          "score": 0.3887,
+          "detected": false
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "A person playing traditional Chinese instruments on steps is shown leading into various festive activities.",
+          "score": 0.5711,
+          "detected": true
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.",
+          "score": 0.342,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
+          "score": 0.5236,
+          "detected": true
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
+          "score": 0.4166,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
+          "score": 0.3539,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
+          "score": 0.4197,
+          "detected": false
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "Social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events.",
+          "score": 0.417,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.38870882987976074,
+          0.07805486023426056,
+          0.12210238724946976,
+          0.3542371988296509,
+          0.2331002950668335
         ],
         [
-          -0.028422579169273376,
-          0.16517584025859833,
-          0.09705425798892975,
-          0.4366205334663391,
-          -0.06388194859027863,
-          0.05642794817686081,
-          0.14393755793571472,
-          0.4680260419845581,
-          0.02376713789999485,
-          0.11387017369270325
+          0.005791475065052509,
+          0.5711462497711182,
+          0.1222156435251236,
+          0.05283553898334503,
+          -0.01502910815179348
+        ],
+        [
+          0.3419957756996155,
+          0.16949006915092468,
+          0.17084190249443054,
+          0.15929432213306427,
+          0.18999993801116943
+        ],
+        [
+          0.19100499153137207,
+          0.5231698751449585,
+          0.5236323475837708,
+          0.3388940095901489,
+          0.1071336567401886
+        ],
+        [
+          0.15623897314071655,
+          0.3079572319984436,
+          0.41655397415161133,
+          0.3035382628440857,
+          0.1887088567018509
+        ],
+        [
+          0.29904478788375854,
+          0.30254170298576355,
+          0.3538556694984436,
+          0.32606950402259827,
+          0.2424180805683136
+        ],
+        [
+          0.21440517902374268,
+          0.4091357886791229,
+          0.4196855425834656,
+          0.31534522771835327,
+          0.0906132236123085
+        ],
+        [
+          0.1373915672302246,
+          0.15944427251815796,
+          0.1691262573003769,
+          0.40054070949554443,
+          0.41697052121162415
         ]
       ]
     },
@@ -766,18 +837,17 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 30,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T09:09:51.885897+00:00",
+      "timestamp": "2026-05-13T11:00:24.752348+00:00",
       "threshold": 0.5,
       "human_annotations": [
-        "annotation,timestamp,subjectivity_rating",
-        "A cityscape of New York is shown,00:00 - 00:04,1",
-        "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-        "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-        "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-        "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-        "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-        "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-        "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2"
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
       ],
       "generated_events": [
         "A person begins playing traditional Chinese instruments on steps, drawing a crowd of people.",
@@ -791,323 +861,1159 @@
         "A group of people gather around a decorated stage, where musicians and performers take turns entertaining the crowd."
       ],
       "metrics": {
-        "num_human": 9,
+        "num_human": 8,
         "num_generated": 9,
-        "detected": 2,
-        "missed": 7,
-        "recall": 0.2222,
-        "avg_best_similarity": 0.39
+        "detected": 3,
+        "missed": 5,
+        "recall": 0.375,
+        "avg_best_similarity": 0.4516
       },
       "per_annotation": [
         {
-          "human_event": "annotation,timestamp,subjectivity_rating",
-          "best_match": "A person holding a smartphone checks their social media notifications, prompting them to follow \"Ronio Neighborhood\" for more content.",
-          "score": 0.1731,
-          "detected": false
-        },
-        {
-          "human_event": "A cityscape of New York is shown,00:00 - 00:04,1",
+          "human_event": "A cityscape of New York is shown",
           "best_match": "Fireworks light up the sky above the streets of Chinatown, creating a vibrant display of color and sound.",
-          "score": 0.3308,
+          "score": 0.3557,
           "detected": false
         },
         {
-          "human_event": "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
           "best_match": "A person begins playing traditional Chinese instruments on steps, drawing a crowd of people.",
-          "score": 0.501,
+          "score": 0.5113,
           "detected": true
         },
         {
-          "human_event": "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
           "best_match": "A group of people gather around a decorated stage, where musicians and performers take turns entertaining the crowd.",
-          "score": 0.4545,
-          "detected": false
-        },
-        {
-          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-          "best_match": "The gathered crowd joins in dancing and singing along with the music, accompanied by drummers and other performers.",
-          "score": 0.535,
+          "score": 0.5082,
           "detected": true
         },
         {
-          "human_event": "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-          "best_match": "Individuals hold up colorful signs reading \"Welcome\" in Chinese characters, welcoming visitors to the celebration.",
-          "score": 0.3802,
-          "detected": false
-        },
-        {
-          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
           "best_match": "The gathered crowd joins in dancing and singing along with the music, accompanied by drummers and other performers.",
-          "score": 0.4722,
+          "score": 0.5911,
+          "detected": true
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "Individuals hold up colorful signs reading \"Welcome\" in Chinese characters, welcoming visitors to the celebration.",
+          "score": 0.4788,
           "detected": false
         },
         {
-          "human_event": "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "The gathered crowd joins in dancing and singing along with the music, accompanied by drummers and other performers.",
+          "score": 0.4841,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
           "best_match": "A group of participants don elaborate costumes and prepare for a parade, featuring intricate designs and props.",
-          "score": 0.3057,
+          "score": 0.3141,
           "detected": false
         },
         {
-          "human_event": "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2",
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
           "best_match": "Fireworks light up the sky above the streets of Chinatown, creating a vibrant display of color and sound.",
-          "score": 0.3576,
+          "score": 0.3694,
           "detected": false
         }
       ],
       "similarity_matrix": [
         [
-          -0.03950617462396622,
-          -0.020021796226501465,
-          0.015666963532567024,
-          0.0094942357391119,
-          -0.06552858650684357,
-          0.1730581521987915,
-          0.05542135238647461,
-          0.09753680974245071,
-          0.06976631283760071
+          0.08045634627342224,
+          0.0427854061126709,
+          0.1007513701915741,
+          0.23296573758125305,
+          0.3557453155517578,
+          0.1314871460199356,
+          0.12983320653438568,
+          0.07942617684602737,
+          0.14027360081672668
         ],
         [
-          0.08383588492870331,
-          0.036301013082265854,
-          0.08445630222558975,
-          0.2798061966896057,
-          0.33084696531295776,
-          0.1393984705209732,
-          0.13469915091991425,
-          0.05651102587580681,
-          0.12349873781204224
+          0.5112650394439697,
+          0.21839112043380737,
+          -0.03320540487766266,
+          -0.002271270379424095,
+          0.16275405883789062,
+          0.03108486346900463,
+          0.10954342037439346,
+          0.11998005956411362,
+          0.23782753944396973
         ],
         [
-          0.5009918808937073,
-          0.21982014179229736,
-          -0.04017657786607742,
-          0.06044694036245346,
-          0.18448390066623688,
-          0.05986294522881508,
-          0.1368555873632431,
-          0.10403074324131012,
-          0.24242067337036133
+          0.30386990308761597,
+          0.4692770838737488,
+          0.27751046419143677,
+          0.2407160997390747,
+          0.1484767347574234,
+          0.13585586845874786,
+          0.3293153643608093,
+          0.3272319436073303,
+          0.5081630945205688
         ],
         [
-          0.2708841860294342,
-          0.4236137866973877,
-          0.23014038801193237,
-          0.2688595652580261,
-          0.13310301303863525,
-          0.12490732967853546,
-          0.3326879143714905,
-          0.2942010760307312,
-          0.45452624559402466
+          0.5435860753059387,
+          0.5911126136779785,
+          0.48303496837615967,
+          0.20397686958312988,
+          0.29965740442276,
+          -0.01823827624320984,
+          0.48404234647750854,
+          0.3760036826133728,
+          0.5829453468322754
         ],
         [
-          0.5009579062461853,
-          0.5349557399749756,
-          0.448877215385437,
-          0.23576369881629944,
-          0.2635103464126587,
-          -0.030662085860967636,
-          0.4550923705101013,
-          0.3247201442718506,
-          0.5165226459503174
+          0.2789560556411743,
+          0.305120587348938,
+          0.35090065002441406,
+          0.18022421002388,
+          0.28291913866996765,
+          0.09923337399959564,
+          0.2673608958721161,
+          0.4787745177745819,
+          0.36121541261672974
         ],
         [
-          0.24506069719791412,
-          0.26358893513679504,
-          0.29783838987350464,
-          0.25479477643966675,
-          0.2566260099411011,
-          0.08976563811302185,
-          0.24729838967323303,
-          0.3802392780780792,
-          0.30118536949157715
+          0.2999119162559509,
+          0.4841422438621521,
+          0.3459063470363617,
+          0.3448904752731323,
+          0.2778681516647339,
+          0.11860349774360657,
+          0.34093454480171204,
+          0.1603432446718216,
+          0.4788742959499359
         ],
         [
-          0.29443734884262085,
-          0.4721541702747345,
-          0.3007095158100128,
-          0.35616162419319153,
-          0.2657642364501953,
-          0.14688056707382202,
-          0.3414517343044281,
-          0.1663719266653061,
-          0.43647709488868713
+          0.24860605597496033,
+          0.09722130000591278,
+          0.3140532970428467,
+          0.2573457360267639,
+          0.2910318374633789,
+          0.05287378281354904,
+          0.16706156730651855,
+          0.2008470594882965,
+          0.20442192256450653
         ],
         [
-          0.24550855159759521,
-          0.08757540583610535,
-          0.3056510388851166,
-          0.29270756244659424,
-          0.2731766104698181,
-          0.07533670961856842,
-          0.17954038083553314,
-          0.2108583301305771,
-          0.18121914565563202
-        ],
-        [
-          0.1604204773902893,
-          0.12733303010463715,
-          0.06703483313322067,
-          0.21689048409461975,
-          0.35757994651794434,
-          0.25914716720581055,
-          0.025983981788158417,
-          0.30233362317085266,
-          0.06831000745296478
+          0.16009199619293213,
+          0.1311292052268982,
+          0.07404215633869171,
+          0.2059367299079895,
+          0.36944329738616943,
+          0.28851479291915894,
+          0.021161958575248718,
+          0.32217711210250854,
+          0.07808933407068253
         ]
       ]
     },
     {
-      "combo_key": "vlm=short__frames=30__llm=concise",
+      "combo_key": "vlm=short__frames=50__llm=concise",
       "vlm_prompt_type": "short",
-      "vlm_frame_count": 30,
+      "vlm_frame_count": 50,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T09:10:12.364562+00:00",
+      "timestamp": "2026-05-13T11:00:24.806454+00:00",
       "threshold": 0.5,
       "human_annotations": [
-        "annotation,timestamp,subjectivity_rating",
-        "A cityscape of New York is shown,00:00 - 00:04,1",
-        "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-        "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-        "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-        "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-        "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-        "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-        "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2"
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
       ],
       "generated_events": [
-        "Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.",
-        "A person playing traditional Chinese instruments on steps is shown leading into various festive activities.",
-        "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
-        "At night, the festivities culminate under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants.",
-        "Social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events."
+        "The video begins with an aerial view of a cityscape featuring tall buildings and trees before transitioning to various scenes on the ground.",
+        "People dressed warmly for cold weather are seen sitting on subway cars during rush hour, highlighting the daily life of city dwellers.",
+        "Street performers, including musicians playing traditional instruments like bagpipes or fiddles, perform on metal bars in bustling city streets.",
+        "Festive crowds gather at intersections and parades, adding to the city's vibrant atmosphere.",
+        "Individuals behind barricades watch events unfold, providing a unique perspective on the celebrations.",
+        "Lively parade performances feature colorful costumes and props, accompanied by cheering spectators who are actively engaged in the festivities.",
+        "Vibrant celebrations are marked by confetti-filled sidewalks, diverse cultural attire, and energetic dance routines performed outdoors against urban backdrops.",
+        "Close-up shots capture intricate details such as ornate headpieces and detailed costume designs, showcasing the craftsmanship behind the performers' attire.",
+        "Dynamic movements are captured mid-performance, conveying the energy and dynamism of the festival events.",
+        "The video concludes with joyful expressions among attendees, children participating enthusiastically, and celebratory moments highlighted through bright lights and confetti falling onto the ground."
       ],
       "metrics": {
-        "num_human": 9,
-        "num_generated": 5,
-        "detected": 1,
-        "missed": 8,
-        "recall": 0.1111,
-        "avg_best_similarity": 0.3803
+        "num_human": 8,
+        "num_generated": 10,
+        "detected": 3,
+        "missed": 5,
+        "recall": 0.375,
+        "avg_best_similarity": 0.4131
       },
       "per_annotation": [
         {
-          "human_event": "annotation,timestamp,subjectivity_rating",
-          "best_match": "Social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events.",
-          "score": 0.1865,
-          "detected": false
-        },
-        {
-          "human_event": "A cityscape of New York is shown,00:00 - 00:04,1",
-          "best_match": "At night, the festivities culminate under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants.",
-          "score": 0.3725,
-          "detected": false
-        },
-        {
-          "human_event": "An asian looking old man is playing a traditional musical instrument,00:07 - 00:08,2",
-          "best_match": "A person playing traditional Chinese instruments on steps is shown leading into various festive activities.",
-          "score": 0.5574,
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "The video begins with an aerial view of a cityscape featuring tall buildings and trees before transitioning to various scenes on the ground.",
+          "score": 0.5069,
           "detected": true
         },
         {
-          "human_event": "A large crowd of people with a free passage in the middle is shown,00:16 - 00:19,2",
-          "best_match": "Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.",
-          "score": 0.2924,
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "Street performers, including musicians playing traditional instruments like bagpipes or fiddles, perform on metal bars in bustling city streets.",
+          "score": 0.2321,
           "detected": false
         },
         {
-          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd,00:29 - 00:36,2",
-          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
-          "score": 0.4927,
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "Festive crowds gather at intersections and parades, adding to the city's vibrant atmosphere.",
+          "score": 0.4315,
           "detected": false
         },
         {
-          "human_event": "A group of asian looking women are walking and celebrating,00:40 - 00:42,2",
-          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
-          "score": 0.3507,
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "Lively parade performances feature colorful costumes and props, accompanied by cheering spectators who are actively engaged in the festivities.",
+          "score": 0.5055,
+          "detected": true
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "Vibrant celebrations are marked by confetti-filled sidewalks, diverse cultural attire, and energetic dance routines performed outdoors against urban backdrops.",
+          "score": 0.428,
           "detected": false
         },
         {
-          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people,01:06 - 01:11,2",
-          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
-          "score": 0.3594,
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "Vibrant celebrations are marked by confetti-filled sidewalks, diverse cultural attire, and energetic dance routines performed outdoors against urban backdrops.",
+          "score": 0.5345,
+          "detected": true
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "Festive crowds gather at intersections and parades, adding to the city's vibrant atmosphere.",
+          "score": 0.4145,
           "detected": false
         },
         {
-          "human_event": "A man in colourful festival costume is walking through the street,01:27 - 01:29,2",
-          "best_match": "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
-          "score": 0.4063,
-          "detected": false
-        },
-        {
-          "human_event": "A link to the facebook page of a chinatown community in NYC is shown,01:42 - 01:50,2",
-          "best_match": "At night, the festivities culminate under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants.",
-          "score": 0.4047,
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "The video begins with an aerial view of a cityscape featuring tall buildings and trees before transitioning to various scenes on the ground.",
+          "score": 0.2518,
           "detected": false
         }
       ],
       "similarity_matrix": [
         [
-          -0.055867891758680344,
-          -0.055644430220127106,
-          0.04919666424393654,
-          -0.052363649010658264,
-          0.186544269323349
+          0.506903350353241,
+          0.2998998761177063,
+          0.3059169054031372,
+          0.3361278176307678,
+          0.1833738386631012,
+          0.15155331790447235,
+          0.3497348427772522,
+          0.21399664878845215,
+          0.18070250749588013,
+          0.15657831728458405
         ],
         [
-          0.33663058280944824,
-          0.07916764914989471,
-          0.10527695715427399,
-          0.372503399848938,
-          0.1943468600511551
+          0.0628066435456276,
+          0.023994578048586845,
+          0.23208434879779816,
+          -0.017658542841672897,
+          -0.02508716657757759,
+          0.08648882806301117,
+          0.09110492467880249,
+          0.09614352881908417,
+          0.08210551738739014,
+          0.011375229805707932
         ],
         [
-          0.029825786128640175,
-          0.557396411895752,
-          0.12790891528129578,
-          0.10445874184370041,
-          -0.014384080655872822
+          0.20396587252616882,
+          0.23606815934181213,
+          0.1634427309036255,
+          0.43154674768447876,
+          0.38882923126220703,
+          0.255003422498703,
+          0.27663904428482056,
+          0.15700453519821167,
+          0.28604644536972046,
+          0.24799318611621857
         ],
         [
-          0.2923528850078583,
-          0.1568479984998703,
-          0.16848185658454895,
-          0.17983317375183105,
-          0.1683022677898407
+          0.11666019260883331,
+          0.1976860761642456,
+          0.32604271173477173,
+          0.3114190101623535,
+          0.30501294136047363,
+          0.5054734945297241,
+          0.46703070402145386,
+          0.340911328792572,
+          0.42830532789230347,
+          0.31201088428497314
         ],
         [
-          0.15245914459228516,
-          0.482593297958374,
-          0.49268484115600586,
-          0.3473949432373047,
-          0.07126159965991974
+          -0.011756569147109985,
+          0.18964311480522156,
+          0.08335353434085846,
+          0.35701388120651245,
+          0.3846549987792969,
+          0.3396877646446228,
+          0.4279550611972809,
+          0.07601971924304962,
+          0.31102219223976135,
+          0.2692263126373291
         ],
         [
-          0.13628390431404114,
-          0.26596376299858093,
-          0.35065019130706787,
-          0.3207048177719116,
-          0.15437059104442596
+          0.17049355804920197,
+          0.27755701541900635,
+          0.5177567005157471,
+          0.3957113027572632,
+          0.2424827516078949,
+          0.4116770029067993,
+          0.5345315337181091,
+          0.23042599856853485,
+          0.3738192915916443,
+          0.25169673562049866
         ],
         [
-          0.28697583079338074,
-          0.3079944849014282,
-          0.3593783974647522,
-          0.33559292554855347,
-          0.2395951896905899
+          0.09037601202726364,
+          0.1570757031440735,
+          0.25319957733154297,
+          0.4144969582557678,
+          0.19413700699806213,
+          0.40639936923980713,
+          0.41291284561157227,
+          0.14877638220787048,
+          0.38241785764694214,
+          0.11424087733030319
         ],
         [
-          0.2209644317626953,
-          0.38938528299331665,
-          0.40634387731552124,
-          0.333204448223114,
-          0.08212298154830933
+          0.2517976760864258,
+          0.21552450954914093,
+          0.13045206665992737,
+          0.23081864416599274,
+          0.10070326179265976,
+          0.06997086107730865,
+          0.24698573350906372,
+          0.03290751576423645,
+          0.07187698781490326,
+          0.1475626826286316
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=short__frames=50__llm=detailed",
+      "vlm_prompt_type": "short",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T11:00:24.864678+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "Aerial view of tall buildings and trees transitions to a scene of people sitting on subway cars dressed warmly for cold weather.",
+        "Street performers play traditional instruments like bagpipes or fiddles by metal bars in bustling city streets.",
+        "Festive crowds gather at intersections during parades, with individuals behind barricades watching events unfold.",
+        "Lively parade performances feature colorful costumes and props amidst cheering spectators.",
+        "Vibrant celebrations are marked by confetti-filled sidewalks, showcasing diverse cultural attire worn by participants.",
+        "Energetic dance routines are performed outdoors against urban backdrops, capturing joyful expressions among attendees.",
+        "Close views reveal intricate details such as ornate headpieces and detailed costume designs, with dynamic movements captured mid-performance.",
+        "Children participate enthusiastically in the celebrations, adding to the overall joyful atmosphere.",
+        "Promotional messages encourage viewers to follow their neighborhood's Facebook page before concluding."
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 9,
+        "detected": 2,
+        "missed": 6,
+        "recall": 0.25,
+        "avg_best_similarity": 0.4571
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "Aerial view of tall buildings and trees transitions to a scene of people sitting on subway cars dressed warmly for cold weather.",
+          "score": 0.4198,
+          "detected": false
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "Street performers play traditional instruments like bagpipes or fiddles by metal bars in bustling city streets.",
+          "score": 0.2926,
+          "detected": false
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "Festive crowds gather at intersections during parades, with individuals behind barricades watching events unfold.",
+          "score": 0.4879,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "Lively parade performances feature colorful costumes and props amidst cheering spectators.",
+          "score": 0.5154,
+          "detected": true
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "Vibrant celebrations are marked by confetti-filled sidewalks, showcasing diverse cultural attire worn by participants.",
+          "score": 0.4439,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "Energetic dance routines are performed outdoors against urban backdrops, capturing joyful expressions among attendees.",
+          "score": 0.6389,
+          "detected": true
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "Lively parade performances feature colorful costumes and props amidst cheering spectators.",
+          "score": 0.4061,
+          "detected": false
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "Promotional messages encourage viewers to follow their neighborhood's Facebook page before concluding.",
+          "score": 0.4524,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.41975072026252747,
+          0.3049827218055725,
+          0.21127861738204956,
+          0.16526912152767181,
+          0.2920168340206146,
+          0.29572853446006775,
+          0.27226966619491577,
+          0.04743232578039169,
+          0.14630235731601715
         ],
         [
-          0.12170986831188202,
-          0.14664766192436218,
-          0.17398673295974731,
-          0.40465855598449707,
-          0.379621684551239
+          0.020565161481499672,
+          0.292604923248291,
+          -0.05369781702756882,
+          0.08931147307157516,
+          0.049076031893491745,
+          0.14345386624336243,
+          0.10414250940084457,
+          0.018510837107896805,
+          -0.1337803602218628
+        ],
+        [
+          0.24838665127754211,
+          0.1609136015176773,
+          0.4878661036491394,
+          0.24844741821289062,
+          0.32442569732666016,
+          0.20106996595859528,
+          0.22548261284828186,
+          0.16743822395801544,
+          0.1981862187385559
+        ],
+        [
+          0.1565088927745819,
+          0.3493126928806305,
+          0.3688403367996216,
+          0.5154217481613159,
+          0.38307592272758484,
+          0.5062391757965088,
+          0.35594499111175537,
+          0.29308587312698364,
+          0.047555532306432724
+        ],
+        [
+          0.1014273464679718,
+          0.0900232344865799,
+          0.37207937240600586,
+          0.30856090784072876,
+          0.44393837451934814,
+          0.3264697194099426,
+          0.13256511092185974,
+          0.4089979827404022,
+          0.15402337908744812
+        ],
+        [
+          0.22945965826511383,
+          0.5092095136642456,
+          0.3905808925628662,
+          0.41082996129989624,
+          0.36822688579559326,
+          0.638936460018158,
+          0.275762140750885,
+          0.2058115154504776,
+          0.19753915071487427
+        ],
+        [
+          0.1404656320810318,
+          0.27605774998664856,
+          0.3569905161857605,
+          0.4061385989189148,
+          0.3924931287765503,
+          0.2862716615200043,
+          0.24994304776191711,
+          0.11652301996946335,
+          0.02758205495774746
+        ],
+        [
+          0.2065897285938263,
+          0.11540861427783966,
+          0.10995271801948547,
+          0.06885544955730438,
+          0.25942280888557434,
+          0.16652162373065948,
+          0.1433376669883728,
+          0.06300923228263855,
+          0.4524008631706238
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=medium__frames=50__llm=concise",
+      "vlm_prompt_type": "medium",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T11:00:24.904281+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "A young girl is sitting alone in an elevator, looking out at the city with her hands clasped together.",
+        "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+        "Two men sit next to each other indoors, one wearing a hat while holding musical instruments.",
+        "Footage shows children playing basketball outdoors under clear skies and tall buildings in the background."
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 4,
+        "detected": 1,
+        "missed": 7,
+        "recall": 0.125,
+        "avg_best_similarity": 0.3608
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.3191,
+          "detected": false
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "Two men sit next to each other indoors, one wearing a hat while holding musical instruments.",
+          "score": 0.2834,
+          "detected": false
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.4206,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.3638,
+          "detected": false
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.3213,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.4491,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.5252,
+          "detected": true
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "The scene shifts to people walking down a busy street during what appears to be a parade or festival.",
+          "score": 0.2042,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.19861429929733276,
+          0.3191455006599426,
+          0.0025418438017368317,
+          0.21993795037269592
+        ],
+        [
+          0.03828120604157448,
+          0.003909435123205185,
+          0.2834440767765045,
+          -0.05176446586847305
+        ],
+        [
+          0.08564366400241852,
+          0.420561820268631,
+          0.0862981453537941,
+          0.0803501233458519
+        ],
+        [
+          0.0006349887698888779,
+          0.36377838253974915,
+          0.16137412190437317,
+          0.0844733938574791
+        ],
+        [
+          0.003308972343802452,
+          0.3212684690952301,
+          -0.05686529353260994,
+          -0.00476250983774662
+        ],
+        [
+          0.06236870959401131,
+          0.4491073489189148,
+          0.12003995478153229,
+          0.2459598332643509
+        ],
+        [
+          -0.008596647530794144,
+          0.5251517295837402,
+          0.023564070463180542,
+          -0.027418117970228195
+        ],
+        [
+          0.1902725100517273,
+          0.20417076349258423,
+          -0.008849618025124073,
+          0.015080814249813557
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=medium__frames=50__llm=detailed",
+      "vlm_prompt_type": "medium",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T11:00:24.955975+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "A young girl sits inside an elevator with her hands clasped together, looking out the large windows at the city outside.",
+        "People walk down a busy street during a parade or festival, likely in celebration of something specific.",
+        "Two men sit next to each other indoors, one wearing a hat while holding musical instruments.",
+        "A person who is not directly shown raises their hands and then lowers them after a brief pause, possibly indicating a cue for the performance.",
+        "The two musicians begin playing a lively tune on their instruments.",
+        "Children play basketball outdoors against a backdrop of tall buildings under clear skies.",
+        "One of the children scores a basket, prompting cheers from their teammates.",
+        "A group of people in costumes walk by, waving and smiling at the camera or each other.",
+        "The scene transitions to an audience watching the parade/festival from a rooftop or elevated area, enjoying the music and festivities.",
+        "The performance ends with applause and confetti falling from the sky, celebrating the joyful occasion."
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 10,
+        "detected": 1,
+        "missed": 7,
+        "recall": 0.125,
+        "avg_best_similarity": 0.3989
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "The scene transitions to an audience watching the parade/festival from a rooftop or elevated area, enjoying the music and festivities.",
+          "score": 0.3286,
+          "detected": false
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "The two musicians begin playing a lively tune on their instruments.",
+          "score": 0.3734,
+          "detected": false
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "People walk down a busy street during a parade or festival, likely in celebration of something specific.",
+          "score": 0.3723,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "A group of people in costumes walk by, waving and smiling at the camera or each other.",
+          "score": 0.4538,
+          "detected": false
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "A group of people in costumes walk by, waving and smiling at the camera or each other.",
+          "score": 0.4787,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "People walk down a busy street during a parade or festival, likely in celebration of something specific.",
+          "score": 0.4681,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "People walk down a busy street during a parade or festival, likely in celebration of something specific.",
+          "score": 0.5304,
+          "detected": true
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "The scene transitions to an audience watching the parade/festival from a rooftop or elevated area, enjoying the music and festivities.",
+          "score": 0.1857,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.25278541445732117,
+          0.20066319406032562,
+          0.0025418326258659363,
+          0.07073669880628586,
+          -0.021973753347992897,
+          0.18916869163513184,
+          -0.012621039524674416,
+          0.15220078825950623,
+          0.32857030630111694,
+          0.16048678755760193
+        ],
+        [
+          0.016250673681497574,
+          -0.006376831792294979,
+          0.2834441661834717,
+          0.18868480622768402,
+          0.3733535706996918,
+          -0.06547319144010544,
+          -0.015470707789063454,
+          -0.03900201618671417,
+          0.11985881626605988,
+          0.08714628219604492
+        ],
+        [
+          0.0611518919467926,
+          0.3722670078277588,
+          0.08629816770553589,
+          0.1995110958814621,
+          0.04301191866397858,
+          0.034025151282548904,
+          0.09976279735565186,
+          0.3682839870452881,
+          0.3322385549545288,
+          0.16989578306674957
+        ],
+        [
+          -0.04503612220287323,
+          0.36557963490486145,
+          0.16137409210205078,
+          0.2660882771015167,
+          0.18039804697036743,
+          0.04352188482880592,
+          0.13927099108695984,
+          0.4537971019744873,
+          0.3688507676124573,
+          0.26903313398361206
+        ],
+        [
+          -0.022861042991280556,
+          0.44536224007606506,
+          -0.05686527490615845,
+          0.09330195188522339,
+          0.006013534963130951,
+          -0.01158911269158125,
+          0.12016715109348297,
+          0.47866177558898926,
+          0.25711289048194885,
+          0.20495443046092987
+        ],
+        [
+          0.07776568084955215,
+          0.4680558443069458,
+          0.12003995478153229,
+          0.20366421341896057,
+          0.16236163675785065,
+          0.24314530193805695,
+          0.08164096623659134,
+          0.3196190297603607,
+          0.3994859755039215,
+          0.19506973028182983
+        ],
+        [
+          0.03016134351491928,
+          0.5304101705551147,
+          0.02356409654021263,
+          -0.002640165388584137,
+          -0.0948825478553772,
+          -0.05733591318130493,
+          -0.1367814540863037,
+          0.2373242974281311,
+          0.3332170844078064,
+          0.12509098649024963
+        ],
+        [
+          0.1721489131450653,
+          0.16956645250320435,
+          -0.008849648758769035,
+          0.032289035618305206,
+          -0.06518753618001938,
+          -0.017867587506771088,
+          -0.008610816672444344,
+          0.18497546017169952,
+          0.18574288487434387,
+          0.03129183501005173
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=long__frames=50__llm=concise",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T11:00:25.006484+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "A young girl gets off an elevator onto a subway platform, observing her surroundings.",
+        "She finds another person wearing a beige coat standing next to someone who has fallen asleep on the subway platform.",
+        "The scene shifts indoors again, showing two men playing bagpipes outside near buildings.",
+        "Viewers see train windows looking towards tall apartment blocks under overcast skies as trains pass by in the background.",
+        "Inside a moving vehicle, more trains pass by against cityscapes filled with skyscrapers.",
+        "The camera returns to the building's interior for shots of various individuals walking along busy streets lined with shops and signs advertising local businesses.",
+        "Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+        "There appears to be music being played during these festival scenes.",
+        "The scene transitions from one vibrant setting to another, showcasing the city's diverse atmosphere and various modes of transportation."
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 9,
+        "detected": 1,
+        "missed": 7,
+        "recall": 0.125,
+        "avg_best_similarity": 0.353
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "The scene transitions from one vibrant setting to another, showcasing the city's diverse atmosphere and various modes of transportation.",
+          "score": 0.5071,
+          "detected": true
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "The scene shifts indoors again, showing two men playing bagpipes outside near buildings.",
+          "score": 0.2717,
+          "detected": false
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.4134,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "There appears to be music being played during these festival scenes.",
+          "score": 0.3837,
+          "detected": false
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.2582,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.3965,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "Footage captures street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.328,
+          "detected": false
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "The scene transitions from one vibrant setting to another, showcasing the city's diverse atmosphere and various modes of transportation.",
+          "score": 0.2655,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.2783188223838806,
+          0.15855643153190613,
+          0.18972808122634888,
+          0.3429035246372223,
+          0.3387564420700073,
+          0.3266577124595642,
+          0.30265289545059204,
+          0.1915135383605957,
+          0.5071155428886414
+        ],
+        [
+          0.02134871482849121,
+          -0.049942925572395325,
+          0.27174484729766846,
+          -0.06065256521105766,
+          -0.03384901583194733,
+          -0.05630270391702652,
+          -0.046937424689531326,
+          0.23631146550178528,
+          0.042360905557870865
+        ],
+        [
+          0.1086830273270607,
+          0.0962175726890564,
+          0.1522928774356842,
+          0.27352625131607056,
+          0.23336169123649597,
+          0.2345709502696991,
+          0.4134247899055481,
+          0.2545025944709778,
+          0.29479023814201355
+        ],
+        [
+          0.022372271865606308,
+          0.04461314156651497,
+          0.212264284491539,
+          0.059802278876304626,
+          0.07446041703224182,
+          0.10603868961334229,
+          0.3145575225353241,
+          0.3837173581123352,
+          0.16668486595153809
+        ],
+        [
+          0.026159681379795074,
+          0.02244585193693638,
+          -0.0789201408624649,
+          -0.02091517485678196,
+          0.031098924577236176,
+          0.08789155632257462,
+          0.25822678208351135,
+          0.2122630774974823,
+          0.12168674916028976
+        ],
+        [
+          0.10621698200702667,
+          0.03175897151231766,
+          0.25714701414108276,
+          0.15995153784751892,
+          0.2358616143465042,
+          0.27329379320144653,
+          0.39651286602020264,
+          0.3217372000217438,
+          0.2250756323337555
+        ],
+        [
+          0.0922626405954361,
+          0.024809714406728745,
+          0.10724242031574249,
+          0.0558890625834465,
+          0.16533565521240234,
+          0.23350414633750916,
+          0.3279946446418762,
+          0.32640647888183594,
+          0.2596436142921448
+        ],
+        [
+          0.17070460319519043,
+          0.1284891813993454,
+          -0.00502508319914341,
+          0.15393561124801636,
+          0.14511269330978394,
+          0.25067898631095886,
+          0.1507071554660797,
+          0.125564306974411,
+          0.2655152976512909
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=long__frames=50__llm=detailed",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T11:00:25.058515+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "A cityscape of New York is shown",
+        "An asian looking old man is playing a traditional musical instrument",
+        "A large crowd of people with a free passage in the middle is shown",
+        "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+        "A group of asian looking women are walking and celebrating",
+        "Hip hop dancers perform in the middle of a street surrounded by people",
+        "A man in colourful festival costume is walking through the street",
+        "A link to the facebook page of a chinatown community in NYC is shown"
+      ],
+      "generated_events": [
+        "The young girl gets off the elevator onto a subway platform, where she encounters another person wearing a beige coat.",
+        "A third person falls asleep while sitting on a bench next to the beige-coated individual.",
+        "Two men playing bagpipes are seen outside buildings near tall apartment blocks under overcast skies.",
+        "Passengers viewing train windows observe tall apartment blocks with skyscrapers, including cityscapes with numerous trains passing by.",
+        "A young woman walks down busy streets lined with shops and signs advertising local businesses.",
+        "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”"
+      ],
+      "metrics": {
+        "num_human": 8,
+        "num_generated": 6,
+        "detected": 0,
+        "missed": 8,
+        "recall": 0.0,
+        "avg_best_similarity": 0.3174
+      },
+      "per_annotation": [
+        {
+          "human_event": "A cityscape of New York is shown",
+          "best_match": "Passengers viewing train windows observe tall apartment blocks with skyscrapers, including cityscapes with numerous trains passing by.",
+          "score": 0.4377,
+          "detected": false
+        },
+        {
+          "human_event": "An asian looking old man is playing a traditional musical instrument",
+          "best_match": "Two men playing bagpipes are seen outside buildings near tall apartment blocks under overcast skies.",
+          "score": 0.2329,
+          "detected": false
+        },
+        {
+          "human_event": "A large crowd of people with a free passage in the middle is shown",
+          "best_match": "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.3699,
+          "detected": false
+        },
+        {
+          "human_event": "A group of performers in traditional Chinese costumes dance in the middle of a crowd",
+          "best_match": "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.2851,
+          "detected": false
+        },
+        {
+          "human_event": "A group of asian looking women are walking and celebrating",
+          "best_match": "A young woman walks down busy streets lined with shops and signs advertising local businesses.",
+          "score": 0.2758,
+          "detected": false
+        },
+        {
+          "human_event": "Hip hop dancers perform in the middle of a street surrounded by people",
+          "best_match": "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.3624,
+          "detected": false
+        },
+        {
+          "human_event": "A man in colourful festival costume is walking through the street",
+          "best_match": "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”",
+          "score": 0.3167,
+          "detected": false
+        },
+        {
+          "human_event": "A link to the facebook page of a chinatown community in NYC is shown",
+          "best_match": "A young woman walks down busy streets lined with shops and signs advertising local businesses.",
+          "score": 0.2584,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.2208143174648285,
+          -0.0687442272901535,
+          0.21024003624916077,
+          0.43765437602996826,
+          0.2235759198665619,
+          0.3286854326725006
+        ],
+        [
+          -0.024199746549129486,
+          0.040144212543964386,
+          0.23293761909008026,
+          -0.08195903897285461,
+          -0.026991624385118484,
+          -0.05163395404815674
+        ],
+        [
+          0.1171196922659874,
+          0.06532774865627289,
+          0.10424403846263885,
+          0.28239649534225464,
+          0.09394979476928711,
+          0.36993545293807983
+        ],
+        [
+          0.06783545762300491,
+          0.052704840898513794,
+          0.11917626112699509,
+          0.028909338638186455,
+          0.050848446786403656,
+          0.2850784957408905
+        ],
+        [
+          0.04824483022093773,
+          -0.05082176625728607,
+          -0.07869837433099747,
+          0.0225941501557827,
+          0.27582478523254395,
+          0.22731515765190125
+        ],
+        [
+          0.10057882964611053,
+          -0.04744903743267059,
+          0.2348436713218689,
+          0.16185064613819122,
+          0.2681824564933777,
+          0.3624221682548523
+        ],
+        [
+          0.0764169991016388,
+          -0.0959448516368866,
+          0.061773065477609634,
+          0.054782234132289886,
+          0.30734825134277344,
+          0.3167480230331421
+        ],
+        [
+          0.18551890552043915,
+          -0.03632774576544762,
+          -0.025526896119117737,
+          0.22470666468143463,
+          0.2584465742111206,
+          0.16209575533866882
         ]
       ]
     }
