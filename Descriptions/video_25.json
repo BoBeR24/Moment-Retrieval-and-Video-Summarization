@@ -42,6 +42,27 @@
       "num_frames": 50,
       "timestamp": "2026-05-13T10:10:34.687416+00:00",
       "response": "The video starts with an aerial view of a cityscape featuring tall buildings under construction or renovation. A group of young men wearing orange shirts gather around someone holding binoculars before walking down a street lined with shops and parked cars. Inside a train car, one person takes pictures while others sit nearby. The scene shifts to a mountainous landscape where two individuals walk along a dirt path surrounded by greenery. Next, we see a crowded outdoor area filled with children playing near a fence covered in green vines. More kids play energetically next to a concrete wall adorned with graffiti. Two boys engage in conversation as they move through this urban setting. One boy wears headphones during his interaction. Later, he sits outdoors eating food wrapped in plastic wrap. He then performs acrobatic moves against a colorful mural-covered building. Finally, he stands outside again, now shirtless but still using earphones for music playback. \n\nThe narrative continues with scenes showing various groups interacting within different settings such as busy streets, parks, and public spaces like malls and beaches. There's also footage inside shopping centers showcasing bustling crowds and vibrant storefronts. The final segment features close-ups of hands adjusting camera equipment amidst lively social gatherings at night, followed by shots capturing everyday life indoors—a man lying naked beside a bed cluttered with clothes and electronics."
+    },
+    {
+      "prompt_type": "short",
+      "prompt": "Describe what is happening in the video.",
+      "num_frames": 12,
+      "timestamp": "2026-05-13T11:10:10.772595+00:00",
+      "response": "The video begins with an aerial view showcasing various buildings and streets, indicating urban life or city exploration. It then transitions to outdoor scenes where people gather on rooftops for photos against clear skies, suggesting leisurely activities like sunbathing or taking pictures during sunny weather. A group gathers at night by waterfront promenades under streetlights, possibly enjoying evening strolls along coastal areas. In another scene, individuals walk down a sidewalk lined with shops displaying colorful signs, hinting at commercial activity within these establishments. Finally, it shows two men conversing near parked cars amidst greenery, followed by close-ups capturing their expressions as they speak. Throughout this sequence, there's no indication that any specific event has occurred; rather, it captures everyday moments unfolding across different settings."
+    },
+    {
+      "prompt_type": "medium",
+      "prompt": "Describe the key events and actions taking place in the video, providing a concise summary of the main activities and interactions. Focus on visually distinct moments.",
+      "num_frames": 12,
+      "timestamp": "2026-05-13T11:11:36.462986+00:00",
+      "response": "A man wearing an orange jacket is talking to someone while standing next to another person with dreadlocks who has their hand up near his face. The scene then shifts indoors where two people sit at a table eating food together. Later, there's footage showing children playing soccer outside during daytime. Finally, it shows a group gathered around something off-camera before transitioning back inside for more indoor scenes including one featuring a young woman sitting down holding her phone close by."
+    },
+    {
+      "prompt_type": "long",
+      "prompt": "Describe what is happening in the video, sequentially focusing on the most important events.\nDescribe the events in detail, including the people involved, their appearance, their actions, and any relevant context.\nAvoid generic descriptions and focus on specific moments that stand out.\nList the events in order of occurrence.",
+      "num_frames": 12,
+      "timestamp": "2026-05-13T11:15:18.178505+00:00",
+      "response": "The video begins with an aerial view of a city street lined with buildings under construction or renovation. A group of men wearing orange shirts gather around to discuss something while standing near scaffolding. As they continue talking, one man walks away holding his phone up as if taking pictures or recording footage. \n\nThe scene then shifts indoors where two young boys sit together at a table eating food; one boy wears headphones over earbuds. Next, we see another outdoor setting featuring several children playing soccer outdoors against a backdrop of tall apartment buildings. One child runs towards the camera before being joined by others who join him for more fun activities like running through water.\n\nFollowing this lively activity comes yet another indoor moment showing three individuals sitting close together - possibly friends enjoying each other's company after some time spent outside. Then it transitions back into daylight scenes showcasing bustling streets filled with pedestrians walking along sidewalks next to shops selling various goods such as clothing items displayed prominently behind closed doors.\n\nAs night falls upon these urban landscapes, new settings emerge – crowded beaches teeming with beachgoers engaging in leisurely pastimes amidst towering skyscrapers looming overhead. Finally, there’s a nighttime shot capturing someone filming themselves using a smartphone equipped with professional-grade equipment inside what appears to be either a hotel lobby area or similar public space illuminated warmly but not brightly enough to obscure details entirely due to darkness surrounding them."
     }
   ],
   "llm_results": [
@@ -397,6 +418,122 @@
         "Two groups interact in busy streets, parks, and public spaces like malls and beaches.",
         "Close-ups of hands adjusting camera equipment amidst lively social gatherings at night.",
         "A man lies naked beside a bed cluttered with clothes and electronics indoors."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view showcasing various buildings and streets, indicating urban life or city exploration. It then transitions to outdoor scenes where people gather on rooftops for photos against clear skies, suggesting leisurely activities like sunbathing or taking pictures during sunny weather. A group gathers at night by waterfront promenades under streetlights, possibly enjoying evening strolls along coastal areas. In another scene, individuals walk down a sidewalk lined with shops displaying colorful signs, hinting at commercial activity within these establishments. Finally, it shows two men conversing near parked cars amidst greenery, followed by close-ups capturing their expressions as they speak. Throughout this sequence, there's no indication that any specific event has occurred; rather, it captures everyday moments unfolding across different settings.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:00:16.677276+00:00",
+      "raw_response": "1. Aerial view of urban life and city exploration with various buildings and streets.\n2. People gather on rooftops for photos against clear skies during leisurely activities like sunbathing or taking pictures.\n3. Group gathers at night by waterfront promenades under streetlights, possibly enjoying evening strolls along coastal areas.\n4. Individuals walk down a sidewalk lined with shops displaying colorful signs, hinting at commercial activity within these establishments.\n5. Two men converse near parked cars amidst greenery, followed by close-ups capturing their expressions as they speak.",
+      "parsed_events": [
+        "Aerial view of urban life and city exploration with various buildings and streets.",
+        "People gather on rooftops for photos against clear skies during leisurely activities like sunbathing or taking pictures.",
+        "Group gathers at night by waterfront promenades under streetlights, possibly enjoying evening strolls along coastal areas.",
+        "Individuals walk down a sidewalk lined with shops displaying colorful signs, hinting at commercial activity within these establishments.",
+        "Two men converse near parked cars amidst greenery, followed by close-ups capturing their expressions as they speak."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view showcasing various buildings and streets, indicating urban life or city exploration. It then transitions to outdoor scenes where people gather on rooftops for photos against clear skies, suggesting leisurely activities like sunbathing or taking pictures during sunny weather. A group gathers at night by waterfront promenades under streetlights, possibly enjoying evening strolls along coastal areas. In another scene, individuals walk down a sidewalk lined with shops displaying colorful signs, hinting at commercial activity within these establishments. Finally, it shows two men conversing near parked cars amidst greenery, followed by close-ups capturing their expressions as they speak. Throughout this sequence, there's no indication that any specific event has occurred; rather, it captures everyday moments unfolding across different settings.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:00:28.384672+00:00",
+      "raw_response": "1. A group of people gathers on rooftops for photos against clear skies.\n2. Individuals stroll along waterfront promenades under streetlights at night.\n3. People walk down a sidewalk lined with shops displaying colorful signs.\n4. Two men converse near parked cars amidst greenery, followed by close-ups capturing their expressions.\n5. A group of people gathers on rooftops during the day, likely to take photos or enjoy the view.\n6. Individuals are seen walking and taking pictures in a city street, possibly enjoying sunny weather.\n7. People walk along a coastal area at night, illuminated by string lights or other decorations.\n8. Two individuals can be seen sitting on benches near shops, engaging in casual conversation.\n9. A group of people is captured laughing and smiling while standing together, likely in a social setting.\n10. Men are shown examining items in a market stall or shop, possibly looking at products or browsing.",
+      "parsed_events": [
+        "A group of people gathers on rooftops for photos against clear skies.",
+        "Individuals stroll along waterfront promenades under streetlights at night.",
+        "People walk down a sidewalk lined with shops displaying colorful signs.",
+        "Two men converse near parked cars amidst greenery, followed by close-ups capturing their expressions.",
+        "A group of people gathers on rooftops during the day, likely to take photos or enjoy the view.",
+        "Individuals are seen walking and taking pictures in a city street, possibly enjoying sunny weather.",
+        "People walk along a coastal area at night, illuminated by string lights or other decorations.",
+        "Two individuals can be seen sitting on benches near shops, engaging in casual conversation.",
+        "A group of people is captured laughing and smiling while standing together, likely in a social setting.",
+        "Men are shown examining items in a market stall or shop, possibly looking at products or browsing."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA man wearing an orange jacket is talking to someone while standing next to another person with dreadlocks who has their hand up near his face. The scene then shifts indoors where two people sit at a table eating food together. Later, there's footage showing children playing soccer outside during daytime. Finally, it shows a group gathered around something off-camera before transitioning back inside for more indoor scenes including one featuring a young woman sitting down holding her phone close by.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:00:39.693567+00:00",
+      "raw_response": "1. A man wearing an orange jacket is conversing with someone while standing next to another person with dreadlocks who raises their hand near his face, suggesting tension or disagreement.\n2. The scene shifts indoors, where two people sit at a table eating food together in a quiet setting, indicating a peaceful atmosphere.\n3. Footage of children playing soccer outside during the daytime is shown, providing a lighthearted and carefree moment.\n4. A group gathers around something off-camera before transitioning back inside for more indoor scenes.\n5. The camera focuses on a young woman sitting down, holding her phone close to her face, suggesting she's receiving or watching something important.\n6. Another person is seen standing near the woman, possibly in conversation or sharing information with her.\n7. A group of people are shown standing around a table, engaged in some form of discussion or activity, although details about their interaction are unclear.",
+      "parsed_events": [
+        "A man wearing an orange jacket is conversing with someone while standing next to another person with dreadlocks who raises their hand near his face, suggesting tension or disagreement.",
+        "The scene shifts indoors, where two people sit at a table eating food together in a quiet setting, indicating a peaceful atmosphere.",
+        "Footage of children playing soccer outside during the daytime is shown, providing a lighthearted and carefree moment.",
+        "A group gathers around something off-camera before transitioning back inside for more indoor scenes.",
+        "The camera focuses on a young woman sitting down, holding her phone close to her face, suggesting she's receiving or watching something important.",
+        "Another person is seen standing near the woman, possibly in conversation or sharing information with her.",
+        "A group of people are shown standing around a table, engaged in some form of discussion or activity, although details about their interaction are unclear."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA man wearing an orange jacket is talking to someone while standing next to another person with dreadlocks who has their hand up near his face. The scene then shifts indoors where two people sit at a table eating food together. Later, there's footage showing children playing soccer outside during daytime. Finally, it shows a group gathered around something off-camera before transitioning back inside for more indoor scenes including one featuring a young woman sitting down holding her phone close by.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:00:50.853703+00:00",
+      "raw_response": "1. The man in an orange jacket converses with the person with dreadlocks while keeping his hand near the other person's face.\n2. Two people eat food together at a table indoors.\n3. A group of children play soccer outside during daytime.\n4. A group gathers around something off-camera, although their faces are not visible.\n5. The young woman sits down and holds her phone close to her body inside.\n6. The man in the orange jacket talks to someone while standing next to the person with dreadlocks has their hand up near his face.\n7. Two people eat food together at a table indoors.\n8. A group of children play soccer outside during daytime.\n9. A young woman sits down and holds her phone close to her body inside.\n10. The man in an orange jacket converses with the person with dreadlocks while keeping his hand near the other person's face.",
+      "parsed_events": [
+        "The man in an orange jacket converses with the person with dreadlocks while keeping his hand near the other person's face.",
+        "Two people eat food together at a table indoors.",
+        "A group of children play soccer outside during daytime.",
+        "A group gathers around something off-camera, although their faces are not visible.",
+        "The young woman sits down and holds her phone close to her body inside.",
+        "The man in the orange jacket talks to someone while standing next to the person with dreadlocks has their hand up near his face.",
+        "Two people eat food together at a table indoors.",
+        "A group of children play soccer outside during daytime.",
+        "A young woman sits down and holds her phone close to her body inside.",
+        "The man in an orange jacket converses with the person with dreadlocks while keeping his hand near the other person's face."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view of a city street lined with buildings under construction or renovation. A group of men wearing orange shirts gather around to discuss something while standing near scaffolding. As they continue talking, one man walks away holding his phone up as if taking pictures or recording footage. \n\nThe scene then shifts indoors where two young boys sit together at a table eating food; one boy wears headphones over earbuds. Next, we see another outdoor setting featuring several children playing soccer outdoors against a backdrop of tall apartment buildings. One child runs towards the camera before being joined by others who join him for more fun activities like running through water.\n\nFollowing this lively activity comes yet another indoor moment showing three individuals sitting close together - possibly friends enjoying each other's company after some time spent outside. Then it transitions back into daylight scenes showcasing bustling streets filled with pedestrians walking along sidewalks next to shops selling various goods such as clothing items displayed prominently behind closed doors.\n\nAs night falls upon these urban landscapes, new settings emerge – crowded beaches teeming with beachgoers engaging in leisurely pastimes amidst towering skyscrapers looming overhead. Finally, there’s a nighttime shot capturing someone filming themselves using a smartphone equipped with professional-grade equipment inside what appears to be either a hotel lobby area or similar public space illuminated warmly but not brightly enough to obscure details entirely due to darkness surrounding them.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:01:03.486981+00:00",
+      "raw_response": "1. A group of men wearing orange shirts discuss something near scaffolding on an aerial view of a city street lined with buildings under construction or renovation.\n2. One man walks away from the group, holding his phone up as if taking pictures or recording footage.\n3. Two young boys sit at a table eating food indoors, one boy wearing headphones over earbuds.\n4. Several children play soccer outdoors against a backdrop of tall apartment buildings.\n5. The camera captures one child running towards the camera before being joined by others for fun activities like running through water.\n6. Three individuals sit close together in an indoor setting, possibly friends enjoying each other's company after time spent outside.\n7. The scene transitions to bustling streets filled with pedestrians walking along sidewalks next to shops selling various goods.\n8. Crowded beaches appear at night, teeming with beachgoers engaging in leisurely pastimes amidst towering skyscrapers looming overhead.\n9. Someone films themselves using a smartphone equipped with professional-grade equipment in a hotel lobby area or similar public space.\n10. The camera pans out to capture the surrounding darkness and warm lighting of the setting.",
+      "parsed_events": [
+        "A group of men wearing orange shirts discuss something near scaffolding on an aerial view of a city street lined with buildings under construction or renovation.",
+        "One man walks away from the group, holding his phone up as if taking pictures or recording footage.",
+        "Two young boys sit at a table eating food indoors, one boy wearing headphones over earbuds.",
+        "Several children play soccer outdoors against a backdrop of tall apartment buildings.",
+        "The camera captures one child running towards the camera before being joined by others for fun activities like running through water.",
+        "Three individuals sit close together in an indoor setting, possibly friends enjoying each other's company after time spent outside.",
+        "The scene transitions to bustling streets filled with pedestrians walking along sidewalks next to shops selling various goods.",
+        "Crowded beaches appear at night, teeming with beachgoers engaging in leisurely pastimes amidst towering skyscrapers looming overhead.",
+        "Someone films themselves using a smartphone equipped with professional-grade equipment in a hotel lobby area or similar public space.",
+        "The camera pans out to capture the surrounding darkness and warm lighting of the setting."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view of a city street lined with buildings under construction or renovation. A group of men wearing orange shirts gather around to discuss something while standing near scaffolding. As they continue talking, one man walks away holding his phone up as if taking pictures or recording footage. \n\nThe scene then shifts indoors where two young boys sit together at a table eating food; one boy wears headphones over earbuds. Next, we see another outdoor setting featuring several children playing soccer outdoors against a backdrop of tall apartment buildings. One child runs towards the camera before being joined by others who join him for more fun activities like running through water.\n\nFollowing this lively activity comes yet another indoor moment showing three individuals sitting close together - possibly friends enjoying each other's company after some time spent outside. Then it transitions back into daylight scenes showcasing bustling streets filled with pedestrians walking along sidewalks next to shops selling various goods such as clothing items displayed prominently behind closed doors.\n\nAs night falls upon these urban landscapes, new settings emerge – crowded beaches teeming with beachgoers engaging in leisurely pastimes amidst towering skyscrapers looming overhead. Finally, there’s a nighttime shot capturing someone filming themselves using a smartphone equipped with professional-grade equipment inside what appears to be either a hotel lobby area or similar public space illuminated warmly but not brightly enough to obscure details entirely due to darkness surrounding them.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:01:14.837094+00:00",
+      "raw_response": "1. A group of men wearing orange shirts stand near scaffolding, discussing something among themselves.\n2. One man walks away holding his phone up as if taking pictures or recording footage.\n3. Two young boys sit together at a table eating food, with one boy wearing headphones over earbuds.\n4. Children play soccer outdoors against tall apartment buildings.\n5. The scene shifts to an indoor setting where three individuals sit close together, possibly enjoying each other's company.\n6. Bustling streets fill with pedestrians walking along sidewalks next to shops selling various goods.\n7. A crowded beach is shown teeming with people engaging in leisurely pastimes amidst towering skyscrapers.\n8. Someone films themselves using a smartphone equipped with professional-grade equipment inside a hotel lobby area or similar public space.",
+      "parsed_events": [
+        "A group of men wearing orange shirts stand near scaffolding, discussing something among themselves.",
+        "One man walks away holding his phone up as if taking pictures or recording footage.",
+        "Two young boys sit together at a table eating food, with one boy wearing headphones over earbuds.",
+        "Children play soccer outdoors against tall apartment buildings.",
+        "The scene shifts to an indoor setting where three individuals sit close together, possibly enjoying each other's company.",
+        "Bustling streets fill with pedestrians walking along sidewalks next to shops selling various goods.",
+        "A crowded beach is shown teeming with people engaging in leisurely pastimes amidst towering skyscrapers.",
+        "Someone films themselves using a smartphone equipped with professional-grade equipment inside a hotel lobby area or similar public space."
       ]
     }
   ]

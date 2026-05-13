@@ -42,6 +42,27 @@
       "num_frames": 50,
       "timestamp": "2026-05-13T10:17:08.589015+00:00",
       "response": "A young girl sits inside an elevator with her hands clasped together as she looks around at other passengers. She then gets off onto a subway platform where another person wearing a beige coat stands next to someone else who has fallen asleep while sitting down. The scene shifts indoors again before showing two men playing bagpipes outside near some buildings. Next up is a view through train windows looking towards tall apartment blocks under overcast skies. Inside a moving vehicle, we see more trains passing by against cityscapes filled with skyscrapers. We return back into the building's interior once more for shots of various individuals walking along busy streets lined with shops and signs advertising different businesses like \"Holiday Inn Downtown Hotel\" and \"NYC Chinese Baptist Church.\" Finally, there’s footage capturing street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.” There seems to be music being played here too!"
+    },
+    {
+      "prompt_type": "short",
+      "prompt": "Describe what is happening in the video.",
+      "num_frames": 12,
+      "timestamp": "2026-05-13T11:17:47.847651+00:00",
+      "response": "The video begins with an aerial view showcasing tall buildings and streets, indicating urban life or cityscape. It then transitions to show a map highlighting \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area. A close-up reveals two individuals behind bars within a jail cell, hinting towards imprisonment themes. Following this, we see people dressed as clowns performing on a street during a parade, adding festive elements amidst the narrative. As the celebration continues, more participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold. This lively scene captures various aspects of community engagement and cultural expression throughout different segments of the event. Throughout these scenes, there’s no direct interaction between characters; instead, they engage individually or collectively in their respective activities such as participating in parades, engaging in performances by clowns, and enjoying communal celebrations marked by colorful costumes and decorations."
+    },
+    {
+      "prompt_type": "medium",
+      "prompt": "Describe the key events and actions taking place in the video, providing a concise summary of the main activities and interactions. Focus on visually distinct moments.",
+      "num_frames": 12,
+      "timestamp": "2026-05-13T11:20:42.024843+00:00",
+      "response": "A group of people dressed as clowns perform at an event with confetti falling around them. The scene then shifts to show two men behind bars wearing blue uniforms while another man is being held by police officers. Later, there's footage showing a parade where performers dress up like dragons and other characters dance through the streets. Finally, we see a truck driving down a street that has been blocked off for construction or maintenance work. Throughout these scenes, various signs can be seen including one reading \"You Are Here\" indicating location information."
+    },
+    {
+      "prompt_type": "long",
+      "prompt": "Describe what is happening in the video, sequentially focusing on the most important events.\nDescribe the events in detail, including the people involved, their appearance, their actions, and any relevant context.\nAvoid generic descriptions and focus on specific moments that stand out.\nList the events in order of occurrence.",
+      "num_frames": 12,
+      "timestamp": "2026-05-13T11:24:28.195231+00:00",
+      "response": "The video begins with an aerial view of tall buildings against a cloudy sky, followed by close-ups of city streets lined with cars parked along curbside. It then transitions to show two men standing behind metal bars at night under streetlights. A parade follows featuring performers dressed as clowns or mascots waving flags amidst cheering crowds. Next, we see colorful costumes being worn during another festive event where participants wave red umbrellas while walking down a busy urban sidewalk filled with pedestrians. Finally, there's footage of a large truck driving through traffic marked \"KEEP EM LITTER FREE\" before ending with text encouraging viewers to follow local news sources for more information about neighborhood happenings."
     }
   ],
   "llm_results": [
@@ -391,6 +412,117 @@
         "Passengers viewing train windows observe tall apartment blocks with skyscrapers, including cityscapes with numerous trains passing by.",
         "A young woman walks down busy streets lined with shops and signs advertising local businesses.",
         "The camera captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.”"
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view showcasing tall buildings and streets, indicating urban life or cityscape. It then transitions to show a map highlighting \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area. A close-up reveals two individuals behind bars within a jail cell, hinting towards imprisonment themes. Following this, we see people dressed as clowns performing on a street during a parade, adding festive elements amidst the narrative. As the celebration continues, more participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold. This lively scene captures various aspects of community engagement and cultural expression throughout different segments of the event. Throughout these scenes, there’s no direct interaction between characters; instead, they engage individually or collectively in their respective activities such as participating in parades, engaging in performances by clowns, and enjoying communal celebrations marked by colorful costumes and decorations.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:01:28.978529+00:00",
+      "raw_response": "1. The video begins with an aerial view showcasing tall buildings and streets, indicating urban life or cityscape, before transitioning to a map highlighting \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area.\n2. A close-up reveals two individuals behind bars within a jail cell, hinting towards imprisonment themes and setting a somber tone for the narrative.\n3. People dressed as clowns perform on a street during a parade, adding festive elements amidst the narrative and foreshadowing upcoming celebrations.\n4. As the celebration continues, more participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold.\n5. The lively scene captures various aspects of community engagement and cultural expression throughout different segments of the event, showcasing individuals participating in parades, performances by clowns, and communal celebrations marked by colorful costumes and decorations.\n6. Throughout these scenes, there's no direct interaction between characters; instead, they engage individually or collectively in their respective activities.\n7. The parade features a mixture of traditional Chinese attire and festive elements, highlighting the blending of cultural expressions within the celebration.",
+      "parsed_events": [
+        "The video begins with an aerial view showcasing tall buildings and streets, indicating urban life or cityscape, before transitioning to a map highlighting \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area.",
+        "A close-up reveals two individuals behind bars within a jail cell, hinting towards imprisonment themes and setting a somber tone for the narrative.",
+        "People dressed as clowns perform on a street during a parade, adding festive elements amidst the narrative and foreshadowing upcoming celebrations.",
+        "As the celebration continues, more participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold.",
+        "The lively scene captures various aspects of community engagement and cultural expression throughout different segments of the event, showcasing individuals participating in parades, performances by clowns, and communal celebrations marked by colorful costumes and decorations.",
+        "Throughout these scenes, there's no direct interaction between characters; instead, they engage individually or collectively in their respective activities.",
+        "The parade features a mixture of traditional Chinese attire and festive elements, highlighting the blending of cultural expressions within the celebration."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view showcasing tall buildings and streets, indicating urban life or cityscape. It then transitions to show a map highlighting \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area. A close-up reveals two individuals behind bars within a jail cell, hinting towards imprisonment themes. Following this, we see people dressed as clowns performing on a street during a parade, adding festive elements amidst the narrative. As the celebration continues, more participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold. This lively scene captures various aspects of community engagement and cultural expression throughout different segments of the event. Throughout these scenes, there’s no direct interaction between characters; instead, they engage individually or collectively in their respective activities such as participating in parades, engaging in performances by clowns, and enjoying communal celebrations marked by colorful costumes and decorations.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:01:42.924341+00:00",
+      "raw_response": "1. Two individuals are seen behind bars within a jail cell, hinting at imprisonment themes.\n2. A map highlights \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area.\n3. People dressed as clowns perform on the street during a parade, adding festive elements to the narrative.\n4. More participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold.\n5. The scene captures various aspects of community engagement and cultural expression throughout different segments of the event.\n6. Participants engage individually or collectively in activities such as participating in parades and enjoying communal celebrations marked by colorful costumes and decorations.\n7. A crowd gathers to enjoy the celebration, with some individuals taking photos or recording moments from the parade.\n8. Traditional Chinese music is played during the parade, further emphasizing the cultural significance of the event.\n9. A group of people dressed in traditional attire dance together, adding a dynamic and vibrant element to the scene.",
+      "parsed_events": [
+        "Two individuals are seen behind bars within a jail cell, hinting at imprisonment themes.",
+        "A map highlights \"You Are Here\" at Canal St., suggesting navigation through New York City's Chinatown area.",
+        "People dressed as clowns perform on the street during a parade, adding festive elements to the narrative.",
+        "More participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold.",
+        "The scene captures various aspects of community engagement and cultural expression throughout different segments of the event.",
+        "Participants engage individually or collectively in activities such as participating in parades and enjoying communal celebrations marked by colorful costumes and decorations.",
+        "A crowd gathers to enjoy the celebration, with some individuals taking photos or recording moments from the parade.",
+        "Traditional Chinese music is played during the parade, further emphasizing the cultural significance of the event.",
+        "A group of people dressed in traditional attire dance together, adding a dynamic and vibrant element to the scene."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA group of people dressed as clowns perform at an event with confetti falling around them. The scene then shifts to show two men behind bars wearing blue uniforms while another man is being held by police officers. Later, there's footage showing a parade where performers dress up like dragons and other characters dance through the streets. Finally, we see a truck driving down a street that has been blocked off for construction or maintenance work. Throughout these scenes, various signs can be seen including one reading \"You Are Here\" indicating location information.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:01:49.947924+00:00",
+      "raw_response": "1. A group of people dressed as clowns perform at an event with confetti falling around them.\n2. The scene then shifts to show two men behind bars wearing blue uniforms, while another man is being held by police officers.\n3. Later, there's footage showing a parade where performers dress up like dragons and other characters dance through the streets.\n4. A sign reading \"You Are Here\" can be seen in one of the scenes indicating location information.",
+      "parsed_events": [
+        "A group of people dressed as clowns perform at an event with confetti falling around them.",
+        "The scene then shifts to show two men behind bars wearing blue uniforms, while another man is being held by police officers.",
+        "Later, there's footage showing a parade where performers dress up like dragons and other characters dance through the streets.",
+        "A sign reading \"You Are Here\" can be seen in one of the scenes indicating location information."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA group of people dressed as clowns perform at an event with confetti falling around them. The scene then shifts to show two men behind bars wearing blue uniforms while another man is being held by police officers. Later, there's footage showing a parade where performers dress up like dragons and other characters dance through the streets. Finally, we see a truck driving down a street that has been blocked off for construction or maintenance work. Throughout these scenes, various signs can be seen including one reading \"You Are Here\" indicating location information.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:01:59.626497+00:00",
+      "raw_response": "1. A group of clowns in costume perform at an event, surrounded by confetti falling around them.\n2. Two men in blue uniforms are shown behind bars, while another man is restrained by police officers.\n3. Performers dressed as dragons participate in a parade, dancing through the streets with other characters.\n4. The truck drives down a street that has been blocked off for construction or maintenance work.\n5. Various signs are visible throughout the scenes, including one reading \"You Are Here\" indicating location information.\n6. A group of people in costume perform at an event, possibly a circus or festival setting.\n7. Police officers surround and restrain another man during the parade scene.\n8. The performers dressed as dragons wave to the crowd from their floats or costumes.\n9. The truck passes by a large construction sign reading \"Detour\" or similar warning.",
+      "parsed_events": [
+        "A group of clowns in costume perform at an event, surrounded by confetti falling around them.",
+        "Two men in blue uniforms are shown behind bars, while another man is restrained by police officers.",
+        "Performers dressed as dragons participate in a parade, dancing through the streets with other characters.",
+        "The truck drives down a street that has been blocked off for construction or maintenance work.",
+        "Various signs are visible throughout the scenes, including one reading \"You Are Here\" indicating location information.",
+        "A group of people in costume perform at an event, possibly a circus or festival setting.",
+        "Police officers surround and restrain another man during the parade scene.",
+        "The performers dressed as dragons wave to the crowd from their floats or costumes.",
+        "The truck passes by a large construction sign reading \"Detour\" or similar warning."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view of tall buildings against a cloudy sky, followed by close-ups of city streets lined with cars parked along curbside. It then transitions to show two men standing behind metal bars at night under streetlights. A parade follows featuring performers dressed as clowns or mascots waving flags amidst cheering crowds. Next, we see colorful costumes being worn during another festive event where participants wave red umbrellas while walking down a busy urban sidewalk filled with pedestrians. Finally, there's footage of a large truck driving through traffic marked \"KEEP EM LITTER FREE\" before ending with text encouraging viewers to follow local news sources for more information about neighborhood happenings.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:02:11.164143+00:00",
+      "raw_response": "1. The video begins with an aerial view of tall buildings against a cloudy sky and transitions to show close-ups of city streets lined with cars parked along curbside, setting the scene for urban life.\n2. Two men are shown standing behind metal bars at night under streetlights in what appears to be a correctional facility or detention center.\n3. A colorful parade is showcased featuring performers dressed as clowns or mascots waving flags amidst cheering crowds.\n4. During another festive event, participants are seen wearing colorful costumes and waving red umbrellas while walking down a busy urban sidewalk filled with pedestrians.\n5. Footage of a large truck driving through traffic is shown, marked with the message \"KEEP EM LITTER FREE\" to emphasize environmental awareness.\n6. The video transitions from this environmentally conscious segment to conclude with text encouraging viewers to follow local news sources for more information about neighborhood happenings.",
+      "parsed_events": [
+        "The video begins with an aerial view of tall buildings against a cloudy sky and transitions to show close-ups of city streets lined with cars parked along curbside, setting the scene for urban life.",
+        "Two men are shown standing behind metal bars at night under streetlights in what appears to be a correctional facility or detention center.",
+        "A colorful parade is showcased featuring performers dressed as clowns or mascots waving flags amidst cheering crowds.",
+        "During another festive event, participants are seen wearing colorful costumes and waving red umbrellas while walking down a busy urban sidewalk filled with pedestrians.",
+        "Footage of a large truck driving through traffic is shown, marked with the message \"KEEP EM LITTER FREE\" to emphasize environmental awareness.",
+        "The video transitions from this environmentally conscious segment to conclude with text encouraging viewers to follow local news sources for more information about neighborhood happenings."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view of tall buildings against a cloudy sky, followed by close-ups of city streets lined with cars parked along curbside. It then transitions to show two men standing behind metal bars at night under streetlights. A parade follows featuring performers dressed as clowns or mascots waving flags amidst cheering crowds. Next, we see colorful costumes being worn during another festive event where participants wave red umbrellas while walking down a busy urban sidewalk filled with pedestrians. Finally, there's footage of a large truck driving through traffic marked \"KEEP EM LITTER FREE\" before ending with text encouraging viewers to follow local news sources for more information about neighborhood happenings.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 12,
+      "timestamp": "2026-05-13T12:02:23.446773+00:00",
+      "raw_response": "1. Two men stand behind metal bars at night, interacting under streetlights.\n2. A parade unfolds with performers dressed as clowns or mascots waving flags amidst cheering crowds.\n3. Participants in a festive event wear colorful costumes and wave red umbrellas while walking down a busy urban sidewalk.\n4. A large truck drives through traffic, displaying the message \"KEEP EM LITTER FREE\".\n5. Cheering crowds gather around the parade performers.\n6. Cars are parked along curbside city streets, lined up against buildings under cloudy skies.\n7. Performers in the parade wave flags to the cheering crowd.\n8. Participants in another festive event walk down a busy urban sidewalk filled with pedestrians.\n9. The truck marks its message \"KEEP EM LITTER FREE\" as it drives through traffic.\n10. Text appears on screen, encouraging viewers to follow local news sources for more information about neighborhood happenings.",
+      "parsed_events": [
+        "Two men stand behind metal bars at night, interacting under streetlights.",
+        "A parade unfolds with performers dressed as clowns or mascots waving flags amidst cheering crowds.",
+        "Participants in a festive event wear colorful costumes and wave red umbrellas while walking down a busy urban sidewalk.",
+        "A large truck drives through traffic, displaying the message \"KEEP EM LITTER FREE\".",
+        "Cheering crowds gather around the parade performers.",
+        "Cars are parked along curbside city streets, lined up against buildings under cloudy skies.",
+        "Performers in the parade wave flags to the cheering crowd.",
+        "Participants in another festive event walk down a busy urban sidewalk filled with pedestrians.",
+        "The truck marks its message \"KEEP EM LITTER FREE\" as it drives through traffic.",
+        "Text appears on screen, encouraging viewers to follow local news sources for more information about neighborhood happenings."
       ]
     }
   ]
