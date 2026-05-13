@@ -1,11 +1,11 @@
 annotation,timestamp,subjectivity_rating
-* A street in American city with a lot of people is shown,00:00 - 00:06,0
+A street in American city with a lot of people is shown,00:00 - 00:06,0
 Police officers slowly drive through the street., 00:35-00:40, -2
-* A police convoy slowly driving through the street,01:06 - 01:25,2
+A police convoy slowly driving through the street,01:06 - 01:25,2
 Crowd starts whistling and screaming when a truck with flags and people in it approaches,01:55 - 02:13,2
-* Crowd is chanting "go kings go" when a white truck with athletes in jerseys passes by,02:16 - 02:24,2
-* An armored police vehicle with athletes in jersey on the roof passes by to the shouts of the crowd,02:45 - 02:54,2
-* A white truck with a mascot in a trunk passes by to the shouts of the crowd,03:22 - 03:26,1
+Crowd is chanting "go kings go" when a white truck with athletes in jerseys passes by,02:16 - 02:24,2
+An armored police vehicle with athletes in jersey on the roof passes by to the shouts of the crowd,02:45 - 02:54,2
+A white truck with a mascot in a trunk passes by to the shouts of the crowd,03:22 - 03:26,1
 Someone in the crowd shout "Thank you for bringing the cup back.",03:37-03:40,0
 A truck with large flags of a sports team logo passes by,04:05 - 04:07,0
-* Police and ambulance vehicles pass by,04:13 - 04:36,0
+Police and ambulance vehicles pass by,04:13 - 04:36,0
