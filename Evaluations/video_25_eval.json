@@ -1,0 +1,1355 @@
+{
+  "video_id": 25,
+  "evaluations": [
+    {
+      "combo_key": "vlm=long__frames=30__llm=detailed",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T08:41:15.081476+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+        "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+        "A group of young people are warming up together,00:27 - 00:37,1",
+        "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+        "A young man films a company of young people on a camera,00:52 - 00:56,1",
+        "An overview of a historic square in a large city,01:23 - 01:30,-1",
+        "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+        "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+        "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+        "A group photo of young people is shown,04:19 - 04:22,2"
+      ],
+      "generated_events": [
+        "A man takes pictures with his camera while another person listens to music through earphones beside him.",
+        "Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other wearing orange shorts.",
+        "The two young men enter a building where they appear to be conversing or taking photos together.",
+        "Three boys run along a street near buildings under overcast skies, two of them carrying backpacks as they move.",
+        "Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.",
+        "A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed by someone else making similar gestures."
+      ],
+      "metrics": {
+        "num_human": 11,
+        "num_generated": 6,
+        "detected": 2,
+        "missed": 9,
+        "recall": 0.1818,
+        "avg_best_similarity": 0.3168
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "A man takes pictures with his camera while another person listens to music through earphones beside him.",
+          "score": 0.0842,
+          "detected": false
+        },
+        {
+          "human_event": "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+          "best_match": "The two young men enter a building where they appear to be conversing or taking photos together.",
+          "score": 0.518,
+          "detected": true
+        },
+        {
+          "human_event": "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+          "best_match": "Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.",
+          "score": 0.2296,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young people are warming up together,00:27 - 00:37,1",
+          "best_match": "Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.",
+          "score": 0.4208,
+          "detected": false
+        },
+        {
+          "human_event": "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+          "best_match": "A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed by someone else making similar gestures.",
+          "score": 0.2147,
+          "detected": false
+        },
+        {
+          "human_event": "A young man films a company of young people on a camera,00:52 - 00:56,1",
+          "best_match": "The two young men enter a building where they appear to be conversing or taking photos together.",
+          "score": 0.4826,
+          "detected": false
+        },
+        {
+          "human_event": "An overview of a historic square in a large city,01:23 - 01:30,-1",
+          "best_match": "Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other wearing orange shorts.",
+          "score": 0.1293,
+          "detected": false
+        },
+        {
+          "human_event": "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+          "best_match": "A man takes pictures with his camera while another person listens to music through earphones beside him.",
+          "score": 0.3202,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+          "best_match": "Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.",
+          "score": 0.3008,
+          "detected": false
+        },
+        {
+          "human_event": "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+          "best_match": "The two young men enter a building where they appear to be conversing or taking photos together.",
+          "score": 0.2812,
+          "detected": false
+        },
+        {
+          "human_event": "A group photo of young people is shown,04:19 - 04:22,2",
+          "best_match": "Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.",
+          "score": 0.503,
+          "detected": true
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.08416563272476196,
+          -0.0555621013045311,
+          -0.02152581512928009,
+          -0.12597548961639404,
+          -0.048912957310676575,
+          0.02165120840072632
+        ],
+        [
+          0.41877371072769165,
+          0.31499919295310974,
+          0.5179936289787292,
+          0.1982753872871399,
+          0.21046054363250732,
+          0.07443851977586746
+        ],
+        [
+          0.13105876743793488,
+          0.1345202922821045,
+          0.17627522349357605,
+          0.17705145478248596,
+          0.22962364554405212,
+          0.11139898002147675
+        ],
+        [
+          0.047884415835142136,
+          0.13575366139411926,
+          0.32117295265197754,
+          0.22253340482711792,
+          0.42080453038215637,
+          0.25848811864852905
+        ],
+        [
+          0.1608334481716156,
+          0.11359662562608719,
+          0.1611265242099762,
+          0.17368611693382263,
+          0.015374649316072464,
+          0.2146538943052292
+        ],
+        [
+          0.39294153451919556,
+          0.19792523980140686,
+          0.4826449155807495,
+          0.13138696551322937,
+          0.2485281229019165,
+          0.13917015492916107
+        ],
+        [
+          0.0035726316273212433,
+          0.12925110757350922,
+          0.12873885035514832,
+          0.08795319497585297,
+          0.09502721577882767,
+          0.06817340850830078
+        ],
+        [
+          0.32021772861480713,
+          0.04319531470537186,
+          0.31878191232681274,
+          0.10809215158224106,
+          0.30086496472358704,
+          0.10558366775512695
+        ],
+        [
+          0.09498350322246552,
+          0.17468738555908203,
+          0.2191389799118042,
+          0.2962995767593384,
+          0.30080553889274597,
+          0.10026665776968002
+        ],
+        [
+          0.2013292759656906,
+          0.12142643332481384,
+          0.28119656443595886,
+          -0.055462732911109924,
+          0.122431680560112,
+          0.26776933670043945
+        ],
+        [
+          0.2578750252723694,
+          0.2101747989654541,
+          0.37048977613449097,
+          0.19624710083007812,
+          0.502988338470459,
+          0.22683961689472198
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=long__frames=30__llm=concise",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T09:01:12.285053+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+        "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+        "A group of young people are warming up together,00:27 - 00:37,1",
+        "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+        "A young man films a company of young people on a camera,00:52 - 00:56,1",
+        "An overview of a historic square in a large city,01:23 - 01:30,-1",
+        "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+        "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+        "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+        "A group photo of young people is shown,04:19 - 04:22,2"
+      ],
+      "generated_events": [
+        "A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.",
+        "Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other in orange shorts.",
+        "The two young men pass by parked cars before entering a building where they appear to be conversing or taking photos together.",
+        "Three boys run along a street near some buildings under overcast skies.",
+        "Two of the three boys carry backpacks as one runs ahead; later, four more individuals join them for a group photo against a backdrop featuring mountains covered in greenery.",
+        "A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed closely by someone else also making similar gestures."
+      ],
+      "metrics": {
+        "num_human": 11,
+        "num_generated": 6,
+        "detected": 1,
+        "missed": 10,
+        "recall": 0.0909,
+        "avg_best_similarity": 0.2935
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.",
+          "score": 0.0308,
+          "detected": false
+        },
+        {
+          "human_event": "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+          "best_match": "The two young men pass by parked cars before entering a building where they appear to be conversing or taking photos together.",
+          "score": 0.5204,
+          "detected": true
+        },
+        {
+          "human_event": "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+          "best_match": "Three boys run along a street near some buildings under overcast skies.",
+          "score": 0.2096,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young people are warming up together,00:27 - 00:37,1",
+          "best_match": "Two of the three boys carry backpacks as one runs ahead; later, four more individuals join them for a group photo against a backdrop featuring mountains covered in greenery.",
+          "score": 0.3205,
+          "detected": false
+        },
+        {
+          "human_event": "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+          "best_match": "The two young men pass by parked cars before entering a building where they appear to be conversing or taking photos together.",
+          "score": 0.2716,
+          "detected": false
+        },
+        {
+          "human_event": "A young man films a company of young people on a camera,00:52 - 00:56,1",
+          "best_match": "A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.",
+          "score": 0.409,
+          "detected": false
+        },
+        {
+          "human_event": "An overview of a historic square in a large city,01:23 - 01:30,-1",
+          "best_match": "The two young men pass by parked cars before entering a building where they appear to be conversing or taking photos together.",
+          "score": 0.1331,
+          "detected": false
+        },
+        {
+          "human_event": "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+          "best_match": "A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.",
+          "score": 0.3397,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+          "best_match": "Three boys run along a street near some buildings under overcast skies.",
+          "score": 0.3287,
+          "detected": false
+        },
+        {
+          "human_event": "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+          "best_match": "A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.",
+          "score": 0.2818,
+          "detected": false
+        },
+        {
+          "human_event": "A group photo of young people is shown,04:19 - 04:22,2",
+          "best_match": "Two of the three boys carry backpacks as one runs ahead; later, four more individuals join them for a group photo against a backdrop featuring mountains covered in greenery.",
+          "score": 0.3834,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.0307881198823452,
+          -0.05761343613266945,
+          0.027461104094982147,
+          -0.10559500008821487,
+          -0.08080237358808517,
+          0.02167278714478016
+        ],
+        [
+          0.42489808797836304,
+          0.3156780004501343,
+          0.5203984975814819,
+          0.12276682257652283,
+          0.2798421382904053,
+          0.07002279907464981
+        ],
+        [
+          0.13222350180149078,
+          0.13090930879116058,
+          0.19817212224006653,
+          0.20961710810661316,
+          0.19949740171432495,
+          0.11821974068880081
+        ],
+        [
+          0.09794391691684723,
+          0.13186612725257874,
+          0.24860447645187378,
+          0.24428115785121918,
+          0.32053142786026,
+          0.2542662024497986
+        ],
+        [
+          0.14637362957000732,
+          0.1155625507235527,
+          0.27159228920936584,
+          0.1810278594493866,
+          0.10714773833751678,
+          0.2056630700826645
+        ],
+        [
+          0.4089542031288147,
+          0.19962039589881897,
+          0.39197367429733276,
+          0.1433301568031311,
+          0.18907403945922852,
+          0.12901170551776886
+        ],
+        [
+          0.002212399849668145,
+          0.12449638545513153,
+          0.13314275443553925,
+          0.11759522557258606,
+          0.037537649273872375,
+          0.07682334631681442
+        ],
+        [
+          0.33972567319869995,
+          0.03757527470588684,
+          0.2598699927330017,
+          0.13041388988494873,
+          0.21964186429977417,
+          0.10054777562618256
+        ],
+        [
+          0.1118563786149025,
+          0.16549909114837646,
+          0.26440495252609253,
+          0.32869255542755127,
+          0.26379939913749695,
+          0.09014354646205902
+        ],
+        [
+          0.2818397581577301,
+          0.11921962350606918,
+          0.22135040163993835,
+          -0.0418240949511528,
+          0.054953478276729584,
+          0.2591997981071472
+        ],
+        [
+          0.2591392397880554,
+          0.20745502412319183,
+          0.32522839307785034,
+          0.19122208654880524,
+          0.38337957859039307,
+          0.22722603380680084
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=medium__frames=30__llm=concise",
+      "vlm_prompt_type": "medium",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T09:06:41.232270+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+        "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+        "A group of young people are warming up together,00:27 - 00:37,1",
+        "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+        "A young man films a company of young people on a camera,00:52 - 00:56,1",
+        "An overview of a historic square in a large city,01:23 - 01:30,-1",
+        "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+        "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+        "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+        "A group photo of young people is shown,04:19 - 04:22,2"
+      ],
+      "generated_events": [
+        "A man is walking down an alleyway while wearing earphones and taking pictures at night by streetlights.",
+        "The scene transitions to the man sitting outside to take more photos, with the camera still in hand.",
+        "The video cuts to different locations, including mountains, city streets, beaches, and urban areas where people gather for various reasons.",
+        "Footage shows children running through fields near buildings under construction.",
+        "Two men are seen walking past each other holding cameras, likely capturing street scenes or city life.",
+        "A segment features two men standing next to a fence looking out over water during sunset, possibly capturing a scenic view.",
+        "A close-up shot is taken of someone using headphones with graffiti art depicting flowers and birds amidst colorful splashes in the background.",
+        "The video shows individuals engaging in outdoor activities like skateboarding along rocky shores and enjoying beachside gatherings.",
+        "People are seen dancing energetically around tents set up outdoors, as well as socializing among friends gathered closely indoors.",
+        "A final scene captures a person lying shirtless beside their bed covered with blankets, possibly sleeping or relaxing."
+      ],
+      "metrics": {
+        "num_human": 11,
+        "num_generated": 10,
+        "detected": 1,
+        "missed": 10,
+        "recall": 0.0909,
+        "avg_best_similarity": 0.3625
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "A close-up shot is taken of someone using headphones with graffiti art depicting flowers and birds amidst colorful splashes in the background.",
+          "score": 0.1049,
+          "detected": false
+        },
+        {
+          "human_event": "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+          "best_match": "Two men are seen walking past each other holding cameras, likely capturing street scenes or city life.",
+          "score": 0.5746,
+          "detected": true
+        },
+        {
+          "human_event": "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+          "best_match": "The video cuts to different locations, including mountains, city streets, beaches, and urban areas where people gather for various reasons.",
+          "score": 0.4115,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young people are warming up together,00:27 - 00:37,1",
+          "best_match": "People are seen dancing energetically around tents set up outdoors, as well as socializing among friends gathered closely indoors.",
+          "score": 0.4147,
+          "detected": false
+        },
+        {
+          "human_event": "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+          "best_match": "The video shows individuals engaging in outdoor activities like skateboarding along rocky shores and enjoying beachside gatherings.",
+          "score": 0.3246,
+          "detected": false
+        },
+        {
+          "human_event": "A young man films a company of young people on a camera,00:52 - 00:56,1",
+          "best_match": "Two men are seen walking past each other holding cameras, likely capturing street scenes or city life.",
+          "score": 0.4158,
+          "detected": false
+        },
+        {
+          "human_event": "An overview of a historic square in a large city,01:23 - 01:30,-1",
+          "best_match": "The video cuts to different locations, including mountains, city streets, beaches, and urban areas where people gather for various reasons.",
+          "score": 0.313,
+          "detected": false
+        },
+        {
+          "human_event": "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+          "best_match": "The video shows individuals engaging in outdoor activities like skateboarding along rocky shores and enjoying beachside gatherings.",
+          "score": 0.4295,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+          "best_match": "The video shows individuals engaging in outdoor activities like skateboarding along rocky shores and enjoying beachside gatherings.",
+          "score": 0.4611,
+          "detected": false
+        },
+        {
+          "human_event": "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+          "best_match": "People are seen dancing energetically around tents set up outdoors, as well as socializing among friends gathered closely indoors.",
+          "score": 0.2058,
+          "detected": false
+        },
+        {
+          "human_event": "A group photo of young people is shown,04:19 - 04:22,2",
+          "best_match": "People are seen dancing energetically around tents set up outdoors, as well as socializing among friends gathered closely indoors.",
+          "score": 0.3315,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          -0.060896389186382294,
+          -0.018558302894234657,
+          0.0015242919325828552,
+          -0.06584520637989044,
+          2.4545937776565552e-05,
+          0.04038983955979347,
+          0.10488572716712952,
+          0.07323931902647018,
+          0.018751975148916245,
+          0.013053287751972675
+        ],
+        [
+          0.21627631783485413,
+          0.25667664408683777,
+          0.18591511249542236,
+          0.19865554571151733,
+          0.5745880603790283,
+          0.3188474178314209,
+          0.1233278214931488,
+          0.13422396779060364,
+          0.07161048799753189,
+          0.11267493665218353
+        ],
+        [
+          0.17684292793273926,
+          0.2816888988018036,
+          0.4114677608013153,
+          0.3068702816963196,
+          0.2907714247703552,
+          0.37991276383399963,
+          0.1783207207918167,
+          0.3027850389480591,
+          0.04255764186382294,
+          0.1152859702706337
+        ],
+        [
+          -0.08256977796554565,
+          0.08145101368427277,
+          0.19252189993858337,
+          0.26457318663597107,
+          0.07846207916736603,
+          0.1857176572084427,
+          0.060721054673194885,
+          0.2773931622505188,
+          0.41467419266700745,
+          0.19207577407360077
+        ],
+        [
+          0.2358466535806656,
+          0.3123325705528259,
+          0.18654972314834595,
+          0.24149256944656372,
+          0.23135817050933838,
+          0.20800632238388062,
+          0.10695801675319672,
+          0.3245922029018402,
+          0.16004131734371185,
+          0.08211252093315125
+        ],
+        [
+          0.1737414300441742,
+          0.399365097284317,
+          0.2591521143913269,
+          0.2478017359972,
+          0.41577357053756714,
+          0.29370948672294617,
+          0.19926849007606506,
+          0.21862804889678955,
+          0.1584509015083313,
+          0.13242962956428528
+        ],
+        [
+          0.15922698378562927,
+          0.11554282903671265,
+          0.31299418210983276,
+          0.16565540432929993,
+          0.1717388778924942,
+          0.2032073736190796,
+          0.09650805592536926,
+          0.1788715124130249,
+          0.15749548375606537,
+          0.0779811292886734
+        ],
+        [
+          0.1358666568994522,
+          0.28703606128692627,
+          0.41902950406074524,
+          0.24226811528205872,
+          0.3834657371044159,
+          0.2682200074195862,
+          0.2132643312215805,
+          0.42954933643341064,
+          0.4209851622581482,
+          0.1500089317560196
+        ],
+        [
+          0.044447626918554306,
+          0.18486781418323517,
+          0.26733100414276123,
+          0.26072996854782104,
+          0.24556434154510498,
+          0.28554990887641907,
+          0.05831146612763405,
+          0.46114271879196167,
+          0.39917874336242676,
+          -0.07276660203933716
+        ],
+        [
+          0.11537118256092072,
+          0.14924904704093933,
+          0.09100664407014847,
+          0.029256509616971016,
+          0.20242512226104736,
+          0.17017900943756104,
+          0.17683559656143188,
+          0.14248156547546387,
+          0.20584173500537872,
+          0.14019040763378143
+        ],
+        [
+          0.10863533616065979,
+          0.2600715160369873,
+          0.3132998049259186,
+          0.29871928691864014,
+          0.2693685293197632,
+          0.2661401331424713,
+          0.28650161623954773,
+          0.297102689743042,
+          0.33149808645248413,
+          0.13146674633026123
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=medium__frames=30__llm=detailed",
+      "vlm_prompt_type": "medium",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T09:07:00.716011+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+        "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+        "A group of young people are warming up together,00:27 - 00:37,1",
+        "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+        "A young man films a company of young people on a camera,00:52 - 00:56,1",
+        "An overview of a historic square in a large city,01:23 - 01:30,-1",
+        "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+        "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+        "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+        "A group photo of young people is shown,04:19 - 04:22,2"
+      ],
+      "generated_events": [
+        "A man walks down an alleyway while wearing earphones and takes pictures at night by streetlights.",
+        "Two men walk past each other holding cameras in one segment.",
+        "Children are seen running through fields near buildings under construction.",
+        "The camera captures a close-up shot of someone using headphones against a backdrop of graffiti art.",
+        "Individuals engage in outdoor activities like skateboarding along rocky shores and dancing energetically around tents set up outdoors.",
+        "Friends socialize closely indoors, with one person lying shirtless beside their bed covered with blankets.",
+        "The camera shows people gathering for various reasons, such as playing games or watching something together.",
+        "Two men stand next to a fence looking out over water during sunset in another segment.",
+        "People are seen enjoying beachside gatherings and socializing among friends.",
+        "Footage captures daily life scenes of movement, interaction, leisurely pursuits, communal celebrations, and personal relaxation within diverse settings."
+      ],
+      "metrics": {
+        "num_human": 11,
+        "num_generated": 10,
+        "detected": 2,
+        "missed": 9,
+        "recall": 0.1818,
+        "avg_best_similarity": 0.397
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Footage captures daily life scenes of movement, interaction, leisurely pursuits, communal celebrations, and personal relaxation within diverse settings.",
+          "score": 0.1149,
+          "detected": false
+        },
+        {
+          "human_event": "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+          "best_match": "Two men walk past each other holding cameras in one segment.",
+          "score": 0.5815,
+          "detected": true
+        },
+        {
+          "human_event": "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+          "best_match": "Footage captures daily life scenes of movement, interaction, leisurely pursuits, communal celebrations, and personal relaxation within diverse settings.",
+          "score": 0.3942,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young people are warming up together,00:27 - 00:37,1",
+          "best_match": "People are seen enjoying beachside gatherings and socializing among friends.",
+          "score": 0.4093,
+          "detected": false
+        },
+        {
+          "human_event": "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+          "best_match": "Individuals engage in outdoor activities like skateboarding along rocky shores and dancing energetically around tents set up outdoors.",
+          "score": 0.2928,
+          "detected": false
+        },
+        {
+          "human_event": "A young man films a company of young people on a camera,00:52 - 00:56,1",
+          "best_match": "The camera shows people gathering for various reasons, such as playing games or watching something together.",
+          "score": 0.3987,
+          "detected": false
+        },
+        {
+          "human_event": "An overview of a historic square in a large city,01:23 - 01:30,-1",
+          "best_match": "Footage captures daily life scenes of movement, interaction, leisurely pursuits, communal celebrations, and personal relaxation within diverse settings.",
+          "score": 0.2228,
+          "detected": false
+        },
+        {
+          "human_event": "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+          "best_match": "The camera shows people gathering for various reasons, such as playing games or watching something together.",
+          "score": 0.6289,
+          "detected": true
+        },
+        {
+          "human_event": "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+          "best_match": "Individuals engage in outdoor activities like skateboarding along rocky shores and dancing energetically around tents set up outdoors.",
+          "score": 0.4933,
+          "detected": false
+        },
+        {
+          "human_event": "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+          "best_match": "The camera shows people gathering for various reasons, such as playing games or watching something together.",
+          "score": 0.3615,
+          "detected": false
+        },
+        {
+          "human_event": "A group photo of young people is shown,04:19 - 04:22,2",
+          "best_match": "The camera shows people gathering for various reasons, such as playing games or watching something together.",
+          "score": 0.4693,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          -0.02834397554397583,
+          0.023866824805736542,
+          -0.10114550590515137,
+          0.0773703083395958,
+          0.0152745321393013,
+          0.018051575869321823,
+          0.09980005770921707,
+          0.025623852387070656,
+          0.1044362485408783,
+          0.11491727828979492
+        ],
+        [
+          0.22231043875217438,
+          0.5814973711967468,
+          0.10039134323596954,
+          0.28941667079925537,
+          0.07344130426645279,
+          0.15389151871204376,
+          0.27859732508659363,
+          0.2840694785118103,
+          0.021513143554329872,
+          0.26128408312797546
+        ],
+        [
+          0.19832462072372437,
+          0.27350372076034546,
+          0.18542425334453583,
+          0.1900341808795929,
+          0.11661358177661896,
+          -0.06356627494096756,
+          0.26099854707717896,
+          0.26421692967414856,
+          -0.02058931440114975,
+          0.3942410349845886
+        ],
+        [
+          -0.08177683502435684,
+          0.07786829769611359,
+          0.2609265446662903,
+          0.0721881091594696,
+          0.34366321563720703,
+          0.37337616086006165,
+          0.40140241384506226,
+          0.1569901555776596,
+          0.4092786908149719,
+          0.25467419624328613
+        ],
+        [
+          0.22122491896152496,
+          0.20267602801322937,
+          0.188839852809906,
+          0.14232534170150757,
+          0.29280897974967957,
+          -0.09776946902275085,
+          0.16518357396125793,
+          0.1461574137210846,
+          0.060925304889678955,
+          0.254707396030426
+        ],
+        [
+          0.20631444454193115,
+          0.3428441286087036,
+          0.13986805081367493,
+          0.35373198986053467,
+          0.08830282092094421,
+          0.1277119368314743,
+          0.3987081050872803,
+          0.21044032275676727,
+          0.2048839032649994,
+          0.3238160014152527
+        ],
+        [
+          0.15455666184425354,
+          0.045900847762823105,
+          0.1238124668598175,
+          0.06794404983520508,
+          0.1477535516023636,
+          0.030848972499370575,
+          0.13020546734333038,
+          0.16340702772140503,
+          0.12288807332515717,
+          0.22283360362052917
+        ],
+        [
+          0.16224440932273865,
+          0.3093049228191376,
+          0.10958059132099152,
+          0.3432275652885437,
+          0.28314030170440674,
+          0.31546878814697266,
+          0.6289400458335876,
+          0.20221048593521118,
+          0.4750957489013672,
+          0.502548098564148
+        ],
+        [
+          0.030161455273628235,
+          0.24044056236743927,
+          0.25133976340293884,
+          0.08506855368614197,
+          0.49328961968421936,
+          0.015801869332790375,
+          0.3129091262817383,
+          0.24380840361118317,
+          0.4293326139450073,
+          0.2510661482810974
+        ],
+        [
+          0.14300793409347534,
+          0.1946045607328415,
+          -0.02047550678253174,
+          0.22800138592720032,
+          0.09644047915935516,
+          0.2537515163421631,
+          0.3614698648452759,
+          0.19183005392551422,
+          0.2997581958770752,
+          0.18403616547584534
+        ],
+        [
+          0.12390062212944031,
+          0.20555561780929565,
+          0.25029700994491577,
+          0.2849540114402771,
+          0.23952090740203857,
+          0.2740839421749115,
+          0.46931543946266174,
+          0.16231641173362732,
+          0.3914520740509033,
+          0.35674139857292175
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=short__frames=30__llm=detailed",
+      "vlm_prompt_type": "short",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T09:09:51.741147+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+        "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+        "A group of young people are warming up together,00:27 - 00:37,1",
+        "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+        "A young man films a company of young people on a camera,00:52 - 00:56,1",
+        "An overview of a historic square in a large city,01:23 - 01:30,-1",
+        "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+        "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+        "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+        "A group photo of young people is shown,04:19 - 04:22,2"
+      ],
+      "generated_events": [
+        "A group of people gathers around another person holding up their camera for pictures before moving outdoors again.",
+        "Individuals take photos while wearing earphones against different backgrounds like walls covered in graffiti art.",
+        "Someone uses headphones amidst other objects scattered across surfaces, likely at the end of a journey or solo reflection.",
+        "A pedestrian walks along busy roads lined with tall structures under clear skies.",
+        "A group of friends share intimate moments and laughter during a beachside gathering at night.",
+        "An individual runs down hillsides near water bodies as part of an outdoor activity.",
+        "People take close-up photos inside cars capturing moments during travel.",
+        "A nighttime stroll among trees lining pathways is shared between two people.",
+        "Someone shares artistic expressions brought forth by murals, possibly through photography or other forms of creative expression."
+      ],
+      "metrics": {
+        "num_human": 11,
+        "num_generated": 9,
+        "detected": 2,
+        "missed": 9,
+        "recall": 0.1818,
+        "avg_best_similarity": 0.3571
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "A group of friends share intimate moments and laughter during a beachside gathering at night.",
+          "score": 0.0814,
+          "detected": false
+        },
+        {
+          "human_event": "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+          "best_match": "People take close-up photos inside cars capturing moments during travel.",
+          "score": 0.4382,
+          "detected": false
+        },
+        {
+          "human_event": "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+          "best_match": "People take close-up photos inside cars capturing moments during travel.",
+          "score": 0.3307,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young people are warming up together,00:27 - 00:37,1",
+          "best_match": "A group of friends share intimate moments and laughter during a beachside gathering at night.",
+          "score": 0.4155,
+          "detected": false
+        },
+        {
+          "human_event": "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+          "best_match": "An individual runs down hillsides near water bodies as part of an outdoor activity.",
+          "score": 0.3902,
+          "detected": false
+        },
+        {
+          "human_event": "A young man films a company of young people on a camera,00:52 - 00:56,1",
+          "best_match": "A group of people gathers around another person holding up their camera for pictures before moving outdoors again.",
+          "score": 0.3999,
+          "detected": false
+        },
+        {
+          "human_event": "An overview of a historic square in a large city,01:23 - 01:30,-1",
+          "best_match": "People take close-up photos inside cars capturing moments during travel.",
+          "score": 0.1644,
+          "detected": false
+        },
+        {
+          "human_event": "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+          "best_match": "A group of people gathers around another person holding up their camera for pictures before moving outdoors again.",
+          "score": 0.5224,
+          "detected": true
+        },
+        {
+          "human_event": "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+          "best_match": "A group of people gathers around another person holding up their camera for pictures before moving outdoors again.",
+          "score": 0.3315,
+          "detected": false
+        },
+        {
+          "human_event": "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+          "best_match": "A group of friends share intimate moments and laughter during a beachside gathering at night.",
+          "score": 0.3455,
+          "detected": false
+        },
+        {
+          "human_event": "A group photo of young people is shown,04:19 - 04:22,2",
+          "best_match": "A group of people gathers around another person holding up their camera for pictures before moving outdoors again.",
+          "score": 0.5085,
+          "detected": true
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.0023883748799562454,
+          0.06117543205618858,
+          -0.06084239110350609,
+          -0.05216321349143982,
+          0.08140446245670319,
+          -0.09529023617506027,
+          0.014941873028874397,
+          0.005854385904967785,
+          0.02867966890335083
+        ],
+        [
+          0.33517616987228394,
+          0.2776933014392853,
+          0.1889021098613739,
+          0.05871666222810745,
+          0.09168055653572083,
+          -0.05575975403189659,
+          0.43816325068473816,
+          0.23486420512199402,
+          0.02594560757279396
+        ],
+        [
+          0.1743975728750229,
+          0.16452492773532867,
+          0.19582322239875793,
+          0.12344488501548767,
+          0.024935882538557053,
+          0.14650842547416687,
+          0.3307131230831146,
+          0.2017849236726761,
+          0.09441205859184265
+        ],
+        [
+          0.37560877203941345,
+          0.15139129757881165,
+          0.10511195659637451,
+          0.0432550311088562,
+          0.4154755473136902,
+          0.07840286195278168,
+          0.19654114544391632,
+          0.2634093761444092,
+          0.07166009396314621
+        ],
+        [
+          0.13600894808769226,
+          0.09221672266721725,
+          0.23672643303871155,
+          0.2645255923271179,
+          0.004386387765407562,
+          0.39019083976745605,
+          0.10840967297554016,
+          0.18102499842643738,
+          0.04735933989286423
+        ],
+        [
+          0.39993739128112793,
+          0.2516495883464813,
+          0.10101527720689774,
+          0.06405472010374069,
+          0.17352664470672607,
+          0.06410511583089828,
+          0.33764705061912537,
+          0.03219018131494522,
+          0.13760322332382202
+        ],
+        [
+          0.0660020038485527,
+          0.11753354966640472,
+          0.041408829391002655,
+          0.16232649981975555,
+          0.045015715062618256,
+          0.14085164666175842,
+          0.16440162062644958,
+          0.13245612382888794,
+          0.13160042464733124
+        ],
+        [
+          0.5223588943481445,
+          0.29765352606773376,
+          0.1800091564655304,
+          -0.01927909627556801,
+          0.5157369375228882,
+          0.033136434853076935,
+          0.36526620388031006,
+          0.2015712857246399,
+          0.13928493857383728
+        ],
+        [
+          0.33145684003829956,
+          0.12154477834701538,
+          0.0965648666024208,
+          0.07864048331975937,
+          0.3204701840877533,
+          0.2914271950721741,
+          0.11733704805374146,
+          0.1316857933998108,
+          0.00395807484164834
+        ],
+        [
+          0.25974661111831665,
+          0.12749028205871582,
+          0.1379755139350891,
+          0.05565233528614044,
+          0.3455488383769989,
+          0.01728498563170433,
+          0.08966635167598724,
+          0.12896248698234558,
+          0.10198168456554413
+        ],
+        [
+          0.5085269212722778,
+          0.37079355120658875,
+          0.18271274864673615,
+          0.14645932614803314,
+          0.31921249628067017,
+          0.11409854888916016,
+          0.4115232527256012,
+          0.24536332488059998,
+          0.22848328948020935
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=short__frames=30__llm=concise",
+      "vlm_prompt_type": "short",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T09:10:12.256304+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+        "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+        "A group of young people are warming up together,00:27 - 00:37,1",
+        "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+        "A young man films a company of young people on a camera,00:52 - 00:56,1",
+        "An overview of a historic square in a large city,01:23 - 01:30,-1",
+        "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+        "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+        "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+        "A group photo of young people is shown,04:19 - 04:22,2"
+      ],
+      "generated_events": [
+        "Aerial view of city buildings and streets transitions to scenes on city sidewalks where people engage in various activities.",
+        "Individuals take photos while wearing earphones against different backgrounds, often with graffiti art walls.",
+        "A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.",
+        "Close-ups inside cars capture moments during travel, showcasing the experience of being on the go.",
+        "Outdoor activities like running down hillsides near water bodies are showcased, highlighting natural landscapes and human interactions.",
+        "Beachside gatherings at night bring people together in a lively social setting.",
+        "Nighttime strolls among trees lining pathways offer quiet reflections and introspection.",
+        "Intimate moments between friends are shared through photographs or everyday interactions.",
+        "Murals and artistic expressions brought forth by graffiti art walls add vibrancy to the narrative.",
+        "The video concludes with someone using headphones amidst other objects scattered across surfaces, highlighting solitary experiences."
+      ],
+      "metrics": {
+        "num_human": 11,
+        "num_generated": 10,
+        "detected": 1,
+        "missed": 10,
+        "recall": 0.0909,
+        "avg_best_similarity": 0.3786
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Intimate moments between friends are shared through photographs or everyday interactions.",
+          "score": 0.1574,
+          "detected": false
+        },
+        {
+          "human_event": "Two young men are traveling on a train and recording each other with cameras,00:03 - 00:06,1",
+          "best_match": "A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.",
+          "score": 0.3355,
+          "detected": false
+        },
+        {
+          "human_event": "Short clips with landscape views from a train window are shown,00:07 - 00:12,-1",
+          "best_match": "Aerial view of city buildings and streets transitions to scenes on city sidewalks where people engage in various activities.",
+          "score": 0.3999,
+          "detected": false
+        },
+        {
+          "human_event": "A group of young people are warming up together,00:27 - 00:37,1",
+          "best_match": "Beachside gatherings at night bring people together in a lively social setting.",
+          "score": 0.4201,
+          "detected": false
+        },
+        {
+          "human_event": "A young man performs parkour maneuvers over obstacles,00:44 - 00:46,2",
+          "best_match": "Outdoor activities like running down hillsides near water bodies are showcased, highlighting natural landscapes and human interactions.",
+          "score": 0.3233,
+          "detected": false
+        },
+        {
+          "human_event": "A young man films a company of young people on a camera,00:52 - 00:56,1",
+          "best_match": "A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.",
+          "score": 0.3976,
+          "detected": false
+        },
+        {
+          "human_event": "An overview of a historic square in a large city,01:23 - 01:30,-1",
+          "best_match": "Aerial view of city buildings and streets transitions to scenes on city sidewalks where people engage in various activities.",
+          "score": 0.4441,
+          "detected": false
+        },
+        {
+          "human_event": "A group of friends is having fun and filming each other,01:41 - 01:48,-2",
+          "best_match": "A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.",
+          "score": 0.5172,
+          "detected": true
+        },
+        {
+          "human_event": "A group of young men are exercising parkour jumps on a beach surrounded by a crowd of people,02:53 - 03:04,2",
+          "best_match": "Outdoor activities like running down hillsides near water bodies are showcased, highlighting natural landscapes and human interactions.",
+          "score": 0.3925,
+          "detected": false
+        },
+        {
+          "human_event": "A man greets his friend or a team members with a fistbump,03:30 - 03:40,-2",
+          "best_match": "Beachside gatherings at night bring people together in a lively social setting.",
+          "score": 0.2969,
+          "detected": false
+        },
+        {
+          "human_event": "A group photo of young people is shown,04:19 - 04:22,2",
+          "best_match": "A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.",
+          "score": 0.4797,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          -0.0159646924585104,
+          0.06924619525671005,
+          -0.04221440479159355,
+          -0.004400704056024551,
+          0.05252769961953163,
+          0.06965905427932739,
+          -0.04917013272643089,
+          0.15735995769500732,
+          0.12909972667694092,
+          0.015035273507237434
+        ],
+        [
+          0.1351592242717743,
+          0.2601827383041382,
+          0.3354611396789551,
+          0.32692697644233704,
+          0.06789691746234894,
+          0.051201775670051575,
+          0.13335928320884705,
+          0.2185261845588684,
+          0.06173260509967804,
+          0.19207744300365448
+        ],
+        [
+          0.39987999200820923,
+          0.1592676341533661,
+          0.2023562490940094,
+          0.35824471712112427,
+          0.2634533643722534,
+          0.015567190945148468,
+          0.22841784358024597,
+          0.1563308835029602,
+          0.13567416369915009,
+          0.24179765582084656
+        ],
+        [
+          0.1805068552494049,
+          0.1396419107913971,
+          0.34737277030944824,
+          0.16372454166412354,
+          0.19211062788963318,
+          0.420082151889801,
+          0.1442430168390274,
+          0.2470335215330124,
+          0.008429834619164467,
+          0.1883225440979004
+        ],
+        [
+          0.20822381973266602,
+          0.09763394296169281,
+          0.15680846571922302,
+          0.20043472945690155,
+          0.32331734895706177,
+          0.06332652270793915,
+          0.1628887802362442,
+          0.017454836517572403,
+          0.06502553075551987,
+          0.25535356998443604
+        ],
+        [
+          0.22979311645030975,
+          0.2418852150440216,
+          0.39763957262039185,
+          0.19075970351696014,
+          0.06717514246702194,
+          0.15093818306922913,
+          -0.07141204923391342,
+          0.27162104845046997,
+          0.09160900115966797,
+          0.2201075553894043
+        ],
+        [
+          0.44411560893058777,
+          0.12416967749595642,
+          0.14399726688861847,
+          0.14937295019626617,
+          0.2325950562953949,
+          0.1485997438430786,
+          0.15080392360687256,
+          0.06861631572246552,
+          0.18584811687469482,
+          0.08767351508140564
+        ],
+        [
+          0.3620724380016327,
+          0.29661354422569275,
+          0.5172147750854492,
+          0.28154391050338745,
+          0.18456554412841797,
+          0.4161507487297058,
+          0.054146017879247665,
+          0.4283704161643982,
+          0.14387871325016022,
+          0.37673187255859375
+        ],
+        [
+          0.21328288316726685,
+          0.12586168944835663,
+          0.2994854152202606,
+          0.11112519353628159,
+          0.39247530698776245,
+          0.33696532249450684,
+          0.06962491571903229,
+          0.10804377496242523,
+          0.008572280406951904,
+          0.149554044008255
+        ],
+        [
+          0.0764375627040863,
+          0.13713666796684265,
+          0.2486075758934021,
+          0.09178554266691208,
+          -0.005848264321684837,
+          0.296888142824173,
+          0.0503687858581543,
+          0.28123903274536133,
+          0.05505307391285896,
+          0.19637638330459595
+        ],
+        [
+          0.3485451936721802,
+          0.3564194142818451,
+          0.4797106087207794,
+          0.20911553502082825,
+          0.2014411985874176,
+          0.29863226413726807,
+          0.12379474937915802,
+          0.4376538395881653,
+          0.12132386118173599,
+          0.24953630566596985
+        ]
+      ]
+    }
+  ]
+}

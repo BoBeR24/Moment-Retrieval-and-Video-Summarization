@@ -1,0 +1,2016 @@
+{
+  "video_id": 27,
+  "evaluations": [
+    {
+      "combo_key": "vlm=long__frames=30__llm=detailed",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T08:59:53.068085+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+        "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+        "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+        "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+        "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+        "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+        "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+        "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+        "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+        "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+        "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+        "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+        "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+        "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+        "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1"
+      ],
+      "generated_events": [
+        "A woman with curly hair, wearing glasses and holding her hand up in a waving motion, stands next to another woman who is dressed in white clothing adorned with green ribbons around her neck.",
+        "A man stands behind the two women, clasping his hands together as if praying.",
+        "Individuals gather outside near trees, where one person appears to be giving instructions or leading an activity related to greenery.",
+        "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+        "A group celebrates outdoors during what looks like spring time, surrounded by lush foliage.",
+        "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+        "Close-ups show expressions of happiness among participants as they dance under banners decorated with flowers and leaves.",
+        "Wreaths made entirely of plants are held aloft amidst cheers and applause.",
+        "The gathering is characterized by a sense of unity among community members, brought together by shared experiences centered around natural elements."
+      ],
+      "metrics": {
+        "num_human": 16,
+        "num_generated": 9,
+        "detected": 2,
+        "missed": 14,
+        "recall": 0.125,
+        "avg_best_similarity": 0.3838
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "A group celebrates outdoors during what looks like spring time, surrounded by lush foliage.",
+          "score": 0.1421,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+          "best_match": "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+          "score": 0.379,
+          "detected": false
+        },
+        {
+          "human_event": "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+          "best_match": "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+          "score": 0.4693,
+          "detected": false
+        },
+        {
+          "human_event": "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+          "best_match": "A woman with curly hair, wearing glasses and holding her hand up in a waving motion, stands next to another woman who is dressed in white clothing adorned with green ribbons around her neck.",
+          "score": 0.3336,
+          "detected": false
+        },
+        {
+          "human_event": "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+          "best_match": "Close-ups show expressions of happiness among participants as they dance under banners decorated with flowers and leaves.",
+          "score": 0.4331,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+          "best_match": "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+          "score": 0.4168,
+          "detected": false
+        },
+        {
+          "human_event": "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+          "best_match": "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+          "score": 0.4332,
+          "detected": false
+        },
+        {
+          "human_event": "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+          "best_match": "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+          "score": 0.2348,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+          "best_match": "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+          "score": 0.4006,
+          "detected": false
+        },
+        {
+          "human_event": "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+          "best_match": "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+          "score": 0.5258,
+          "detected": true
+        },
+        {
+          "human_event": "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+          "best_match": "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+          "score": 0.5948,
+          "detected": true
+        },
+        {
+          "human_event": "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+          "best_match": "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+          "score": 0.4018,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+          "best_match": "Wreaths made entirely of plants are held aloft amidst cheers and applause.",
+          "score": 0.334,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+          "best_match": "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+          "score": 0.388,
+          "detected": false
+        },
+        {
+          "human_event": "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+          "best_match": "Close-ups show expressions of happiness among participants as they dance under banners decorated with flowers and leaves.",
+          "score": 0.3554,
+          "detected": false
+        },
+        {
+          "human_event": "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1",
+          "best_match": "Individuals gather outside near trees, where one person appears to be giving instructions or leading an activity related to greenery.",
+          "score": 0.2988,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          -0.005578996613621712,
+          -0.03150355443358421,
+          0.016768217086791992,
+          0.04661174863576889,
+          0.14211666584014893,
+          0.11971158534288406,
+          0.10451491177082062,
+          0.0859920084476471,
+          0.13838925957679749
+        ],
+        [
+          0.10811446607112885,
+          0.08537697792053223,
+          0.21541306376457214,
+          0.37900280952453613,
+          0.34190160036087036,
+          0.35736823081970215,
+          0.305103063583374,
+          0.2790926694869995,
+          0.23751193284988403
+        ],
+        [
+          0.15099895000457764,
+          0.24632936716079712,
+          0.21089725196361542,
+          0.08131434768438339,
+          0.2839372158050537,
+          0.469321608543396,
+          0.2359413504600525,
+          0.28025922179222107,
+          0.24158912897109985
+        ],
+        [
+          0.3335927724838257,
+          0.09789097309112549,
+          0.29599815607070923,
+          0.1278904527425766,
+          0.22960852086544037,
+          0.20237566530704498,
+          0.1870824098587036,
+          0.14210918545722961,
+          0.09988504648208618
+        ],
+        [
+          0.3902278542518616,
+          0.2087591290473938,
+          0.23638498783111572,
+          0.29782700538635254,
+          0.37377986311912537,
+          0.339813232421875,
+          0.4330974817276001,
+          0.2546708881855011,
+          0.1561031937599182
+        ],
+        [
+          0.14119689166545868,
+          0.2211105227470398,
+          0.1228308230638504,
+          0.0647311583161354,
+          0.2523849904537201,
+          0.4167724847793579,
+          0.22692885994911194,
+          0.2682560086250305,
+          0.23652169108390808
+        ],
+        [
+          0.3545662760734558,
+          0.10216653347015381,
+          0.17815399169921875,
+          0.4332340657711029,
+          0.3606737554073334,
+          0.4030190110206604,
+          0.39622294902801514,
+          0.3053315281867981,
+          0.1823984682559967
+        ],
+        [
+          0.1760171353816986,
+          0.09706944972276688,
+          0.06761734187602997,
+          0.15222980082035065,
+          0.1648234724998474,
+          0.23476174473762512,
+          0.027497537434101105,
+          0.1111530214548111,
+          0.12058815360069275
+        ],
+        [
+          0.2226925492286682,
+          0.05363468825817108,
+          0.20760056376457214,
+          0.4006275534629822,
+          0.30583471059799194,
+          0.397121399641037,
+          0.2628329396247864,
+          0.31070083379745483,
+          0.2369406819343567
+        ],
+        [
+          0.23994913697242737,
+          0.1507435292005539,
+          0.19770483672618866,
+          0.5257664918899536,
+          0.34032320976257324,
+          0.48006975650787354,
+          0.3773985505104065,
+          0.3123190402984619,
+          0.25230854749679565
+        ],
+        [
+          0.18067359924316406,
+          0.2116449475288391,
+          0.23548291623592377,
+          0.1818440705537796,
+          0.4024377167224884,
+          0.5947726964950562,
+          0.330233097076416,
+          0.2908529043197632,
+          0.26262617111206055
+        ],
+        [
+          0.16051864624023438,
+          0.013941645622253418,
+          0.1688344031572342,
+          0.39589613676071167,
+          0.31031107902526855,
+          0.40181684494018555,
+          0.3117682933807373,
+          0.25580722093582153,
+          0.27837061882019043
+        ],
+        [
+          0.1742054522037506,
+          0.04502895846962929,
+          0.1651981621980667,
+          0.3254660367965698,
+          0.24310359358787537,
+          0.2819252014160156,
+          0.3139846920967102,
+          0.33401548862457275,
+          0.23755553364753723
+        ],
+        [
+          0.22542303800582886,
+          0.08339639008045197,
+          0.18442362546920776,
+          0.3880382478237152,
+          0.2943970561027527,
+          0.3305882215499878,
+          0.34233558177948,
+          0.3018539547920227,
+          0.2123202383518219
+        ],
+        [
+          0.2967644929885864,
+          0.1733327955007553,
+          0.23447874188423157,
+          0.1425318717956543,
+          0.2736181318759918,
+          0.29793208837509155,
+          0.3554304838180542,
+          0.22104880213737488,
+          0.16380897164344788
+        ],
+        [
+          0.08299991488456726,
+          0.05086882412433624,
+          0.2987561523914337,
+          0.013785412535071373,
+          0.2335561364889145,
+          0.16543048620224,
+          0.21119758486747742,
+          0.1890929937362671,
+          0.20318391919136047
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=long__frames=30__llm=concise",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T09:01:12.506008+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+        "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+        "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+        "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+        "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+        "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+        "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+        "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+        "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+        "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+        "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+        "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+        "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+        "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+        "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1"
+      ],
+      "generated_events": [
+        "A group of people, including two women with different hairstyles and attire, gather together at an event or gathering, with a man in the background holding his hands in prayer-like gestures.",
+        "Outside the event, a group is gathered near trees, where one person appears to be giving instructions or leading something related to greenery.",
+        "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+        "The scene shifts to various individuals celebrating outdoors during what looks like springtime, surrounded by lush foliage and cultural attire that suggests significance tied to these celebrations.",
+        "Participants engage in joyful activities such as dancing under banners decorated with flowers and leaves, highlighting expressions of happiness among the group.",
+        "Close-ups reveal wreaths made entirely of plants being held aloft amidst cheers and applause, symbolizing unity within communities brought forth by shared experiences centered around natural elements.",
+        "The celebration appears to be a cultural event tied to springtime, given the lush foliage and outdoor setting that suggests a time of renewal.",
+        "Traditional attire is worn by some participants, indicating cultural significance and community ties to these celebrations.",
+        "Participants show close connection to nature through their attire, accessories, and actions, such as using wreaths made from plants in the celebration.",
+        "The scene implies a sense of unity among participants, who seem to feel closely connected due to shared experiences centered around natural elements."
+      ],
+      "metrics": {
+        "num_human": 16,
+        "num_generated": 10,
+        "detected": 2,
+        "missed": 14,
+        "recall": 0.125,
+        "avg_best_similarity": 0.3857
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Participants engage in joyful activities such as dancing under banners decorated with flowers and leaves, highlighting expressions of happiness among the group.",
+          "score": 0.1606,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.3907,
+          "detected": false
+        },
+        {
+          "human_event": "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+          "best_match": "Traditional attire is worn by some participants, indicating cultural significance and community ties to these celebrations.",
+          "score": 0.4092,
+          "detected": false
+        },
+        {
+          "human_event": "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+          "best_match": "The scene shifts to various individuals celebrating outdoors during what looks like springtime, surrounded by lush foliage and cultural attire that suggests significance tied to these celebrations.",
+          "score": 0.2855,
+          "detected": false
+        },
+        {
+          "human_event": "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+          "best_match": "Participants engage in joyful activities such as dancing under banners decorated with flowers and leaves, highlighting expressions of happiness among the group.",
+          "score": 0.4421,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+          "best_match": "Traditional attire is worn by some participants, indicating cultural significance and community ties to these celebrations.",
+          "score": 0.3687,
+          "detected": false
+        },
+        {
+          "human_event": "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.4543,
+          "detected": false
+        },
+        {
+          "human_event": "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+          "best_match": "A group of people, including two women with different hairstyles and attire, gather together at an event or gathering, with a man in the background holding his hands in prayer-like gestures.",
+          "score": 0.2367,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.4136,
+          "detected": false
+        },
+        {
+          "human_event": "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.5469,
+          "detected": true
+        },
+        {
+          "human_event": "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+          "best_match": "Traditional attire is worn by some participants, indicating cultural significance and community ties to these celebrations.",
+          "score": 0.5738,
+          "detected": true
+        },
+        {
+          "human_event": "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.4486,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.3594,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+          "best_match": "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+          "score": 0.4093,
+          "detected": false
+        },
+        {
+          "human_event": "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+          "best_match": "Participants show close connection to nature through their attire, accessories, and actions, such as using wreaths made from plants in the celebration.",
+          "score": 0.3478,
+          "detected": false
+        },
+        {
+          "human_event": "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1",
+          "best_match": "Outside the event, a group is gathered near trees, where one person appears to be giving instructions or leading something related to greenery.",
+          "score": 0.3243,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.04357246309518814,
+          0.06150053068995476,
+          0.05333922058343887,
+          0.12280993163585663,
+          0.16057172417640686,
+          0.0799223929643631,
+          0.13453932106494904,
+          0.11066572368144989,
+          0.15781009197235107,
+          0.11460180580615997
+        ],
+        [
+          0.23408788442611694,
+          0.28553903102874756,
+          0.39074695110321045,
+          0.3838256001472473,
+          0.3282868564128876,
+          0.2618338465690613,
+          0.3776671290397644,
+          0.3382731080055237,
+          0.3070129454135895,
+          0.2138839066028595
+        ],
+        [
+          0.38043951988220215,
+          0.28953999280929565,
+          0.14316220581531525,
+          0.3613543212413788,
+          0.24869383871555328,
+          0.24493050575256348,
+          0.37040001153945923,
+          0.40923720598220825,
+          0.401264488697052,
+          0.1799684762954712
+        ],
+        [
+          0.17207972705364227,
+          0.2579205334186554,
+          0.09777169674634933,
+          0.2854853570461273,
+          0.1889554262161255,
+          0.19383496046066284,
+          0.20288744568824768,
+          0.21982404589653015,
+          0.26851966977119446,
+          0.07256175577640533
+        ],
+        [
+          0.34891265630722046,
+          0.2701687514781952,
+          0.31415772438049316,
+          0.3534727096557617,
+          0.4421057105064392,
+          0.28044986724853516,
+          0.38472381234169006,
+          0.3566126525402069,
+          0.4015129804611206,
+          0.059550970792770386
+        ],
+        [
+          0.3445141315460205,
+          0.21861077845096588,
+          0.14411523938179016,
+          0.3150143027305603,
+          0.2401389479637146,
+          0.26453453302383423,
+          0.36271965503692627,
+          0.36865511536598206,
+          0.3446582853794098,
+          0.23686224222183228
+        ],
+        [
+          0.31606778502464294,
+          0.2402706742286682,
+          0.45432525873184204,
+          0.33717113733291626,
+          0.41221195459365845,
+          0.32191169261932373,
+          0.39849260449409485,
+          0.4283694326877594,
+          0.37963443994522095,
+          0.049366019666194916
+        ],
+        [
+          0.23666198551654816,
+          0.12261844426393509,
+          0.12250331789255142,
+          0.1461828649044037,
+          0.08818202465772629,
+          0.04281032830476761,
+          0.10311469435691833,
+          0.22732023894786835,
+          0.11746923625469208,
+          0.0028873980045318604
+        ],
+        [
+          0.2683956027030945,
+          0.2606533467769623,
+          0.4135605990886688,
+          0.3196319043636322,
+          0.29256683588027954,
+          0.27515774965286255,
+          0.3804677426815033,
+          0.38660141825675964,
+          0.3209458589553833,
+          0.11579878628253937
+        ],
+        [
+          0.3532488942146301,
+          0.2840065360069275,
+          0.5469114184379578,
+          0.3618030548095703,
+          0.40149882435798645,
+          0.304567813873291,
+          0.36015310883522034,
+          0.45599254965782166,
+          0.44178086519241333,
+          0.1299809217453003
+        ],
+        [
+          0.3198094964027405,
+          0.30798929929733276,
+          0.2724262475967407,
+          0.4811113476753235,
+          0.3065219521522522,
+          0.3703789710998535,
+          0.542528510093689,
+          0.5737888813018799,
+          0.46424710750579834,
+          0.2451295405626297
+        ],
+        [
+          0.22768282890319824,
+          0.21941739320755005,
+          0.44859403371810913,
+          0.3663221001625061,
+          0.34052228927612305,
+          0.26408201456069946,
+          0.4091249108314514,
+          0.40596824884414673,
+          0.3144533336162567,
+          0.20532670617103577
+        ],
+        [
+          0.2164645940065384,
+          0.21081504225730896,
+          0.35943377017974854,
+          0.2452516257762909,
+          0.3240020275115967,
+          0.3182360529899597,
+          0.2842944264411926,
+          0.26408153772354126,
+          0.27372634410858154,
+          0.1899835765361786
+        ],
+        [
+          0.26607415080070496,
+          0.2094843089580536,
+          0.40931808948516846,
+          0.3058174252510071,
+          0.3478100299835205,
+          0.2943655550479889,
+          0.3398555517196655,
+          0.3004773259162903,
+          0.31175142526626587,
+          0.15692059695720673
+        ],
+        [
+          0.2557242512702942,
+          0.2660762667655945,
+          0.16813334822654724,
+          0.33117711544036865,
+          0.28475821018218994,
+          0.27285337448120117,
+          0.29326552152633667,
+          0.2972424626350403,
+          0.34778904914855957,
+          0.18095949292182922
+        ],
+        [
+          0.12063223123550415,
+          0.32432499527931213,
+          0.03403559327125549,
+          0.2605169415473938,
+          0.16313126683235168,
+          0.2677796483039856,
+          0.24956680834293365,
+          0.1840846985578537,
+          0.2595321536064148,
+          0.19794268906116486
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=medium__frames=30__llm=concise",
+      "vlm_prompt_type": "medium",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T09:06:41.475993+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+        "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+        "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+        "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+        "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+        "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+        "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+        "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+        "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+        "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+        "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+        "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+        "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+        "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+        "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1"
+      ],
+      "generated_events": [
+        "A group of people dressed as leprechauns walk down a street during an event at Mount Holyoke College, carrying large wreaths made of leaves around their necks and wearing green hats with gold bells attached to them.",
+        "Some individuals hold cameras or phones up for photos while others wave flags decorated with shamrocks, indicating the festive atmosphere of the event.",
+        "One person's major field of study is displayed on a screen with the text \"Major European Studies\".",
+        "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
+        "Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.",
+        "A camera captures close-up shots of various groups participating in different parts of the parade, showcasing the event's diversity and inclusivity.",
+        "Images labeled \"Dinner\" and \"Luncheon\" are displayed, implying that past celebrations have been recurring events over multiple years.",
+        "A leprechaun participant carries a large wreath made of leaves around their neck, while another person takes a photo in front of the group.",
+        "The participants wear green hats with gold bells attached to them, adding to the festive and celebratory atmosphere of the event.",
+        "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences."
+      ],
+      "metrics": {
+        "num_human": 16,
+        "num_generated": 10,
+        "detected": 1,
+        "missed": 15,
+        "recall": 0.0625,
+        "avg_best_similarity": 0.3491
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Images labeled \"Dinner\" and \"Luncheon\" are displayed, implying that past celebrations have been recurring events over multiple years.",
+          "score": 0.1519,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+          "best_match": "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences.",
+          "score": 0.4201,
+          "detected": false
+        },
+        {
+          "human_event": "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+          "best_match": "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences.",
+          "score": 0.336,
+          "detected": false
+        },
+        {
+          "human_event": "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+          "best_match": "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
+          "score": 0.3016,
+          "detected": false
+        },
+        {
+          "human_event": "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+          "best_match": "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
+          "score": 0.3892,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+          "best_match": "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences.",
+          "score": 0.2782,
+          "detected": false
+        },
+        {
+          "human_event": "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+          "best_match": "Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.",
+          "score": 0.4819,
+          "detected": false
+        },
+        {
+          "human_event": "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+          "best_match": "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences.",
+          "score": 0.2313,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+          "best_match": "Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.",
+          "score": 0.4073,
+          "detected": false
+        },
+        {
+          "human_event": "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+          "best_match": "A camera captures close-up shots of various groups participating in different parts of the parade, showcasing the event's diversity and inclusivity.",
+          "score": 0.5468,
+          "detected": true
+        },
+        {
+          "human_event": "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+          "best_match": "Images labeled \"Dinner\" and \"Luncheon\" are displayed, implying that past celebrations have been recurring events over multiple years.",
+          "score": 0.3797,
+          "detected": false
+        },
+        {
+          "human_event": "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+          "best_match": "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences.",
+          "score": 0.4287,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+          "best_match": "Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.",
+          "score": 0.3066,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+          "best_match": "Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.",
+          "score": 0.3688,
+          "detected": false
+        },
+        {
+          "human_event": "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+          "best_match": "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
+          "score": 0.3041,
+          "detected": false
+        },
+        {
+          "human_event": "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1",
+          "best_match": "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
+          "score": 0.2537,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          -0.07765472680330276,
+          0.10883529484272003,
+          0.09173256158828735,
+          0.06364436447620392,
+          -0.07074841111898422,
+          0.13367760181427002,
+          0.15190118551254272,
+          0.03306349366903305,
+          0.04899018257856369,
+          -0.04879704862833023
+        ],
+        [
+          0.39407438039779663,
+          0.22367727756500244,
+          0.09545816481113434,
+          0.14891116321086884,
+          0.35315483808517456,
+          0.40320587158203125,
+          0.2407505214214325,
+          0.22736135125160217,
+          0.28971362113952637,
+          0.42005160450935364
+        ],
+        [
+          0.28379708528518677,
+          0.3344575762748718,
+          0.1510128378868103,
+          0.2365153431892395,
+          0.20953501760959625,
+          0.21490368247032166,
+          0.25212740898132324,
+          0.20329761505126953,
+          0.2921575903892517,
+          0.33602991700172424
+        ],
+        [
+          0.24430903792381287,
+          0.11052928119897842,
+          0.017240338027477264,
+          0.301565945148468,
+          0.22626633942127228,
+          0.1169009655714035,
+          0.11981186270713806,
+          0.23481535911560059,
+          0.12423337250947952,
+          0.15748882293701172
+        ],
+        [
+          0.35410958528518677,
+          0.35179659724235535,
+          0.0746203064918518,
+          0.3892219066619873,
+          0.3405793011188507,
+          0.30979472398757935,
+          0.3102942109107971,
+          0.2873117923736572,
+          0.2912740111351013,
+          0.25207090377807617
+        ],
+        [
+          0.22427749633789062,
+          0.2509569525718689,
+          0.17822445929050446,
+          0.26724642515182495,
+          0.1664377599954605,
+          0.17449942231178284,
+          0.2365327626466751,
+          0.16817110776901245,
+          0.2339293360710144,
+          0.27823108434677124
+        ],
+        [
+          0.3237139582633972,
+          0.36945509910583496,
+          0.07504060119390488,
+          0.39595717191696167,
+          0.4819127321243286,
+          0.46863219141960144,
+          0.3460509181022644,
+          0.3032323718070984,
+          0.2749262750148773,
+          0.2832436263561249
+        ],
+        [
+          0.19000360369682312,
+          0.12170806527137756,
+          0.030879631638526917,
+          0.004497252404689789,
+          0.18895623087882996,
+          0.23075005412101746,
+          0.04131534695625305,
+          0.16047951579093933,
+          0.22352410852909088,
+          0.23128268122673035
+        ],
+        [
+          0.36401259899139404,
+          0.25774335861206055,
+          0.08828206360340118,
+          0.2925441265106201,
+          0.40725696086883545,
+          0.37420254945755005,
+          0.23270145058631897,
+          0.2259523719549179,
+          0.21007075905799866,
+          0.38863176107406616
+        ],
+        [
+          0.37496310472488403,
+          0.41674375534057617,
+          0.009692927822470665,
+          0.20406369864940643,
+          0.39576461911201477,
+          0.5468225479125977,
+          0.30992746353149414,
+          0.2976815104484558,
+          0.34471604228019714,
+          0.4152638018131256
+        ],
+        [
+          0.35806870460510254,
+          0.3222578763961792,
+          0.11540982127189636,
+          0.30922240018844604,
+          0.3385010361671448,
+          0.32568755745887756,
+          0.379745215177536,
+          0.28501951694488525,
+          0.3073790669441223,
+          0.37639522552490234
+        ],
+        [
+          0.38675031065940857,
+          0.3087235391139984,
+          0.21102474629878998,
+          0.23883451521396637,
+          0.4093931317329407,
+          0.4251600503921509,
+          0.32325437664985657,
+          0.19811686873435974,
+          0.24544739723205566,
+          0.42869240045547485
+        ],
+        [
+          0.23725345730781555,
+          0.14006158709526062,
+          0.05881870537996292,
+          0.26853930950164795,
+          0.30657830834388733,
+          0.26747822761535645,
+          0.12826819717884064,
+          0.18382923305034637,
+          0.16930179297924042,
+          0.25143808126449585
+        ],
+        [
+          0.24861299991607666,
+          0.20085953176021576,
+          0.11053754389286041,
+          0.30245891213417053,
+          0.36875778436660767,
+          0.320773184299469,
+          0.2254582941532135,
+          0.18419089913368225,
+          0.1788315773010254,
+          0.291889488697052
+        ],
+        [
+          0.2561359405517578,
+          0.24479849636554718,
+          0.26797324419021606,
+          0.30412912368774414,
+          0.2809993624687195,
+          0.1887684464454651,
+          0.2987648844718933,
+          0.22931712865829468,
+          0.17401064932346344,
+          0.25563421845436096
+        ],
+        [
+          0.22966179251670837,
+          0.1584874391555786,
+          0.21802818775177002,
+          0.25368115305900574,
+          0.17083396017551422,
+          0.06763999164104462,
+          0.12799043953418732,
+          0.15022620558738708,
+          0.11773747205734253,
+          0.22216619551181793
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=medium__frames=30__llm=detailed",
+      "vlm_prompt_type": "medium",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T09:07:00.911604+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+        "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+        "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+        "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+        "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+        "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+        "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+        "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+        "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+        "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+        "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+        "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+        "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+        "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+        "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1"
+      ],
+      "generated_events": [
+        "A group of people dressed as leprechauns walk down a street wearing green hats with gold bells attached to them, carrying large wreaths made out of leaves around their necks.",
+        "Some individuals hold cameras or phones up for photos while others wave flags decorated with shamrocks.",
+        "One person's major field of study is indicated by text overlaid as \"Major European Studies\".",
+        "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers.",
+        "Several older adults wear similar attire and stand together outside near trees.",
+        "A camera is held to capture close-up shots of various groups participating in different parts of the parade.",
+        "Images are shown of past celebrations labeled 'Dinner' and 'Luncheon', suggesting that these parades have been happening over multiple years.",
+        "Two women participate in a ceremony related to one woman's major field of study, possibly involving white clothing adorned with yellow flowers.",
+        "The participants in the parade wear hats and carry wreaths made out of leaves, which may be symbolic of their connection to Irish heritage or academic pursuits.",
+        "A group of people dressed as leprechauns wave flags decorated with shamrocks while walking down a street during an event at Mount Holyoke College."
+      ],
+      "metrics": {
+        "num_human": 16,
+        "num_generated": 10,
+        "detected": 1,
+        "missed": 15,
+        "recall": 0.0625,
+        "avg_best_similarity": 0.3764
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Images are shown of past celebrations labeled 'Dinner' and 'Luncheon', suggesting that these parades have been happening over multiple years.",
+          "score": 0.0981,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+          "best_match": "The participants in the parade wear hats and carry wreaths made out of leaves, which may be symbolic of their connection to Irish heritage or academic pursuits.",
+          "score": 0.4241,
+          "detected": false
+        },
+        {
+          "human_event": "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+          "best_match": "Two women participate in a ceremony related to one woman's major field of study, possibly involving white clothing adorned with yellow flowers.",
+          "score": 0.3616,
+          "detected": false
+        },
+        {
+          "human_event": "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+          "best_match": "Two women participate in a ceremony related to one woman's major field of study, possibly involving white clothing adorned with yellow flowers.",
+          "score": 0.3694,
+          "detected": false
+        },
+        {
+          "human_event": "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+          "best_match": "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers.",
+          "score": 0.3748,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+          "best_match": "Two women participate in a ceremony related to one woman's major field of study, possibly involving white clothing adorned with yellow flowers.",
+          "score": 0.3639,
+          "detected": false
+        },
+        {
+          "human_event": "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+          "best_match": "The participants in the parade wear hats and carry wreaths made out of leaves, which may be symbolic of their connection to Irish heritage or academic pursuits.",
+          "score": 0.4589,
+          "detected": false
+        },
+        {
+          "human_event": "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+          "best_match": "A camera is held to capture close-up shots of various groups participating in different parts of the parade.",
+          "score": 0.2715,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+          "best_match": "The participants in the parade wear hats and carry wreaths made out of leaves, which may be symbolic of their connection to Irish heritage or academic pursuits.",
+          "score": 0.4578,
+          "detected": false
+        },
+        {
+          "human_event": "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+          "best_match": "Images are shown of past celebrations labeled 'Dinner' and 'Luncheon', suggesting that these parades have been happening over multiple years.",
+          "score": 0.5411,
+          "detected": true
+        },
+        {
+          "human_event": "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+          "best_match": "Images are shown of past celebrations labeled 'Dinner' and 'Luncheon', suggesting that these parades have been happening over multiple years.",
+          "score": 0.4721,
+          "detected": false
+        },
+        {
+          "human_event": "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+          "best_match": "Images are shown of past celebrations labeled 'Dinner' and 'Luncheon', suggesting that these parades have been happening over multiple years.",
+          "score": 0.4668,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+          "best_match": "The participants in the parade wear hats and carry wreaths made out of leaves, which may be symbolic of their connection to Irish heritage or academic pursuits.",
+          "score": 0.3533,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+          "best_match": "The participants in the parade wear hats and carry wreaths made out of leaves, which may be symbolic of their connection to Irish heritage or academic pursuits.",
+          "score": 0.3701,
+          "detected": false
+        },
+        {
+          "human_event": "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+          "best_match": "Two women participate in a ceremony related to one woman's major field of study, possibly involving white clothing adorned with yellow flowers.",
+          "score": 0.4224,
+          "detected": false
+        },
+        {
+          "human_event": "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1",
+          "best_match": "Two women participate in a ceremony related to one woman's major field of study, possibly involving white clothing adorned with yellow flowers.",
+          "score": 0.2159,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          -0.0982932299375534,
+          0.08059342205524445,
+          0.06981219351291656,
+          0.06133098155260086,
+          -0.09139419347047806,
+          0.05568663775920868,
+          0.09805770218372345,
+          0.08438513427972794,
+          0.012896550819277763,
+          -0.00981384888291359
+        ],
+        [
+          0.24482762813568115,
+          0.17166045308113098,
+          0.05415318161249161,
+          0.08674580603837967,
+          0.17883983254432678,
+          0.36144697666168213,
+          0.3863343298435211,
+          0.19117006659507751,
+          0.42414265871047974,
+          0.3083619475364685
+        ],
+        [
+          0.10401975363492966,
+          0.2864442765712738,
+          0.06923272460699081,
+          0.06959433853626251,
+          0.15194618701934814,
+          0.221567302942276,
+          0.3013184368610382,
+          0.36160340905189514,
+          0.26837679743766785,
+          0.30392009019851685
+        ],
+        [
+          0.24845623970031738,
+          0.1433304101228714,
+          0.005672375671565533,
+          0.32645946741104126,
+          0.26235508918762207,
+          0.13532784581184387,
+          0.1460866630077362,
+          0.3694003224372864,
+          0.14928749203681946,
+          0.11601325869560242
+        ],
+        [
+          0.3332695960998535,
+          0.3426817059516907,
+          -0.008386453613638878,
+          0.3747658133506775,
+          0.24896740913391113,
+          0.30243736505508423,
+          0.3487775921821594,
+          0.33965039253234863,
+          0.31612634658813477,
+          0.31333720684051514
+        ],
+        [
+          0.05921204015612602,
+          0.18044766783714294,
+          0.10373278707265854,
+          0.11029283702373505,
+          0.06311417371034622,
+          0.12269264459609985,
+          0.24050664901733398,
+          0.36385807394981384,
+          0.23934537172317505,
+          0.22942140698432922
+        ],
+        [
+          0.2981055974960327,
+          0.35976630449295044,
+          0.015776656568050385,
+          0.367730051279068,
+          0.3524366021156311,
+          0.4449012279510498,
+          0.4577717185020447,
+          0.41178932785987854,
+          0.4588942527770996,
+          0.32751041650772095
+        ],
+        [
+          0.1508946716785431,
+          0.1272996962070465,
+          -0.011751772835850716,
+          -0.023242317140102386,
+          0.13707181811332703,
+          0.27149009704589844,
+          0.1379317194223404,
+          0.08017868548631668,
+          0.1916520595550537,
+          0.1846250593662262
+        ],
+        [
+          0.24524441361427307,
+          0.2111106812953949,
+          0.034786563366651535,
+          0.2159719169139862,
+          0.28840601444244385,
+          0.3335503339767456,
+          0.4136684536933899,
+          0.3110444247722626,
+          0.4578031897544861,
+          0.3622499108314514
+        ],
+        [
+          0.3071320354938507,
+          0.34408336877822876,
+          -0.046494174748659134,
+          0.17234817147254944,
+          0.17770379781723022,
+          0.5381988883018494,
+          0.5410898923873901,
+          0.19173842668533325,
+          0.5011289119720459,
+          0.4205884039402008
+        ],
+        [
+          0.26153016090393066,
+          0.259549617767334,
+          0.09852054715156555,
+          0.20179510116577148,
+          0.21969106793403625,
+          0.2527295649051666,
+          0.4721124768257141,
+          0.38938039541244507,
+          0.4274839162826538,
+          0.30548644065856934
+        ],
+        [
+          0.22088901698589325,
+          0.24347621202468872,
+          0.1640847772359848,
+          0.1314259171485901,
+          0.23860371112823486,
+          0.3578755855560303,
+          0.46675699949264526,
+          0.2592502534389496,
+          0.46401840448379517,
+          0.4129452705383301
+        ],
+        [
+          0.16676102578639984,
+          0.09857293963432312,
+          0.016378270462155342,
+          0.21034203469753265,
+          0.2117193192243576,
+          0.21418528258800507,
+          0.24357300996780396,
+          0.22545883059501648,
+          0.353266179561615,
+          0.1558097004890442
+        ],
+        [
+          0.16414444148540497,
+          0.1545768678188324,
+          0.04543120414018631,
+          0.23243938386440277,
+          0.2614971399307251,
+          0.25960636138916016,
+          0.3457361161708832,
+          0.3455168604850769,
+          0.3700505495071411,
+          0.22266033291816711
+        ],
+        [
+          0.13031311333179474,
+          0.25962668657302856,
+          0.14967665076255798,
+          0.19648705422878265,
+          0.27813786268234253,
+          0.1859072744846344,
+          0.2700725495815277,
+          0.422435462474823,
+          0.20336100459098816,
+          0.2165965735912323
+        ],
+        [
+          0.10485097020864487,
+          0.16272366046905518,
+          0.12878219783306122,
+          0.16664204001426697,
+          0.19525019824504852,
+          0.05816362425684929,
+          0.10359703004360199,
+          0.21589335799217224,
+          0.1901613026857376,
+          0.21398286521434784
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=short__frames=30__llm=detailed",
+      "vlm_prompt_type": "short",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "detailed",
+      "timestamp": "2026-05-13T09:09:52.012421+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+        "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+        "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+        "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+        "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+        "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+        "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+        "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+        "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+        "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+        "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+        "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+        "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+        "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+        "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1"
+      ],
+      "generated_events": [
+        "Students are seen walking on grass adorned with green leaves while wearing garlands made of greenery around their necks.",
+        "Individuals are embracing each other joyfully outdoors as part of a celebration.",
+        "Classmates pose for photos as part of a parade or procession through campus grounds.",
+        "People hold up large signs reading '2013' to celebrate graduation.",
+        "Students engage warmly with others at outdoor gatherings during spring break.",
+        "Classmates enjoy food together while dressed casually in an outdoor setting.",
+        "Someone waves enthusiastically towards another person off-camera amidst lush foliage.",
+        "Individuals raise hands high above heads against verdant backgrounds.",
+        "The group claps heartily among themselves near tree branches.",
+        "Classmates stand shoulder to shoulder forming rows that stretch across grassy areas surrounded by tall leafy plants."
+      ],
+      "metrics": {
+        "num_human": 16,
+        "num_generated": 10,
+        "detected": 3,
+        "missed": 13,
+        "recall": 0.1875,
+        "avg_best_similarity": 0.3822
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Students engage warmly with others at outdoor gatherings during spring break.",
+          "score": 0.0639,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+          "best_match": "Classmates pose for photos as part of a parade or procession through campus grounds.",
+          "score": 0.5034,
+          "detected": true
+        },
+        {
+          "human_event": "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+          "best_match": "Students engage warmly with others at outdoor gatherings during spring break.",
+          "score": 0.3546,
+          "detected": false
+        },
+        {
+          "human_event": "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+          "best_match": "Students are seen walking on grass adorned with green leaves while wearing garlands made of greenery around their necks.",
+          "score": 0.2363,
+          "detected": false
+        },
+        {
+          "human_event": "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+          "best_match": "People hold up large signs reading '2013' to celebrate graduation.",
+          "score": 0.3151,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+          "best_match": "People hold up large signs reading '2013' to celebrate graduation.",
+          "score": 0.3164,
+          "detected": false
+        },
+        {
+          "human_event": "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+          "best_match": "Classmates pose for photos as part of a parade or procession through campus grounds.",
+          "score": 0.426,
+          "detected": false
+        },
+        {
+          "human_event": "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+          "best_match": "The group claps heartily among themselves near tree branches.",
+          "score": 0.2532,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+          "best_match": "Classmates pose for photos as part of a parade or procession through campus grounds.",
+          "score": 0.5408,
+          "detected": true
+        },
+        {
+          "human_event": "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+          "best_match": "People hold up large signs reading '2013' to celebrate graduation.",
+          "score": 0.4059,
+          "detected": false
+        },
+        {
+          "human_event": "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+          "best_match": "Individuals are embracing each other joyfully outdoors as part of a celebration.",
+          "score": 0.3575,
+          "detected": false
+        },
+        {
+          "human_event": "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+          "best_match": "Classmates pose for photos as part of a parade or procession through campus grounds.",
+          "score": 0.6312,
+          "detected": true
+        },
+        {
+          "human_event": "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+          "best_match": "People hold up large signs reading '2013' to celebrate graduation.",
+          "score": 0.4091,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+          "best_match": "Classmates pose for photos as part of a parade or procession through campus grounds.",
+          "score": 0.4418,
+          "detected": false
+        },
+        {
+          "human_event": "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+          "best_match": "People hold up large signs reading '2013' to celebrate graduation.",
+          "score": 0.4948,
+          "detected": false
+        },
+        {
+          "human_event": "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1",
+          "best_match": "Students are seen walking on grass adorned with green leaves while wearing garlands made of greenery around their necks.",
+          "score": 0.3655,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.04507797211408615,
+          0.0496535561978817,
+          -0.012635346502065659,
+          0.06368184089660645,
+          0.06392429769039154,
+          -0.01019132137298584,
+          0.05476289987564087,
+          -0.03467440977692604,
+          0.02590271458029747,
+          -0.030988888815045357
+        ],
+        [
+          0.37442660331726074,
+          0.25615715980529785,
+          0.5034244060516357,
+          0.3481629490852356,
+          0.2921552062034607,
+          0.24227100610733032,
+          0.1148286983370781,
+          0.10487978160381317,
+          0.31131064891815186,
+          0.2566797733306885
+        ],
+        [
+          0.25658276677131653,
+          0.31900668144226074,
+          0.3487168550491333,
+          0.3452978730201721,
+          0.35463079810142517,
+          0.2128400206565857,
+          0.13184113800525665,
+          0.19250939786434174,
+          0.30628758668899536,
+          0.20361991226673126
+        ],
+        [
+          0.2363252341747284,
+          0.11034908890724182,
+          0.10563275963068008,
+          0.11991678178310394,
+          0.11871729791164398,
+          0.1617256999015808,
+          0.12797152996063232,
+          0.20896130800247192,
+          0.18338942527770996,
+          0.2072896659374237
+        ],
+        [
+          0.24982140958309174,
+          0.28701329231262207,
+          0.2306276559829712,
+          0.3151131272315979,
+          0.20573946833610535,
+          0.07330945879220963,
+          0.18719857931137085,
+          0.15752935409545898,
+          0.22537043690681458,
+          0.148027241230011
+        ],
+        [
+          0.20607347786426544,
+          0.2910507917404175,
+          0.27191150188446045,
+          0.31644517183303833,
+          0.2508935034275055,
+          0.1529337763786316,
+          0.125176340341568,
+          0.09132217615842819,
+          0.2242729812860489,
+          0.1599331945180893
+        ],
+        [
+          0.22001966834068298,
+          0.2719094455242157,
+          0.4259912669658661,
+          0.3492993116378784,
+          0.1444777101278305,
+          0.1719033271074295,
+          0.10452191531658173,
+          0.17800480127334595,
+          0.2341749370098114,
+          0.19327470660209656
+        ],
+        [
+          0.05620662495493889,
+          0.12413693219423294,
+          0.13134422898292542,
+          0.11379995942115784,
+          0.14156535267829895,
+          0.10635676234960556,
+          0.0572444312274456,
+          0.12477319687604904,
+          0.2532130181789398,
+          0.05189993605017662
+        ],
+        [
+          0.27275192737579346,
+          0.30731016397476196,
+          0.5408139228820801,
+          0.3659634292125702,
+          0.19927632808685303,
+          0.2429736852645874,
+          0.14667586982250214,
+          0.12602092325687408,
+          0.336841344833374,
+          0.28069859743118286
+        ],
+        [
+          0.1804037094116211,
+          0.36552900075912476,
+          0.4040865898132324,
+          0.4058782458305359,
+          0.2082984298467636,
+          0.09161841869354248,
+          0.150432750582695,
+          0.2069443166255951,
+          0.3165912628173828,
+          0.0587102472782135
+        ],
+        [
+          0.20364415645599365,
+          0.3575390577316284,
+          0.2493424415588379,
+          0.3227160573005676,
+          0.1971069723367691,
+          0.13248708844184875,
+          0.11791716516017914,
+          0.22884796559810638,
+          0.27923575043678284,
+          0.16301847994327545
+        ],
+        [
+          0.3282099664211273,
+          0.317952424287796,
+          0.6312353610992432,
+          0.46521949768066406,
+          0.29045236110687256,
+          0.27303826808929443,
+          0.15371578931808472,
+          0.18203610181808472,
+          0.30449622869491577,
+          0.2820189595222473
+        ],
+        [
+          0.2678486406803131,
+          0.29683977365493774,
+          0.3846380114555359,
+          0.40912553668022156,
+          0.1813124120235443,
+          0.1882086992263794,
+          0.18473495543003082,
+          0.04896992817521095,
+          0.26406532526016235,
+          0.24313050508499146
+        ],
+        [
+          0.25057491660118103,
+          0.3236393928527832,
+          0.4418412148952484,
+          0.41806238889694214,
+          0.2204182893037796,
+          0.24525195360183716,
+          0.201805979013443,
+          0.06309355795383453,
+          0.22198382019996643,
+          0.2456272840499878
+        ],
+        [
+          0.372995525598526,
+          0.2041230946779251,
+          0.4054720103740692,
+          0.49481648206710815,
+          0.2982638478279114,
+          0.27063679695129395,
+          0.15735886991024017,
+          0.19245649874210358,
+          0.23267382383346558,
+          0.3360862135887146
+        ],
+        [
+          0.36547285318374634,
+          0.10057961940765381,
+          0.3579978346824646,
+          0.24555058777332306,
+          0.12565430998802185,
+          0.16278406977653503,
+          0.17053468525409698,
+          0.07676030695438385,
+          0.2384515404701233,
+          0.35256892442703247
+        ]
+      ]
+    },
+    {
+      "combo_key": "vlm=short__frames=30__llm=concise",
+      "vlm_prompt_type": "short",
+      "vlm_frame_count": 30,
+      "llm_prompt_type": "concise",
+      "timestamp": "2026-05-13T09:10:12.482022+00:00",
+      "threshold": 0.5,
+      "human_annotations": [
+        "annotation,timestamp,subjectivity_rating",
+        "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+        "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+        "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+        "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+        "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+        "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+        "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+        "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+        "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+        "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+        "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+        "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+        "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+        "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+        "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1"
+      ],
+      "generated_events": [
+        "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+        "The students celebrate graduation by holding up large signs reading '2013', a significant year that marks their achievement.",
+        "Students engage warmly with others at outdoor gatherings during spring break, enjoying each other's company in a relaxed setting.",
+        "Students enjoy food together while dressed casually, showcasing camaraderie and friendship among the group.",
+        "A student waves enthusiastically towards someone off-camera amidst lush foliage, suggesting a sense of excitement or celebration.",
+        "The students raise hands high above their heads against verdant backgrounds, perhaps to cheer on someone or celebrate a momentous occasion.",
+        "Students clasp heartily among themselves near tree branches, indicating a strong bond and shared enthusiasm within the group.",
+        "The students stand shoulder to shoulder in rows that stretch across grassy areas surrounded by tall leafy plants, forming a united front.",
+        "A student smiles broadly indoors next to shelves decorated with holiday ornaments, suggesting a moment of quiet reflection or happiness.",
+        "Students are shown driving golf carts down paved paths lined with well-manicured lawns and mature trees, possibly as part of a campus activity or outing."
+      ],
+      "metrics": {
+        "num_human": 16,
+        "num_generated": 10,
+        "detected": 2,
+        "missed": 14,
+        "recall": 0.125,
+        "avg_best_similarity": 0.3657
+      },
+      "per_annotation": [
+        {
+          "human_event": "annotation,timestamp,subjectivity_rating",
+          "best_match": "Students clasp heartily among themselves near tree branches, indicating a strong bond and shared enthusiasm within the group.",
+          "score": 0.1138,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains the concept of the laurel chain college parade,00:03 - 00:12,2",
+          "best_match": "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+          "score": 0.5089,
+          "detected": true
+        },
+        {
+          "human_event": "Student's voice explains what they do during the ceremony,00:14 - 00:21,2",
+          "best_match": "The students raise hands high above their heads against verdant backgrounds, perhaps to cheer on someone or celebrate a momentous occasion.",
+          "score": 0.4779,
+          "detected": false
+        },
+        {
+          "human_event": "Young women in white dresses pick up a laurel chain resembling a vine,00:22 - 00:26,2",
+          "best_match": "Students clasp heartily among themselves near tree branches, indicating a strong bond and shared enthusiasm within the group.",
+          "score": 0.1798,
+          "detected": false
+        },
+        {
+          "human_event": "Women with purple accessories walk while holding a banner with a year on it,00:29 - 00:31,1",
+          "best_match": "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+          "score": 0.3106,
+          "detected": false
+        },
+        {
+          "human_event": "A student's voice explains why the ceremony is so important to her,00:32 - 00:42,1",
+          "best_match": "The students raise hands high above their heads against verdant backgrounds, perhaps to cheer on someone or celebrate a momentous occasion.",
+          "score": 0.4236,
+          "detected": false
+        },
+        {
+          "human_event": "A parade of elderly women holding yellow attributes and a banner with a year on it,01:08 - 01:16,1",
+          "best_match": "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+          "score": 0.391,
+          "detected": false
+        },
+        {
+          "human_event": "A group of bandpipe players in uniform is performing,01:33 - 01:34,-1",
+          "best_match": "Students enjoy food together while dressed casually, showcasing camaraderie and friendship among the group.",
+          "score": 0.1672,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly college alumna talks about her ancestors participating in the parade,02:18 - 02:29,2",
+          "best_match": "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+          "score": 0.4468,
+          "detected": false
+        },
+        {
+          "human_event": "Different signs are held by the participants of the parade,02:46 - 02:52,-1",
+          "best_match": "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+          "score": 0.4304,
+          "detected": false
+        },
+        {
+          "human_event": "A birth of a new tradition of \"scarfing ceremony\" is explained and shown,03:03 - 03:07,1",
+          "best_match": "The students raise hands high above their heads against verdant backgrounds, perhaps to cheer on someone or celebrate a momentous occasion.",
+          "score": 0.3031,
+          "detected": false
+        },
+        {
+          "human_event": "A college student explains how the parade connects the generations of college alumni,03:35 - 03:42,1",
+          "best_match": "Students are shown participating in various outdoor activities, such as walking on grass, wearing garlands made of greenery around their necks, and posing for photos during a parade or procession through campus grounds.",
+          "score": 0.5255,
+          "detected": true
+        },
+        {
+          "human_event": "An elderly alumna explains what she felt during her graduation laurel parade,04:40 - 04:47,1",
+          "best_match": "The students celebrate graduation by holding up large signs reading '2013', a significant year that marks their achievement.",
+          "score": 0.38,
+          "detected": false
+        },
+        {
+          "human_event": "An elderly alumna explains how she enjoys being at the parade and looking at the graduating women,04:56 - 05:02,-2",
+          "best_match": "The students celebrate graduation by holding up large signs reading '2013', a significant year that marks their achievement.",
+          "score": 0.3953,
+          "detected": false
+        },
+        {
+          "human_event": "It is shown how graduating women students are holding a vine looking chain,05:34 - 05:53,2",
+          "best_match": "The students celebrate graduation by holding up large signs reading '2013', a significant year that marks their achievement.",
+          "score": 0.4611,
+          "detected": false
+        },
+        {
+          "human_event": "A grave of the college founder is shown surrounded by vines and greenery,05:54 - 05:57,-1",
+          "best_match": "The students stand shoulder to shoulder in rows that stretch across grassy areas surrounded by tall leafy plants, forming a united front.",
+          "score": 0.3357,
+          "detected": false
+        }
+      ],
+      "similarity_matrix": [
+        [
+          0.04982428997755051,
+          0.10293601453304291,
+          0.09241583943367004,
+          0.1094827800989151,
+          0.11124338209629059,
+          0.06445476412773132,
+          0.11376451700925827,
+          0.016803979873657227,
+          0.10807707160711288,
+          0.02246607095003128
+        ],
+        [
+          0.5088785290718079,
+          0.29245030879974365,
+          0.28077346086502075,
+          0.3107426166534424,
+          0.3009665608406067,
+          0.3648947477340698,
+          0.33940818905830383,
+          0.2973676025867462,
+          0.34402772784233093,
+          0.3490471839904785
+        ],
+        [
+          0.37291520833969116,
+          0.3218667507171631,
+          0.33913654088974,
+          0.3476671576499939,
+          0.3555874824523926,
+          0.47787904739379883,
+          0.3911294937133789,
+          0.273686021566391,
+          0.2971287965774536,
+          0.17141294479370117
+        ],
+        [
+          0.14548270404338837,
+          0.10078011453151703,
+          0.1069897934794426,
+          0.15697018802165985,
+          0.06854678690433502,
+          0.1529378890991211,
+          0.17975744605064392,
+          0.16366535425186157,
+          0.11183679103851318,
+          0.15604938566684723
+        ],
+        [
+          0.31062814593315125,
+          0.2783776521682739,
+          0.1894126832485199,
+          0.12695281207561493,
+          0.19295921921730042,
+          0.19702206552028656,
+          0.20781530439853668,
+          0.09693063795566559,
+          0.1687653362751007,
+          0.12742982804775238
+        ],
+        [
+          0.28169453144073486,
+          0.3074995279312134,
+          0.24903273582458496,
+          0.28146564960479736,
+          0.3569411635398865,
+          0.4236152768135071,
+          0.3671388328075409,
+          0.20685666799545288,
+          0.349939227104187,
+          0.12677715718746185
+        ],
+        [
+          0.39100438356399536,
+          0.33963847160339355,
+          0.10459195822477341,
+          0.16684910655021667,
+          0.15875568985939026,
+          0.25295019149780273,
+          0.17036867141723633,
+          0.10823681950569153,
+          0.19738072156906128,
+          0.1270247995853424
+        ],
+        [
+          0.14824575185775757,
+          0.09460464864969254,
+          0.11098676919937134,
+          0.16719409823417664,
+          0.06520986557006836,
+          0.10567972809076309,
+          0.10829423367977142,
+          0.062402430921792984,
+          -0.01828531175851822,
+          0.08974338322877884
+        ],
+        [
+          0.44680294394493103,
+          0.3110537528991699,
+          0.16198205947875977,
+          0.17859584093093872,
+          0.27823275327682495,
+          0.2954525053501129,
+          0.2706531286239624,
+          0.19569388031959534,
+          0.24211254715919495,
+          0.19509783387184143
+        ],
+        [
+          0.4304007291793823,
+          0.35558465123176575,
+          0.1672022044658661,
+          0.15443898737430573,
+          0.18104718625545502,
+          0.29679498076438904,
+          0.20015141367912292,
+          0.09380342066287994,
+          0.11359114944934845,
+          0.13145841658115387
+        ],
+        [
+          0.2890728712081909,
+          0.30163609981536865,
+          0.16471034288406372,
+          0.2091507613658905,
+          0.17058247327804565,
+          0.30310681462287903,
+          0.22724813222885132,
+          0.13185834884643555,
+          0.14676469564437866,
+          0.008048578165471554
+        ],
+        [
+          0.5254651308059692,
+          0.4423702359199524,
+          0.25855422019958496,
+          0.2784038782119751,
+          0.35366564989089966,
+          0.4016323685646057,
+          0.33306604623794556,
+          0.24784383177757263,
+          0.2956556975841522,
+          0.25730830430984497
+        ],
+        [
+          0.3501051962375641,
+          0.38004112243652344,
+          0.19019588828086853,
+          0.15064898133277893,
+          0.3289491832256317,
+          0.279964417219162,
+          0.29227662086486816,
+          0.18188227713108063,
+          0.35058650374412537,
+          0.12082028388977051
+        ],
+        [
+          0.385200560092926,
+          0.3952573835849762,
+          0.22253018617630005,
+          0.22013646364212036,
+          0.35755449533462524,
+          0.2901169955730438,
+          0.28043264150619507,
+          0.17222458124160767,
+          0.36711186170578003,
+          0.14652876555919647
+        ],
+        [
+          0.36765339970588684,
+          0.46105825901031494,
+          0.2882859706878662,
+          0.3266114890575409,
+          0.3060947060585022,
+          0.36343082785606384,
+          0.41954267024993896,
+          0.3472744822502136,
+          0.3761102557182312,
+          0.3065987229347229
+        ],
+        [
+          0.30590614676475525,
+          0.1599055677652359,
+          0.1339530646800995,
+          0.09491433203220367,
+          0.2378992736339569,
+          0.18441179394721985,
+          0.247846320271492,
+          0.3356713652610779,
+          0.3017422556877136,
+          0.16138938069343567
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "video_id": 26,
+  "vlm_results": [
+    {
+      "prompt_type": "short",
+      "prompt": "Describe what is happening in the video.",
+      "num_frames": 30,
+      "timestamp": "2026-05-13T08:43:41.359114+00:00",
+      "response": "The video begins with an aerial view showcasing tall buildings and trees, transitioning to street scenes where people gather around barricades adorned with red balloons. A person playing traditional Chinese instruments on steps leads into various festive activities including dragon dances and parades filled with colorful costumes and decorations. The celebration culminates at night under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants. Throughout these sequences, social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events."
+    },
+    {
+      "prompt_type": "medium",
+      "prompt": "Describe the key events and actions taking place in the video, providing a concise summary of the main activities and interactions. Focus on visually distinct moments.",
+      "num_frames": 30,
+      "timestamp": "2026-05-13T08:44:12.765712+00:00",
+      "response": "A man is playing an instrument while sitting outside near some buildings with graffiti art. The scene then shifts to people walking down a street during what appears to be a parade or festival. There's also footage showing fire trucks driving through streets covered in confetti. Finally, there’s a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for more information about local news and updates."
+    },
+    {
+      "prompt_type": "long",
+      "prompt": "Describe what is happening in the video, sequentially focusing on the most important events.\nDescribe the events in detail, including the people involved, their appearance, their actions, and any relevant context.\nAvoid generic descriptions and focus on specific moments that stand out.\nList the events in order of occurrence.",
+      "num_frames": 30,
+      "timestamp": "2026-05-13T08:45:14.132140+00:00",
+      "response": "The video begins with an aerial view of tall buildings against a clear blue sky. It then cuts to a street scene where two men sit at a table next to a metal gate adorned with colorful bags hanging above it. A map appears showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood. \n\nThe camera pans down as more individuals gather around another man playing traditional Chinese instruments near a building entrance. People walk along sidewalks lined with shops selling various goods like clothing and souvenirs. A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them. \n\nA close-up shows one performer wearing elaborate headgear while others dance joyfully under bright lights. Confetti falls over participants dressed in festive attire holding balloons aloft during this lively celebration. Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides. \n\nPeople wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day. The atmosphere remains joyful and celebratory, capturing the essence of community spirit through music, performance art, and communal enjoyment."
+    },
+    {
+      "prompt_type": "short",
+      "prompt": "Describe what is happening in the video.",
+      "num_frames": 50,
+      "timestamp": "2026-05-13T10:12:30.115707+00:00",
+      "response": "The video starts with an aerial view showcasing tall buildings and trees, transitioning to various scenes including people sitting on subway cars dressed warmly for cold weather, street performers playing traditional instruments like bagpipes or fiddles by metal bars, bustling city streets filled with pedestrians under clear skies, festive crowds gathered at intersections during parades, individuals behind barricades watching events unfold, lively parade performances featuring colorful costumes and props amidst cheering spectators, vibrant celebrations marked by confetti-filled sidewalks, diverse cultural attire worn by participants, energetic dance routines performed outdoors against urban backdrops, close views capturing intricate details such as ornate headpieces and detailed costume designs, dynamic movements captured mid-performance, joyful expressions among attendees, children participating enthusiastically, celebratory moments highlighted through bright lights and confetti falling onto the ground, interactions between festival goers, and concluding with promotional messages encouraging viewers to follow their neighborhood's Facebook page."
+    },
+    {
+      "prompt_type": "medium",
+      "prompt": "Describe the key events and actions taking place in the video, providing a concise summary of the main activities and interactions. Focus on visually distinct moments.",
+      "num_frames": 50,
+      "timestamp": "2026-05-13T10:14:44.857863+00:00",
+      "response": "A young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows. Later, we see people walking down a busy street during what appears to be a parade or festival. The scene then shifts indoors where two men sit next to each other; one wears a hat while holding musical instruments. Finally, there's footage showing children playing basketball outdoors against a backdrop featuring tall buildings under clear skies."
+    },
+    {
+      "prompt_type": "long",
+      "prompt": "Describe what is happening in the video, sequentially focusing on the most important events.\nDescribe the events in detail, including the people involved, their appearance, their actions, and any relevant context.\nAvoid generic descriptions and focus on specific moments that stand out.\nList the events in order of occurrence.",
+      "num_frames": 50,
+      "timestamp": "2026-05-13T10:17:08.589015+00:00",
+      "response": "A young girl sits inside an elevator with her hands clasped together as she looks around at other passengers. She then gets off onto a subway platform where another person wearing a beige coat stands next to someone else who has fallen asleep while sitting down. The scene shifts indoors again before showing two men playing bagpipes outside near some buildings. Next up is a view through train windows looking towards tall apartment blocks under overcast skies. Inside a moving vehicle, we see more trains passing by against cityscapes filled with skyscrapers. We return back into the building's interior once more for shots of various individuals walking along busy streets lined with shops and signs advertising different businesses like \"Holiday Inn Downtown Hotel\" and \"NYC Chinese Baptist Church.\" Finally, there’s footage capturing street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.” There seems to be music being played here too!"
+    }
+  ],
+  "llm_results": [
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view of tall buildings against a clear blue sky. It then cuts to a street scene where two men sit at a table next to a metal gate adorned with colorful bags hanging above it. A map appears showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood. \n\nThe camera pans down as more individuals gather around another man playing traditional Chinese instruments near a building entrance. People walk along sidewalks lined with shops selling various goods like clothing and souvenirs. A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them. \n\nA close-up shows one performer wearing elaborate headgear while others dance joyfully under bright lights. Confetti falls over participants dressed in festive attire holding balloons aloft during this lively celebration. Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides. \n\nPeople wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day. The atmosphere remains joyful and celebratory, capturing the essence of community spirit through music, performance art, and communal enjoyment.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T08:57:35.373280+00:00",
+      "raw_response": "1. An aerial view of tall buildings against a clear blue sky sets the scene for the video.\n2. Two men sit at a table next to a metal gate adorned with colorful bags in New York City's Chinatown neighborhood.\n3. A map appears, highlighting \"Car Sia St\" and pointing towards different locations within Chinatown, with red arrows indicating directions.\n4. More individuals gather around a man playing traditional Chinese instruments near a building entrance.\n5. People walk along sidewalks lined with shops selling goods like clothing and souvenirs in the background of the scene.\n6. A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.\n7. One performer wears elaborate headgear, while others dance joyfully under bright lights during the lively celebration.\n8. Confetti falls over participants dressed in festive attire holding balloons aloft during the festivities.\n9. Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides of the street.\n10. People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day.",
+      "parsed_events": [
+        "An aerial view of tall buildings against a clear blue sky sets the scene for the video.",
+        "Two men sit at a table next to a metal gate adorned with colorful bags in New York City's Chinatown neighborhood.",
+        "A map appears, highlighting \"Car Sia St\" and pointing towards different locations within Chinatown, with red arrows indicating directions.",
+        "More individuals gather around a man playing traditional Chinese instruments near a building entrance.",
+        "People walk along sidewalks lined with shops selling goods like clothing and souvenirs in the background of the scene.",
+        "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
+        "One performer wears elaborate headgear, while others dance joyfully under bright lights during the lively celebration.",
+        "Confetti falls over participants dressed in festive attire holding balloons aloft during the festivities.",
+        "Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides of the street.",
+        "People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view of tall buildings against a clear blue sky. It then cuts to a street scene where two men sit at a table next to a metal gate adorned with colorful bags hanging above it. A map appears showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood. \n\nThe camera pans down as more individuals gather around another man playing traditional Chinese instruments near a building entrance. People walk along sidewalks lined with shops selling various goods like clothing and souvenirs. A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them. \n\nA close-up shows one performer wearing elaborate headgear while others dance joyfully under bright lights. Confetti falls over participants dressed in festive attire holding balloons aloft during this lively celebration. Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides. \n\nPeople wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day. The atmosphere remains joyful and celebratory, capturing the essence of community spirit through music, performance art, and communal enjoyment.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T08:57:50.496651+00:00",
+      "raw_response": "1. Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.\n2. A crowd gathers around another man playing traditional Chinese instruments near a building entrance, as individuals walk along sidewalks lined with shops selling various goods.\n3. A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.\n4. One performer wears elaborate headgear while others dance joyfully under bright lights, with confetti falling over participants dressed in festive attire holding balloons aloft.\n5. Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides.\n6. People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day.\n7. The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.\n8. A crowd of people watches in joy as performers dance and celebrate together.\n9. A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.\n10. Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration.",
+      "parsed_events": [
+        "Two men sit at a table next to a metal gate, with a map showing \"Car Sia St\" marked by red arrows pointing towards different locations within New York City's Chinatown neighborhood.",
+        "A crowd gathers around another man playing traditional Chinese instruments near a building entrance, as individuals walk along sidewalks lined with shops selling various goods.",
+        "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
+        "One performer wears elaborate headgear while others dance joyfully under bright lights, with confetti falling over participants dressed in festive attire holding balloons aloft.",
+        "Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides.",
+        "People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day.",
+        "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
+        "A crowd of people watches in joy as performers dance and celebrate together.",
+        "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
+        "Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA man is playing an instrument while sitting outside near some buildings with graffiti art. The scene then shifts to people walking down a street during what appears to be a parade or festival. There's also footage showing fire trucks driving through streets covered in confetti. Finally, there’s a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for more information about local news and updates.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:05:13.294134+00:00",
+      "raw_response": "1. A man is seen playing an instrument while sitting outside near graffiti-covered buildings, setting the scene for a lively atmosphere.\n2. The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.\n3. Footage shows fire trucks driving through streets covered in confetti, adding to the festive and energetic vibe.\n4. After the parade/festival footage, the video cuts to a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for local news updates.",
+      "parsed_events": [
+        "A man is seen playing an instrument while sitting outside near graffiti-covered buildings, setting the scene for a lively atmosphere.",
+        "The scene shifts to people walking down a street during what appears to be a parade or festival, indicating a celebratory event.",
+        "Footage shows fire trucks driving through streets covered in confetti, adding to the festive and energetic vibe.",
+        "After the parade/festival footage, the video cuts to a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for local news updates."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA man is playing an instrument while sitting outside near some buildings with graffiti art. The scene then shifts to people walking down a street during what appears to be a parade or festival. There's also footage showing fire trucks driving through streets covered in confetti. Finally, there’s a black screen displaying text encouraging viewers to follow their neighborhood Facebook page for more information about local news and updates.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:05:23.715966+00:00",
+      "raw_response": "1. A man plays a melody on his instrument while sitting outside amidst graffiti art.\n2. People walk down the street, participating in what appears to be a parade or festival.\n3. Fire trucks drive through streets covered in confetti.\n4. The black screen displays text encouraging viewers to follow their neighborhood Facebook page for local news updates.\n5. A crowd gathers around the man as he plays his instrument.\n6. Firefighters hand out confetti to the crowd from the moving fire trucks.\n7. People throw confetti into the air, celebrating in the streets.\n8. The black screen displays a call-to-action to follow the neighborhood Facebook page for more information.\n9. A person takes a photo of the man playing his instrument and shares it on their phone.\n10. The camera lingers on the graffiti art as the music fades away.",
+      "parsed_events": [
+        "A man plays a melody on his instrument while sitting outside amidst graffiti art.",
+        "People walk down the street, participating in what appears to be a parade or festival.",
+        "Fire trucks drive through streets covered in confetti.",
+        "The black screen displays text encouraging viewers to follow their neighborhood Facebook page for local news updates.",
+        "A crowd gathers around the man as he plays his instrument.",
+        "Firefighters hand out confetti to the crowd from the moving fire trucks.",
+        "People throw confetti into the air, celebrating in the streets.",
+        "The black screen displays a call-to-action to follow the neighborhood Facebook page for more information.",
+        "A person takes a photo of the man playing his instrument and shares it on their phone.",
+        "The camera lingers on the graffiti art as the music fades away."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view showcasing tall buildings and trees, transitioning to street scenes where people gather around barricades adorned with red balloons. A person playing traditional Chinese instruments on steps leads into various festive activities including dragon dances and parades filled with colorful costumes and decorations. The celebration culminates at night under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants. Throughout these sequences, social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:08:15.405932+00:00",
+      "raw_response": "1. Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.\n2. A person playing traditional Chinese instruments on steps is shown leading into various festive activities.\n3. The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.\n4. At night, the festivities culminate under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants.\n5. Social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events.",
+      "parsed_events": [
+        "Aerial view of tall buildings and trees transitions to street scenes where people gather around barricades adorned with red balloons.",
+        "A person playing traditional Chinese instruments on steps is shown leading into various festive activities.",
+        "The celebration features dragon dances, accompanied by parades filled with colorful costumes and decorations.",
+        "At night, the festivities culminate under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants.",
+        "Social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video begins with an aerial view showcasing tall buildings and trees, transitioning to street scenes where people gather around barricades adorned with red balloons. A person playing traditional Chinese instruments on steps leads into various festive activities including dragon dances and parades filled with colorful costumes and decorations. The celebration culminates at night under city lights as fireworks light up the sky above Chinatown streets lined by shops and restaurants. Throughout these sequences, social media engagement prompts viewers to follow \"Ronio Neighborhood\" for more content related to their neighborhood's vibrant cultural events.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:08:27.238701+00:00",
+      "raw_response": "1. A person begins playing traditional Chinese instruments on steps, drawing a crowd of people.\n2. The gathered crowd joins in dancing and singing along with the music, accompanied by drummers and other performers.\n3. A group of participants don elaborate costumes and prepare for a parade, featuring intricate designs and props.\n4. At night, the streets are lined with shops and restaurants, filled with people enjoying food and drinks from local vendors.\n5. Fireworks light up the sky above the streets of Chinatown, creating a vibrant display of color and sound.\n6. A person holding a smartphone checks their social media notifications, prompting them to follow \"Ronio Neighborhood\" for more content.\n7. The crowd cheers as performers reveal themselves behind a large backdrop adorned with red balloons.\n8. Individuals hold up colorful signs reading \"Welcome\" in Chinese characters, welcoming visitors to the celebration.\n9. A group of people gather around a decorated stage, where musicians and performers take turns entertaining the crowd.",
+      "parsed_events": [
+        "A person begins playing traditional Chinese instruments on steps, drawing a crowd of people.",
+        "The gathered crowd joins in dancing and singing along with the music, accompanied by drummers and other performers.",
+        "A group of participants don elaborate costumes and prepare for a parade, featuring intricate designs and props.",
+        "At night, the streets are lined with shops and restaurants, filled with people enjoying food and drinks from local vendors.",
+        "Fireworks light up the sky above the streets of Chinatown, creating a vibrant display of color and sound.",
+        "A person holding a smartphone checks their social media notifications, prompting them to follow \"Ronio Neighborhood\" for more content.",
+        "The crowd cheers as performers reveal themselves behind a large backdrop adorned with red balloons.",
+        "Individuals hold up colorful signs reading \"Welcome\" in Chinese characters, welcoming visitors to the celebration.",
+        "A group of people gather around a decorated stage, where musicians and performers take turns entertaining the crowd."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video starts with an aerial view showcasing tall buildings and trees, transitioning to various scenes including people sitting on subway cars dressed warmly for cold weather, street performers playing traditional instruments like bagpipes or fiddles by metal bars, bustling city streets filled with pedestrians under clear skies, festive crowds gathered at intersections during parades, individuals behind barricades watching events unfold, lively parade performances featuring colorful costumes and props amidst cheering spectators, vibrant celebrations marked by confetti-filled sidewalks, diverse cultural attire worn by participants, energetic dance routines performed outdoors against urban backdrops, close views capturing intricate details such as ornate headpieces and detailed costume designs, dynamic movements captured mid-performance, joyful expressions among attendees, children participating enthusiastically, celebratory moments highlighted through bright lights and confetti falling onto the ground, interactions between festival goers, and concluding with promotional messages encouraging viewers to follow their neighborhood's Facebook page.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:35:17.719322+00:00",
+      "raw_response": "1. The video begins with an aerial view of a city showcasing tall buildings and trees, setting the scene for the event.\n2. People are seen sitting on subway cars dressed warmly for cold weather, suggesting that the event takes place during winter.\n3. Street performers play traditional instruments in public spaces, such as metal bars, adding to the festive atmosphere.\n4. Bustling city streets fill with pedestrians under clear skies, indicating a sunny day despite the cold weather.\n5. Festive crowds gather at intersections during parades, creating a lively and celebratory scene.\n6. Individuals behind barricades watch events unfold, suggesting that there may be some level of security or control over the parade route.\n7. Lively parade performances feature colorful costumes and props, accompanied by cheering spectators and confetti-filled sidewalks.\n8. Diverse cultural attire is worn by participants, highlighting the event's multicultural nature.\n9. Energetic dance routines are performed outdoors against urban backdrops, adding to the vibrancy of the celebration.\n10. Close views capture intricate details such as ornate headpieces and detailed costume designs, showcasing the creativity of the performers.",
+      "parsed_events": [
+        "The video begins with an aerial view of a city showcasing tall buildings and trees, setting the scene for the event.",
+        "People are seen sitting on subway cars dressed warmly for cold weather, suggesting that the event takes place during winter.",
+        "Street performers play traditional instruments in public spaces, such as metal bars, adding to the festive atmosphere.",
+        "Bustling city streets fill with pedestrians under clear skies, indicating a sunny day despite the cold weather.",
+        "Festive crowds gather at intersections during parades, creating a lively and celebratory scene.",
+        "Individuals behind barricades watch events unfold, suggesting that there may be some level of security or control over the parade route.",
+        "Lively parade performances feature colorful costumes and props, accompanied by cheering spectators and confetti-filled sidewalks.",
+        "Diverse cultural attire is worn by participants, highlighting the event's multicultural nature.",
+        "Energetic dance routines are performed outdoors against urban backdrops, adding to the vibrancy of the celebration.",
+        "Close views capture intricate details such as ornate headpieces and detailed costume designs, showcasing the creativity of the performers."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video starts with an aerial view showcasing tall buildings and trees, transitioning to various scenes including people sitting on subway cars dressed warmly for cold weather, street performers playing traditional instruments like bagpipes or fiddles by metal bars, bustling city streets filled with pedestrians under clear skies, festive crowds gathered at intersections during parades, individuals behind barricades watching events unfold, lively parade performances featuring colorful costumes and props amidst cheering spectators, vibrant celebrations marked by confetti-filled sidewalks, diverse cultural attire worn by participants, energetic dance routines performed outdoors against urban backdrops, close views capturing intricate details such as ornate headpieces and detailed costume designs, dynamic movements captured mid-performance, joyful expressions among attendees, children participating enthusiastically, celebratory moments highlighted through bright lights and confetti falling onto the ground, interactions between festival goers, and concluding with promotional messages encouraging viewers to follow their neighborhood's Facebook page.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:35:26.676261+00:00",
+      "raw_response": "1. Aerial view of tall buildings and trees sets the scene.\n2. People dressed warmly board subway cars.\n3. Street performers play traditional instruments on metal bars.\n4. Bustling city streets fill with pedestrians under clear skies.\n5. Festive crowds gather at intersections during parades.\n6. Individuals behind barricades watch events unfold.\n7. Lively parade performances feature colorful costumes and props.\n8. Vibrant celebrations mark confetti-filled sidewalks with diverse cultural attire.\n9. Energetic dance routines are performed outdoors against urban backdrops.\n10. Promotional messages encourage viewers to follow their neighborhood's Facebook page.",
+      "parsed_events": [
+        "Aerial view of tall buildings and trees sets the scene.",
+        "People dressed warmly board subway cars.",
+        "Street performers play traditional instruments on metal bars.",
+        "Bustling city streets fill with pedestrians under clear skies.",
+        "Festive crowds gather at intersections during parades.",
+        "Individuals behind barricades watch events unfold.",
+        "Lively parade performances feature colorful costumes and props.",
+        "Vibrant celebrations mark confetti-filled sidewalks with diverse cultural attire.",
+        "Energetic dance routines are performed outdoors against urban backdrops.",
+        "Promotional messages encourage viewers to follow their neighborhood's Facebook page."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows. Later, we see people walking down a busy street during what appears to be a parade or festival. The scene then shifts indoors where two men sit next to each other; one wears a hat while holding musical instruments. Finally, there's footage showing children playing basketball outdoors against a backdrop featuring tall buildings under clear skies.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:35:34.672667+00:00",
+      "raw_response": "1. A young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows.\n2. The scene then cuts to people walking down a busy street during what appears to be a parade or festival, showing a vibrant atmosphere.\n3. Two men sit next to each other indoors; one wears a hat while holding musical instruments, creating a lively and musical ambiance.\n4. Footage shows children playing basketball outdoors against a backdrop featuring tall buildings under clear skies, with an energetic and carefree tone.",
+      "parsed_events": [
+        "A young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows.",
+        "The scene then cuts to people walking down a busy street during what appears to be a parade or festival, showing a vibrant atmosphere.",
+        "Two men sit next to each other indoors; one wears a hat while holding musical instruments, creating a lively and musical ambiance.",
+        "Footage shows children playing basketball outdoors against a backdrop featuring tall buildings under clear skies, with an energetic and carefree tone."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl is sitting inside an elevator with her hands clasped together as she looks out at the city outside through large windows. Later, we see people walking down a busy street during what appears to be a parade or festival. The scene then shifts indoors where two men sit next to each other; one wears a hat while holding musical instruments. Finally, there's footage showing children playing basketball outdoors against a backdrop featuring tall buildings under clear skies.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:35:45.176844+00:00",
+      "raw_response": "1. A young girl sits in an elevator with her hands clasped together, gazing out the large windows at the city view.\n2. People walk down a busy street during what appears to be a parade or festival.\n3. Two men sit next to each other indoors; one wears a hat while holding musical instruments.\n4. The man wearing a hat starts playing a melody on his instrument.\n5. Children gather outdoors for a basketball game against a backdrop of tall buildings under clear skies.\n6. A boy throws the ball to a girl, who scores a basket.\n7. The crowd cheers as the children play and interact with each other during the game.\n8. The girl sinks another shot, scoring again.\n9. The children take a break from playing, laughing and high-fiving each other.\n10. The group of children continues to play, their energy and excitement infectious.",
+      "parsed_events": [
+        "A young girl sits in an elevator with her hands clasped together, gazing out the large windows at the city view.",
+        "People walk down a busy street during what appears to be a parade or festival.",
+        "Two men sit next to each other indoors; one wears a hat while holding musical instruments.",
+        "The man wearing a hat starts playing a melody on his instrument.",
+        "Children gather outdoors for a basketball game against a backdrop of tall buildings under clear skies.",
+        "A boy throws the ball to a girl, who scores a basket.",
+        "The crowd cheers as the children play and interact with each other during the game.",
+        "The girl sinks another shot, scoring again.",
+        "The children take a break from playing, laughing and high-fiving each other.",
+        "The group of children continues to play, their energy and excitement infectious."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl sits inside an elevator with her hands clasped together as she looks around at other passengers. She then gets off onto a subway platform where another person wearing a beige coat stands next to someone else who has fallen asleep while sitting down. The scene shifts indoors again before showing two men playing bagpipes outside near some buildings. Next up is a view through train windows looking towards tall apartment blocks under overcast skies. Inside a moving vehicle, we see more trains passing by against cityscapes filled with skyscrapers. We return back into the building's interior once more for shots of various individuals walking along busy streets lined with shops and signs advertising different businesses like \"Holiday Inn Downtown Hotel\" and \"NYC Chinese Baptist Church.\" Finally, there’s footage capturing street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.” There seems to be music being played here too!",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:35:57.827442+00:00",
+      "raw_response": "1. A young girl exits an elevator onto a subway platform, where she is joined by another person wearing a beige coat.\n2. The scene shifts to outside, where two men play bagpipes amidst city buildings under overcast skies.\n3. A view of the train windows shows trains passing by against skyscrapers under cloudy conditions.\n4. Inside a moving vehicle, multiple trains pass by against the backdrop of bustling cityscapes filled with skyscrapers.\n5. The scene returns to indoors again for shots of various individuals walking along busy streets lined with shops and signs advertising local businesses.\n6. Footage captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners.\n7. Music is played during the festival or parade, adding to the lively atmosphere.\n8. The young girl is shown sitting alone in an elevator again before exiting onto a subway platform once more.\n9. Another person wearing a beige coat appears next to someone asleep on a subway platform.\n10. A group of individuals are seen walking down a busy street lined with shops and signs advertising local businesses, amidst the lively festival atmosphere.",
+      "parsed_events": [
+        "A young girl exits an elevator onto a subway platform, where she is joined by another person wearing a beige coat.",
+        "The scene shifts to outside, where two men play bagpipes amidst city buildings under overcast skies.",
+        "A view of the train windows shows trains passing by against skyscrapers under cloudy conditions.",
+        "Inside a moving vehicle, multiple trains pass by against the backdrop of bustling cityscapes filled with skyscrapers.",
+        "The scene returns to indoors again for shots of various individuals walking along busy streets lined with shops and signs advertising local businesses.",
+        "Footage captures street scenes during festivals or parades featuring large crowds gathered behind barricades adorned with red balloons and banners.",
+        "Music is played during the festival or parade, adding to the lively atmosphere.",
+        "The young girl is shown sitting alone in an elevator again before exiting onto a subway platform once more.",
+        "Another person wearing a beige coat appears next to someone asleep on a subway platform.",
+        "A group of individuals are seen walking down a busy street lined with shops and signs advertising local businesses, amidst the lively festival atmosphere."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA young girl sits inside an elevator with her hands clasped together as she looks around at other passengers. She then gets off onto a subway platform where another person wearing a beige coat stands next to someone else who has fallen asleep while sitting down. The scene shifts indoors again before showing two men playing bagpipes outside near some buildings. Next up is a view through train windows looking towards tall apartment blocks under overcast skies. Inside a moving vehicle, we see more trains passing by against cityscapes filled with skyscrapers. We return back into the building's interior once more for shots of various individuals walking along busy streets lined with shops and signs advertising different businesses like \"Holiday Inn Downtown Hotel\" and \"NYC Chinese Baptist Church.\" Finally, there’s footage capturing street scenes bustling with activity during festivals or parades, featuring large crowds gathered behind barricades adorned with red balloons and banners reading “NO STANDING ANYTIME.” There seems to be music being played here too!",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:36:08.819530+00:00",
+      "raw_response": "1. The young girl gets off the elevator and onto a subway platform.\n2. A person wearing a beige coat stands next to someone asleep on the subway platform.\n3. Two men play bagpipes outside buildings near tall apartment blocks.\n4. Trains pass by through train windows, revealing cityscapes with skyscrapers under overcast skies.\n5. Individuals walk along busy streets lined with shops and signs advertising various businesses.\n6. Large crowds gather behind barricades at a festival or parade, featuring music and red balloons and banners.\n7. A person wearing the beige coat approaches the young girl on the subway platform.\n8. The two men in bagpipes stop playing for a moment, looking around at their surroundings.\n9. Various individuals, including the person with the beige coat, walk through the busy streets and crowds.\n10. Passersby gather behind barricades to watch the festival or parade, taking photos or waving flags.",
+      "parsed_events": [
+        "The young girl gets off the elevator and onto a subway platform.",
+        "A person wearing a beige coat stands next to someone asleep on the subway platform.",
+        "Two men play bagpipes outside buildings near tall apartment blocks.",
+        "Trains pass by through train windows, revealing cityscapes with skyscrapers under overcast skies.",
+        "Individuals walk along busy streets lined with shops and signs advertising various businesses.",
+        "Large crowds gather behind barricades at a festival or parade, featuring music and red balloons and banners.",
+        "A person wearing the beige coat approaches the young girl on the subway platform.",
+        "The two men in bagpipes stop playing for a moment, looking around at their surroundings.",
+        "Various individuals, including the person with the beige coat, walk through the busy streets and crowds.",
+        "Passersby gather behind barricades to watch the festival or parade, taking photos or waving flags."
+      ]
+    }
+  ]
+}

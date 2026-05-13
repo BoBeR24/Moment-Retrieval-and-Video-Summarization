@@ -1,0 +1,285 @@
+{
+  "video_id": 28,
+  "vlm_results": [
+    {
+      "prompt_type": "short",
+      "prompt": "Describe what is happening in the video.",
+      "num_frames": 30,
+      "timestamp": "2026-05-13T08:51:26.770341+00:00",
+      "response": "The video captures an event on a sunny day, with people gathered along a street lined by palm trees and buildings under clear skies. A parade featuring motorcycles led by police officers passes through this area, drawing attention as they move down the road amidst cheering crowds who wave flags and cheer enthusiastically at their passing. As more vehicles join the procession—including cars carrying individuals dressed for formal events or sports uniforms—the crowd's excitement grows even higher. Police presence becomes evident throughout the scene, ensuring order while allowing spectators to enjoy the spectacle without interference. At one point, two men wearing black shirts stand out among others; later, another man joins them holding up his hands defensively against someone off-camera. Throughout these moments, participants continue waving flags proudly alongside each other, celebrating togetherness despite any potential tension between different groups within the community represented by various outfits seen during the festivities."
+    },
+    {
+      "prompt_type": "medium",
+      "prompt": "Describe the key events and actions taking place in the video, providing a concise summary of the main activities and interactions. Focus on visually distinct moments.",
+      "num_frames": 30,
+      "timestamp": "2026-05-13T08:52:13.737008+00:00",
+      "response": "A parade is happening down a street with palm trees lining both sides. People line up along the sidewalks to watch as police cars drive by carrying people dressed like superheroes. The crowd cheers them on while they ride motorcycles through town. Later, there's an explosion at night that causes chaos among the spectators who run away for their safety."
+    },
+    {
+      "prompt_type": "long",
+      "prompt": "Describe what is happening in the video, sequentially focusing on the most important events.\nDescribe the events in detail, including the people involved, their appearance, their actions, and any relevant context.\nAvoid generic descriptions and focus on specific moments that stand out.\nList the events in order of occurrence.",
+      "num_frames": 30,
+      "timestamp": "2026-05-13T08:53:07.331043+00:00",
+      "response": "A parade takes place down a street lined with palm trees under bright blue skies. People line both sides to watch as motorcycles drive by followed closely behind police cars carrying officers dressed in black uniforms. The crowd cheers enthusiastically at various points during the event. Later, there's an explosion or firework display over the city skyline while spectators continue cheering below. Fire trucks arrive for emergency response purposes after the fireworks end. Police vehicles patrol along the road where more explosions occur later. Finally, firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations."
+    },
+    {
+      "prompt_type": "short",
+      "prompt": "Describe what is happening in the video.",
+      "num_frames": 50,
+      "timestamp": "2026-05-13T10:30:09.007687+00:00",
+      "response": "The video captures an outdoor parade or festival taking place on a sunny day, with palm trees lining both sides and buildings visible behind them. People gather along the street to watch as various vehicles move down it, including police cars marked \"POLICE\" and motorcycles carrying people dressed up for the occasion. A large crowd gathers at one point where several individuals stand out due to their costumes; some wear black shirts emblazoned with white letters spelling \"LAKERS,\" while others don colorful outfits that include blue helmets adorned with red feathers. As the procession continues past these spectators, more participants join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities. Throughout this eventful scene, there's no significant camera movement—it remains steady throughout capturing all aspects of the lively gathering.\\n\\nThe focus then shifts towards two men standing atop a truck bed filled with enthusiastic attendees who wave back enthusiastically. One man wears sunglasses perched above his head, adding to the festive atmosphere. Another individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities. This moment encapsulates the joy and camaraderie among those participating in the celebration.\\n\\ndue to its static nature, the subsequent scenes do not provide any new information about ongoing activities within the parade but instead offer glimpses into moments captured by bystanders documenting the events unfolding around them. These snapshots reveal how different segments of society come together under shared interests, celebrating life through communal gatherings such as parades.\\\"}}"
+    },
+    {
+      "prompt_type": "medium",
+      "prompt": "Describe the key events and actions taking place in the video, providing a concise summary of the main activities and interactions. Focus on visually distinct moments.",
+      "num_frames": 50,
+      "timestamp": "2026-05-13T10:31:38.024908+00:00",
+      "response": "A parade is happening down a street with palm trees lining both sides. People line up along the sidewalk to watch as police cars drive by carrying people who wave at them. There's also an ambulance driving through the crowd. The scene includes motorcycles being ridden past spectators, some waving flags while others cheer or take photos. One person rides their bike alongside another motorcycle rider wearing sunglasses. At one point, there’s even someone riding a horse! Overall, it seems like everyone has fun watching this event unfold."
+    },
+    {
+      "prompt_type": "long",
+      "prompt": "Describe what is happening in the video, sequentially focusing on the most important events.\nDescribe the events in detail, including the people involved, their appearance, their actions, and any relevant context.\nAvoid generic descriptions and focus on specific moments that stand out.\nList the events in order of occurrence.",
+      "num_frames": 50,
+      "timestamp": "2026-05-13T10:33:08.722317+00:00",
+      "response": "A parade takes place down a street lined with palm trees under bright blue skies. People line both sides to watch as various vehicles drive by, some carrying flags or banners. The crowd cheers enthusiastically at one point when someone waves an American flag high above them. Police cars patrol alongside motorcycles during this event. At another moment, police officers ride through traffic waving back towards spectators who cheer loudly for them. One officer rides up onto the hood of his motorcycle while others wave from inside moving trucks decorated with red balloons. As more participants join into the festivities, they raise their arms together in celebration. Firefighters pass along the road amidst cheering crowds before eventually driving away. Throughout these scenes, bystanders take photos and videos using smartphones, capturing every aspect of the lively procession."
+    }
+  ],
+  "llm_results": [
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade takes place down a street lined with palm trees under bright blue skies. People line both sides to watch as motorcycles drive by followed closely behind police cars carrying officers dressed in black uniforms. The crowd cheers enthusiastically at various points during the event. Later, there's an explosion or firework display over the city skyline while spectators continue cheering below. Fire trucks arrive for emergency response purposes after the fireworks end. Police vehicles patrol along the road where more explosions occur later. Finally, firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T08:58:28.561333+00:00",
+      "raw_response": "1. A parade takes place down a street lined with palm trees under bright blue skies as people line both sides to watch.\n2. Motorcycles drive by closely behind police cars carrying officers dressed in black uniforms, followed by cheers from the crowd.\n3. After the motorcycles pass, an explosion or firework display over the city skyline occurs while spectators continue cheering below.\n4. Fire trucks arrive for emergency response purposes after the fireworks end and the crowd continues to cheer.\n5. Police vehicles patrol along the road where more explosions occur later.\n6. Firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations.\n7. The parade continues, with no further description given in this list",
+      "parsed_events": [
+        "A parade takes place down a street lined with palm trees under bright blue skies as people line both sides to watch.",
+        "Motorcycles drive by closely behind police cars carrying officers dressed in black uniforms, followed by cheers from the crowd.",
+        "After the motorcycles pass, an explosion or firework display over the city skyline occurs while spectators continue cheering below.",
+        "Fire trucks arrive for emergency response purposes after the fireworks end and the crowd continues to cheer.",
+        "Police vehicles patrol along the road where more explosions occur later.",
+        "Firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations.",
+        "The parade continues, with no further description given in this list"
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade takes place down a street lined with palm trees under bright blue skies. People line both sides to watch as motorcycles drive by followed closely behind police cars carrying officers dressed in black uniforms. The crowd cheers enthusiastically at various points during the event. Later, there's an explosion or firework display over the city skyline while spectators continue cheering below. Fire trucks arrive for emergency response purposes after the fireworks end. Police vehicles patrol along the road where more explosions occur later. Finally, firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations.",
+      "model": "llama3.2",
+      "vlm_source": "long",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T08:58:38.140300+00:00",
+      "raw_response": "1. Motorcyclists drive by on motorcycles, followed closely by police cars carrying officers in black uniforms.\n2. The crowd cheers enthusiastically at various points during the event.\n3. An explosion or firework display illuminates the city skyline over spectators who continue cheering below.\n4. Fire trucks arrive for emergency response purposes after the fireworks end.\n5. Police vehicles patrol along the road where more explosions occur later.\n6. Firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations.\n7. Spectators line both sides of the street to watch the parade, cheering at various points.\n8. Officers in black uniforms stand on police cars for the parade.\n9. Motorcycles drive by with a loud crowd reaction from spectators.\n10. The event concludes with continued celebrations as firefighters ride through the streets.",
+      "parsed_events": [
+        "Motorcyclists drive by on motorcycles, followed closely by police cars carrying officers in black uniforms.",
+        "The crowd cheers enthusiastically at various points during the event.",
+        "An explosion or firework display illuminates the city skyline over spectators who continue cheering below.",
+        "Fire trucks arrive for emergency response purposes after the fireworks end.",
+        "Police vehicles patrol along the road where more explosions occur later.",
+        "Firefighters wearing yellow helmets ride through the streets amidst ongoing celebrations.",
+        "Spectators line both sides of the street to watch the parade, cheering at various points.",
+        "Officers in black uniforms stand on police cars for the parade.",
+        "Motorcycles drive by with a loud crowd reaction from spectators.",
+        "The event concludes with continued celebrations as firefighters ride through the streets."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade is happening down a street with palm trees lining both sides. People line up along the sidewalks to watch as police cars drive by carrying people dressed like superheroes. The crowd cheers them on while they ride motorcycles through town. Later, there's an explosion at night that causes chaos among the spectators who run away for their safety.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:06:06.060864+00:00",
+      "raw_response": "1. A large group of people lines up along both sides of a street to watch a parade featuring police officers riding motorcycles dressed in superhero costumes.\n2. As the parade continues, the crowd cheers and applauds the officers as they ride through town on motorcycles.\n3. The scene cuts to nightfall, where an explosion occurs amidst the remaining spectators, causing panic among the crowd.\n4. In response to the explosion, many people quickly run away from the area for their safety.\n5. The police officers in superhero costumes speed off into the darkness to help and respond to the situation.",
+      "parsed_events": [
+        "A large group of people lines up along both sides of a street to watch a parade featuring police officers riding motorcycles dressed in superhero costumes.",
+        "As the parade continues, the crowd cheers and applauds the officers as they ride through town on motorcycles.",
+        "The scene cuts to nightfall, where an explosion occurs amidst the remaining spectators, causing panic among the crowd.",
+        "In response to the explosion, many people quickly run away from the area for their safety.",
+        "The police officers in superhero costumes speed off into the darkness to help and respond to the situation."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade is happening down a street with palm trees lining both sides. People line up along the sidewalks to watch as police cars drive by carrying people dressed like superheroes. The crowd cheers them on while they ride motorcycles through town. Later, there's an explosion at night that causes chaos among the spectators who run away for their safety.",
+      "model": "llama3.2",
+      "vlm_source": "medium",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:06:18.193603+00:00",
+      "raw_response": "1. Police cars drive down the street, accompanied by people in superhero costumes riding motorcycles, and the crowd cheers them on.\n2. The motorcycle riders pass by the palm trees, waving to the audience as they ride through town.\n3. A sudden explosion erupts at night, causing panic among the spectators who quickly scatter for safety.\n4. The police respond to the explosion by mobilizing their vehicles and personnel to maintain order in the area.\n5. The crowd disperses rapidly, with many people fleeing the scene due to the chaos caused by the explosion.\n6. Some spectators attempt to re-emerge from hiding spots or return to their original viewing areas despite the danger posed by the explosion.\n7. A group of police officers secure a perimeter around the blast site to ensure public safety and contain any potential risks.\n8. Emergency responders arrive on the scene, including paramedics and firefighters who work to stabilize injured individuals.\n9. The motorcycle riders re-emerge from their hiding spots, calmly dismounting their bikes and moving away from the area as the police maintain control over the crowd.",
+      "parsed_events": [
+        "Police cars drive down the street, accompanied by people in superhero costumes riding motorcycles, and the crowd cheers them on.",
+        "The motorcycle riders pass by the palm trees, waving to the audience as they ride through town.",
+        "A sudden explosion erupts at night, causing panic among the spectators who quickly scatter for safety.",
+        "The police respond to the explosion by mobilizing their vehicles and personnel to maintain order in the area.",
+        "The crowd disperses rapidly, with many people fleeing the scene due to the chaos caused by the explosion.",
+        "Some spectators attempt to re-emerge from hiding spots or return to their original viewing areas despite the danger posed by the explosion.",
+        "A group of police officers secure a perimeter around the blast site to ensure public safety and contain any potential risks.",
+        "Emergency responders arrive on the scene, including paramedics and firefighters who work to stabilize injured individuals.",
+        "The motorcycle riders re-emerge from their hiding spots, calmly dismounting their bikes and moving away from the area as the police maintain control over the crowd."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video captures an event on a sunny day, with people gathered along a street lined by palm trees and buildings under clear skies. A parade featuring motorcycles led by police officers passes through this area, drawing attention as they move down the road amidst cheering crowds who wave flags and cheer enthusiastically at their passing. As more vehicles join the procession—including cars carrying individuals dressed for formal events or sports uniforms—the crowd's excitement grows even higher. Police presence becomes evident throughout the scene, ensuring order while allowing spectators to enjoy the spectacle without interference. At one point, two men wearing black shirts stand out among others; later, another man joins them holding up his hands defensively against someone off-camera. Throughout these moments, participants continue waving flags proudly alongside each other, celebrating togetherness despite any potential tension between different groups within the community represented by various outfits seen during the festivities.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:09:06.545129+00:00",
+      "raw_response": "1. A parade featuring motorcycles led by police officers passes through a street lined with palm trees and buildings under clear skies, drawing attention from cheering crowds.\n2. Cars carrying individuals dressed in formal events or sports uniforms join the procession, increasing the crowd's excitement.\n3. Two men wearing black shirts stand out among others in the crowd, and one of them holds up his hands defensively against someone off-camera.\n4. Another man joins the two men wearing black shirts, holding his hands up in a defensive stance as well.\n5. The participants continue waving flags proudly alongside each other, celebrating togetherness despite any potential tension between different groups within the community.\n6. Police presence becomes evident throughout the scene, ensuring order while allowing spectators to enjoy the spectacle without interference.\n7. More vehicles join the procession, further increasing the excitement of the crowd.\n8. The crowd grows even higher in enthusiasm as more people participate in the celebration, waving flags and cheering at their passing.\n9. Spectators continue to show their support for the parade, despite some individuals appearing tense or defensive, highlighting a sense of community and unity among the attendees.",
+      "parsed_events": [
+        "A parade featuring motorcycles led by police officers passes through a street lined with palm trees and buildings under clear skies, drawing attention from cheering crowds.",
+        "Cars carrying individuals dressed in formal events or sports uniforms join the procession, increasing the crowd's excitement.",
+        "Two men wearing black shirts stand out among others in the crowd, and one of them holds up his hands defensively against someone off-camera.",
+        "Another man joins the two men wearing black shirts, holding his hands up in a defensive stance as well.",
+        "The participants continue waving flags proudly alongside each other, celebrating togetherness despite any potential tension between different groups within the community.",
+        "Police presence becomes evident throughout the scene, ensuring order while allowing spectators to enjoy the spectacle without interference.",
+        "More vehicles join the procession, further increasing the excitement of the crowd.",
+        "The crowd grows even higher in enthusiasm as more people participate in the celebration, waving flags and cheering at their passing.",
+        "Spectators continue to show their support for the parade, despite some individuals appearing tense or defensive, highlighting a sense of community and unity among the attendees."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video captures an event on a sunny day, with people gathered along a street lined by palm trees and buildings under clear skies. A parade featuring motorcycles led by police officers passes through this area, drawing attention as they move down the road amidst cheering crowds who wave flags and cheer enthusiastically at their passing. As more vehicles join the procession—including cars carrying individuals dressed for formal events or sports uniforms—the crowd's excitement grows even higher. Police presence becomes evident throughout the scene, ensuring order while allowing spectators to enjoy the spectacle without interference. At one point, two men wearing black shirts stand out among others; later, another man joins them holding up his hands defensively against someone off-camera. Throughout these moments, participants continue waving flags proudly alongside each other, celebrating togetherness despite any potential tension between different groups within the community represented by various outfits seen during the festivities.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T09:09:21.270297+00:00",
+      "raw_response": "1. A parade of motorcycles leads by police officers passes through the street, drawing attention from a cheering crowd.\n2. Cars carrying individuals in formal attire or sports uniforms join the procession, further energizing the crowd.\n3. Two men wearing black shirts stand out among others in the crowd, their presence momentarily notable.\n4. Another man joins the two men in black shirts, holding up his hands defensively against someone off-camera.\n5. The crowd continues to enthusiastically wave flags and cheer alongside each other, celebrating togetherness despite any potential tension.\n6. Police officers ensure order throughout the scene while allowing spectators to enjoy the spectacle without interference.\n7. Spectators dressed in various outfits representing different groups within the community celebrate together, showcasing a sense of unity.\n8. The crowd's excitement grows as more vehicles join the procession, adding to the festive atmosphere.\n9. One of the men wearing black shirts appears to be involved in a brief confrontation with someone off-camera, but is quickly shielded by others.\n10. Participants proudly wave flags and celebrate together, highlighting the event's focus on community unity despite any underlying tensions.",
+      "parsed_events": [
+        "A parade of motorcycles leads by police officers passes through the street, drawing attention from a cheering crowd.",
+        "Cars carrying individuals in formal attire or sports uniforms join the procession, further energizing the crowd.",
+        "Two men wearing black shirts stand out among others in the crowd, their presence momentarily notable.",
+        "Another man joins the two men in black shirts, holding up his hands defensively against someone off-camera.",
+        "The crowd continues to enthusiastically wave flags and cheer alongside each other, celebrating togetherness despite any potential tension.",
+        "Police officers ensure order throughout the scene while allowing spectators to enjoy the spectacle without interference.",
+        "Spectators dressed in various outfits representing different groups within the community celebrate together, showcasing a sense of unity.",
+        "The crowd's excitement grows as more vehicles join the procession, adding to the festive atmosphere.",
+        "One of the men wearing black shirts appears to be involved in a brief confrontation with someone off-camera, but is quickly shielded by others.",
+        "Participants proudly wave flags and celebrate together, highlighting the event's focus on community unity despite any underlying tensions."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video captures an outdoor parade or festival taking place on a sunny day, with palm trees lining both sides and buildings visible behind them. People gather along the street to watch as various vehicles move down it, including police cars marked \"POLICE\" and motorcycles carrying people dressed up for the occasion. A large crowd gathers at one point where several individuals stand out due to their costumes; some wear black shirts emblazoned with white letters spelling \"LAKERS,\" while others don colorful outfits that include blue helmets adorned with red feathers. As the procession continues past these spectators, more participants join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities. Throughout this eventful scene, there's no significant camera movement—it remains steady throughout capturing all aspects of the lively gathering.\\n\\nThe focus then shifts towards two men standing atop a truck bed filled with enthusiastic attendees who wave back enthusiastically. One man wears sunglasses perched above his head, adding to the festive atmosphere. Another individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities. This moment encapsulates the joy and camaraderie among those participating in the celebration.\\n\\ndue to its static nature, the subsequent scenes do not provide any new information about ongoing activities within the parade but instead offer glimpses into moments captured by bystanders documenting the events unfolding around them. These snapshots reveal how different segments of society come together under shared interests, celebrating life through communal gatherings such as parades.\\\"}}",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:37:42.213378+00:00",
+      "raw_response": "1. A large crowd gathers along a street lined with palm trees and buildings to watch various vehicles move down it, including police cars and motorcycles carrying participants dressed in costumes.\n2. Individuals stand out due to their costumes at one point in the parade; some wear \"LAKERS\" shirts while others don colorful outfits with blue helmets adorned with red feathers.\n3. More participants join onto moving trucks decorated with flags bearing symbols associated with certain groups' identities, adding to the event's festive atmosphere.\n4. A truck bed is filled with enthusiastic attendees who wave back enthusiastically, one man wearing sunglasses perched above his head and another holding a drink cup.\n5. The camera captures a static shot of two men standing atop the truck bed, highlighting their joy and camaraderie among the celebration participants.\n6. The parade's procession passes by bystanders documenting the events unfolding around them, offering snapshots of different segments of society coming together under shared interests.\n7. Participants hold up signs or flags bearing logos or symbols associated with their groups or identities.\n8. The camera captures a group of people dressed in costumes, including some wearing matching shirts or hats.\n9. A police car marked \"POLICE\" drives through the parade, adding to the overall sense of community and organization.\n10. Motorcycles carrying participants in colorful outfits drive through the parade, further enhancing the festive atmosphere.",
+      "parsed_events": [
+        "A large crowd gathers along a street lined with palm trees and buildings to watch various vehicles move down it, including police cars and motorcycles carrying participants dressed in costumes.",
+        "Individuals stand out due to their costumes at one point in the parade; some wear \"LAKERS\" shirts while others don colorful outfits with blue helmets adorned with red feathers.",
+        "More participants join onto moving trucks decorated with flags bearing symbols associated with certain groups' identities, adding to the event's festive atmosphere.",
+        "A truck bed is filled with enthusiastic attendees who wave back enthusiastically, one man wearing sunglasses perched above his head and another holding a drink cup.",
+        "The camera captures a static shot of two men standing atop the truck bed, highlighting their joy and camaraderie among the celebration participants.",
+        "The parade's procession passes by bystanders documenting the events unfolding around them, offering snapshots of different segments of society coming together under shared interests.",
+        "Participants hold up signs or flags bearing logos or symbols associated with their groups or identities.",
+        "The camera captures a group of people dressed in costumes, including some wearing matching shirts or hats.",
+        "A police car marked \"POLICE\" drives through the parade, adding to the overall sense of community and organization.",
+        "Motorcycles carrying participants in colorful outfits drive through the parade, further enhancing the festive atmosphere."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nThe video captures an outdoor parade or festival taking place on a sunny day, with palm trees lining both sides and buildings visible behind them. People gather along the street to watch as various vehicles move down it, including police cars marked \"POLICE\" and motorcycles carrying people dressed up for the occasion. A large crowd gathers at one point where several individuals stand out due to their costumes; some wear black shirts emblazoned with white letters spelling \"LAKERS,\" while others don colorful outfits that include blue helmets adorned with red feathers. As the procession continues past these spectators, more participants join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities. Throughout this eventful scene, there's no significant camera movement—it remains steady throughout capturing all aspects of the lively gathering.\\n\\nThe focus then shifts towards two men standing atop a truck bed filled with enthusiastic attendees who wave back enthusiastically. One man wears sunglasses perched above his head, adding to the festive atmosphere. Another individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities. This moment encapsulates the joy and camaraderie among those participating in the celebration.\\n\\ndue to its static nature, the subsequent scenes do not provide any new information about ongoing activities within the parade but instead offer glimpses into moments captured by bystanders documenting the events unfolding around them. These snapshots reveal how different segments of society come together under shared interests, celebrating life through communal gatherings such as parades.\\\"}}",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:37:55.574261+00:00",
+      "raw_response": "1. A large crowd gathers along the street to watch various vehicles move down it, including police cars and motorcycles carrying people dressed in festive attire.\n2. Several individuals stand out due to their costumes, wearing black shirts with white letters spelling \"LAKERS\" or colorful outfits adorned with blue helmets featuring red feathers.\n3. More participants join onto moving trucks decorated with flags bearing symbols associated with certain groups' identities, such as skulls and other motifs.\n4. Two men standing atop a truck bed filled with enthusiastic attendees wave back enthusiastically, capturing the joy and camaraderie among participants.\n5. One man wears sunglasses perched above his head, adding to the festive atmosphere.\n6. Another individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities.\n7. Police cars are marked \"POLICE\" as they participate in the parade.\n8. People dressed up for the occasion carry motorcycles and move down the street with the procession.\n9. The crowd's reactions to the festive vehicles are evident as spectators wave back enthusiastically at those waving from atop the trucks.\n10. Different segments of society come together under shared interests, celebrating life through communal gatherings such as parades.",
+      "parsed_events": [
+        "A large crowd gathers along the street to watch various vehicles move down it, including police cars and motorcycles carrying people dressed in festive attire.",
+        "Several individuals stand out due to their costumes, wearing black shirts with white letters spelling \"LAKERS\" or colorful outfits adorned with blue helmets featuring red feathers.",
+        "More participants join onto moving trucks decorated with flags bearing symbols associated with certain groups' identities, such as skulls and other motifs.",
+        "Two men standing atop a truck bed filled with enthusiastic attendees wave back enthusiastically, capturing the joy and camaraderie among participants.",
+        "One man wears sunglasses perched above his head, adding to the festive atmosphere.",
+        "Another individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities.",
+        "Police cars are marked \"POLICE\" as they participate in the parade.",
+        "People dressed up for the occasion carry motorcycles and move down the street with the procession.",
+        "The crowd's reactions to the festive vehicles are evident as spectators wave back enthusiastically at those waving from atop the trucks.",
+        "Different segments of society come together under shared interests, celebrating life through communal gatherings such as parades."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade is happening down a street with palm trees lining both sides. People line up along the sidewalk to watch as police cars drive by carrying people who wave at them. There's also an ambulance driving through the crowd. The scene includes motorcycles being ridden past spectators, some waving flags while others cheer or take photos. One person rides their bike alongside another motorcycle rider wearing sunglasses. At one point, there’s even someone riding a horse! Overall, it seems like everyone has fun watching this event unfold.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:38:06.777888+00:00",
+      "raw_response": "1. A crowd of people lines up along the sidewalk, eagerly waiting to watch the parade, which is accompanied by palm trees on either side of the street.\n2. Police cars drive down the street, carrying individuals who enthusiastically wave at the spectators, adding to the festive atmosphere.\n3. An ambulance drives through the crowd, further reinforcing the sense of community and celebration.\n4. Motorcyclists ride past the spectators, some waving flags while others cheer or take photos, creating a dynamic visual display.\n5. A person rides their bike alongside another motorcycle rider wearing sunglasses, highlighting the diversity of participants in the parade.\n6. Another motorcyclist, this time dressed in a manner suggesting they are also riding a horse, appears and adds to the event's excitement.\n7. Spectators can be seen taking photos or cheering for the various participants as they ride by.\n8. A person rides their own bike alongside another motorcycle rider wearing sunglasses, creating a visually striking moment in the parade.",
+      "parsed_events": [
+        "A crowd of people lines up along the sidewalk, eagerly waiting to watch the parade, which is accompanied by palm trees on either side of the street.",
+        "Police cars drive down the street, carrying individuals who enthusiastically wave at the spectators, adding to the festive atmosphere.",
+        "An ambulance drives through the crowd, further reinforcing the sense of community and celebration.",
+        "Motorcyclists ride past the spectators, some waving flags while others cheer or take photos, creating a dynamic visual display.",
+        "A person rides their bike alongside another motorcycle rider wearing sunglasses, highlighting the diversity of participants in the parade.",
+        "Another motorcyclist, this time dressed in a manner suggesting they are also riding a horse, appears and adds to the event's excitement.",
+        "Spectators can be seen taking photos or cheering for the various participants as they ride by.",
+        "A person rides their own bike alongside another motorcycle rider wearing sunglasses, creating a visually striking moment in the parade."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade is happening down a street with palm trees lining both sides. People line up along the sidewalk to watch as police cars drive by carrying people who wave at them. There's also an ambulance driving through the crowd. The scene includes motorcycles being ridden past spectators, some waving flags while others cheer or take photos. One person rides their bike alongside another motorcycle rider wearing sunglasses. At one point, there’s even someone riding a horse! Overall, it seems like everyone has fun watching this event unfold.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:38:15.285730+00:00",
+      "raw_response": "1. Police cars drive down the street with people waving at them from the sidewalk.\n2. Motorcyclists ride past spectators, some of whom wave flags and cheer.\n3. An ambulance navigates through the crowd, drawing cheers and attention.\n4. A person rides their bike alongside a motorcycle rider wearing sunglasses.\n5. Another motorcycle rider is shown riding while wearing sunglasses, creating an entertaining spectacle.\n6. The scene features people taking photos or cheering as the event unfolds.\n7. Someone appears to be riding a horse down the street, adding a unique element to the parade.\n8. Spectators line up along the sidewalk to watch the parade, enjoying the atmosphere and entertainment.",
+      "parsed_events": [
+        "Police cars drive down the street with people waving at them from the sidewalk.",
+        "Motorcyclists ride past spectators, some of whom wave flags and cheer.",
+        "An ambulance navigates through the crowd, drawing cheers and attention.",
+        "A person rides their bike alongside a motorcycle rider wearing sunglasses.",
+        "Another motorcycle rider is shown riding while wearing sunglasses, creating an entertaining spectacle.",
+        "The scene features people taking photos or cheering as the event unfolds.",
+        "Someone appears to be riding a horse down the street, adding a unique element to the parade.",
+        "Spectators line up along the sidewalk to watch the parade, enjoying the atmosphere and entertainment."
+      ]
+    },
+    {
+      "prompt_type": "concise",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nUnderstand the overall context and narrative of the video based on the description provided.\nExtract between 4 and 10 salient events from this description, describe them in 1-2 concise sentences each, and list them in chronological order.\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade takes place down a street lined with palm trees under bright blue skies. People line both sides to watch as various vehicles drive by, some carrying flags or banners. The crowd cheers enthusiastically at one point when someone waves an American flag high above them. Police cars patrol alongside motorcycles during this event. At another moment, police officers ride through traffic waving back towards spectators who cheer loudly for them. One officer rides up onto the hood of his motorcycle while others wave from inside moving trucks decorated with red balloons. As more participants join into the festivities, they raise their arms together in celebration. Firefighters pass along the road amidst cheering crowds before eventually driving away. Throughout these scenes, bystanders take photos and videos using smartphones, capturing every aspect of the lively procession.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:38:27.056592+00:00",
+      "raw_response": "1. A parade begins down a street lined with palm trees under bright blue skies, with people lining both sides to watch various vehicles drive by.\n2. The crowd cheers enthusiastically at one point when someone waves an American flag high above them, showing patriotism and community spirit.\n3. Police cars patrol alongside motorcycles during the event, maintaining order and participating in the festivities.\n4. Police officers ride through traffic waving back towards spectators who cheer loudly for them, fostering a sense of camaraderie between law enforcement and the public.\n5. An officer rides up onto the hood of his motorcycle while others wave from inside moving trucks decorated with red balloons, adding to the celebratory atmosphere.\n6. As more participants join into the festivities, they raise their arms together in celebration, showcasing the collective joy of the event.\n7. Firefighters pass along the road amidst cheering crowds before eventually driving away, contributing to the lively and festive atmosphere.\n8. Bystanders take photos and videos using smartphones to capture every aspect of the procession, preserving memories for themselves and others.",
+      "parsed_events": [
+        "A parade begins down a street lined with palm trees under bright blue skies, with people lining both sides to watch various vehicles drive by.",
+        "The crowd cheers enthusiastically at one point when someone waves an American flag high above them, showing patriotism and community spirit.",
+        "Police cars patrol alongside motorcycles during the event, maintaining order and participating in the festivities.",
+        "Police officers ride through traffic waving back towards spectators who cheer loudly for them, fostering a sense of camaraderie between law enforcement and the public.",
+        "An officer rides up onto the hood of his motorcycle while others wave from inside moving trucks decorated with red balloons, adding to the celebratory atmosphere.",
+        "As more participants join into the festivities, they raise their arms together in celebration, showcasing the collective joy of the event.",
+        "Firefighters pass along the road amidst cheering crowds before eventually driving away, contributing to the lively and festive atmosphere.",
+        "Bystanders take photos and videos using smartphones to capture every aspect of the procession, preserving memories for themselves and others."
+      ]
+    },
+    {
+      "prompt_type": "detailed",
+      "prompt": "You are an expert video annotator. Below is a description of a video.\nYour task is to identify the most important and distinct events that capture the essence of the video.\n\nExtract between 4 and 10 salient events. For each event:\n- Write 1-2 concise sentences describing what happens\n- Focus on actions, interactions, and key moments\n- Be specific about who does what\n- Do NOT reference the video itself (\"the video shows\", \"the camera pans\", etc.)\n\nFormat EXACTLY like this:\nSalient event 1: [description]\nSalient event 2: [description]\n...\nOnly output the numbered list, nothing else.\n\nVideo description:\nA parade takes place down a street lined with palm trees under bright blue skies. People line both sides to watch as various vehicles drive by, some carrying flags or banners. The crowd cheers enthusiastically at one point when someone waves an American flag high above them. Police cars patrol alongside motorcycles during this event. At another moment, police officers ride through traffic waving back towards spectators who cheer loudly for them. One officer rides up onto the hood of his motorcycle while others wave from inside moving trucks decorated with red balloons. As more participants join into the festivities, they raise their arms together in celebration. Firefighters pass along the road amidst cheering crowds before eventually driving away. Throughout these scenes, bystanders take photos and videos using smartphones, capturing every aspect of the lively procession.",
+      "model": "llama3.2",
+      "vlm_source": "short",
+      "vlm_frame_count": 30,
+      "timestamp": "2026-05-13T10:38:40.915172+00:00",
+      "raw_response": "1. A crowd gathers along a street lined with palm trees as various vehicles drive by, some carrying flags or banners, accompanied by police cars.\n2. Police officers ride through traffic waving back towards spectators who cheer loudly for them, with one officer riding up onto the hood of his motorcycle.\n3. The crowd erupts in cheers when someone waves an American flag high above them, causing a wave of enthusiasm to spread throughout the scene.\n4. Bystanders take out their smartphones and start taking photos and videos of the parade, capturing every aspect of the lively procession.\n5. Firefighters pass along the road amidst cheering crowds before eventually driving away, adding to the festive atmosphere.\n6. More participants join into the festivities, raising their arms together in celebration as the energy of the crowd grows.\n7. Police officers wave from inside moving trucks decorated with red balloons, further engaging with the spectators and amplifying the celebratory mood.\n8. An officer on a motorcycle rides up onto the hood of his vehicle while waving back at the crowd, creating a memorable moment.\n9. Spectators cheer loudly for the police officers as they ride through traffic, demonstrating their appreciation for their service.\n10. The parade continues with more vehicles and participants joining in, maintaining an atmosphere of joy and celebration.",
+      "parsed_events": [
+        "A crowd gathers along a street lined with palm trees as various vehicles drive by, some carrying flags or banners, accompanied by police cars.",
+        "Police officers ride through traffic waving back towards spectators who cheer loudly for them, with one officer riding up onto the hood of his motorcycle.",
+        "The crowd erupts in cheers when someone waves an American flag high above them, causing a wave of enthusiasm to spread throughout the scene.",
+        "Bystanders take out their smartphones and start taking photos and videos of the parade, capturing every aspect of the lively procession.",
+        "Firefighters pass along the road amidst cheering crowds before eventually driving away, adding to the festive atmosphere.",
+        "More participants join into the festivities, raising their arms together in celebration as the energy of the crowd grows.",
+        "Police officers wave from inside moving trucks decorated with red balloons, further engaging with the spectators and amplifying the celebratory mood.",
+        "An officer on a motorcycle rides up onto the hood of his vehicle while waving back at the crowd, creating a memorable moment.",
+        "Spectators cheer loudly for the police officers as they ride through traffic, demonstrating their appreciation for their service.",
+        "The parade continues with more vehicles and participants joining in, maintaining an atmosphere of joy and celebration."
+      ]
+    }
+  ]
+}
