@@ -163,26 +163,26 @@ def parse_timestamps(timestamps: str):
 
     return float(start_time), float(end_time)
 
-def create_speedup_video(video_path, speed=2, speedup=True):
-    video_name = os.path.splitext(os.path.basename(video_path))[0]
-    video_dir = os.path.dirname(video_path)
-
-    fast_video_path = os.path.join(
-        video_dir,
-        f"{video_name}_{speed}x.mp4"
-    )
-
-    if speedup
-        pts_factor = 1 / speed
-
-    subprocess.run([
-        "ffmpeg",
-        "-i",
-        video_path,
-        "-filter:v",
-        f"setpts={pts_factor}*PTS",
-        "-an",
-        fast_video_path
-    ], check=True)
-
-    return fast_video_path
+# def create_speedup_video(video_path, speed=2, speedup=True):
+#     video_name = os.path.splitext(os.path.basename(video_path))[0]
+#     video_dir = os.path.dirname(video_path)
+#
+#     fast_video_path = os.path.join(
+#         video_dir,
+#         f"{video_name}_{speed}x.mp4"
+#     )
+#
+#     if speedup
+#         pts_factor = 1 / speed
+#
+#     subprocess.run([
+#         "ffmpeg",
+#         "-i",
+#         video_path,
+#         "-filter:v",
+#         f"setpts={pts_factor}*PTS",
+#         "-an",
+#         fast_video_path
+#     ], check=True)
+#
+#     return fast_video_path
