@@ -1,1 +1,435 @@
-{"prompt_type":{"0":"concise","1":"detailed","2":"concise","3":"detailed","4":"concise"},"vlm_source":{"0":"long","1":"long","2":"medium","3":"medium","4":"short"},"vlm_frame_count":{"0":30,"1":30,"2":30,"3":30,"4":30},"parsed_events":{"0":["A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.","Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other in orange shorts.","The two young men pass by parked cars before entering a building where they appear to be conversing or taking photos together.","Three boys run along a street near some buildings under overcast skies.","Two of the three boys carry backpacks as one runs ahead; later, four more individuals join them for a group photo against a backdrop featuring mountains covered in greenery.","A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed closely by someone else also making similar gestures."],"1":["A man takes pictures with his camera while another person listens to music through earphones beside him.","Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other wearing orange shorts.","The two young men enter a building where they appear to be conversing or taking photos together.","Three boys run along a street near buildings under overcast skies, two of them carrying backpacks as they move.","Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.","A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed by someone else making similar gestures."],"2":["A man is walking down an alleyway while wearing earphones and taking pictures at night by streetlights.","The scene transitions to the man sitting outside to take more photos, with the camera still in hand.","The video cuts to different locations, including mountains, city streets, beaches, and urban areas where people gather for various reasons.","Footage shows children running through fields near buildings under construction.","Two men are seen walking past each other holding cameras, likely capturing street scenes or city life.","A segment features two men standing next to a fence looking out over water during sunset, possibly capturing a scenic view.","A close-up shot is taken of someone using headphones with graffiti art depicting flowers and birds amidst colorful splashes in the background.","The video shows individuals engaging in outdoor activities like skateboarding along rocky shores and enjoying beachside gatherings.","People are seen dancing energetically around tents set up outdoors, as well as socializing among friends gathered closely indoors.","A final scene captures a person lying shirtless beside their bed covered with blankets, possibly sleeping or relaxing."],"3":["A man walks down an alleyway while wearing earphones and takes pictures at night by streetlights.","Two men walk past each other holding cameras in one segment.","Children are seen running through fields near buildings under construction.","The camera captures a close-up shot of someone using headphones against a backdrop of graffiti art.","Individuals engage in outdoor activities like skateboarding along rocky shores and dancing energetically around tents set up outdoors.","Friends socialize closely indoors, with one person lying shirtless beside their bed covered with blankets.","The camera shows people gathering for various reasons, such as playing games or watching something together.","Two men stand next to a fence looking out over water during sunset in another segment.","People are seen enjoying beachside gatherings and socializing among friends.","Footage captures daily life scenes of movement, interaction, leisurely pursuits, communal celebrations, and personal relaxation within diverse settings."],"4":["Aerial view of city buildings and streets transitions to scenes on city sidewalks where people engage in various activities.","Individuals take photos while wearing earphones against different backgrounds, often with graffiti art walls.","A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.","Close-ups inside cars capture moments during travel, showcasing the experience of being on the go.","Outdoor activities like running down hillsides near water bodies are showcased, highlighting natural landscapes and human interactions.","Beachside gatherings at night bring people together in a lively social setting.","Nighttime strolls among trees lining pathways offer quiet reflections and introspection.","Intimate moments between friends are shared through photographs or everyday interactions.","Murals and artistic expressions brought forth by graffiti art walls add vibrancy to the narrative.","The video concludes with someone using headphones amidst other objects scattered across surfaces, highlighting solitary experiences."]},"predicted_timestamps_chunks":{"0":[[236.394,250.0044],[236.394,250.0044],[236.394,250.0044],[236.394,250.0044],[236.394,250.0044],[209.4026,227.7951]],"1":[[228.7657,249.7944],[228.7657,249.7944],[228.7657,249.7944],[228.7657,249.7944],[228.7657,249.7944],[209.2213,227.8203]],"2":[[217.7546,228.4726],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[228.5769,241.902]],"3":[[217.9113,228.4603],[217.9113,228.4603],[217.9113,228.4603],[217.9113,228.4603],[217.9113,228.4603],[228.5798,241.6187],[228.5798,241.6187],[228.5798,241.6187],[228.5798,241.6187],[228.5798,241.6187]],"4":[[120.0043,130.1033],[241.3301,251.2347],[241.3301,251.2347],[241.3301,251.2347],[241.3301,251.2347],[241.3301,251.2347],[218.3831,228.4971],[227.9307,249.8691],[251.4381,264.2618],[251.4381,264.2618]]},"predicted_timestamps_sped_up":{"0":[[236.394,250.0044],[236.394,250.0044],[236.394,250.0044],[236.394,250.0044],[236.394,250.0044],[209.4026,227.7951]],"1":[[228.7657,249.7944],[228.7657,249.7944],[228.7657,249.7944],[228.7657,249.7944],[228.7657,249.7944],[209.2213,227.8203]],"2":[[217.7546,228.4726],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[229.2395,249.6684],[228.5769,241.902]],"3":[[217.9113,228.4603],[217.9113,228.4603],[217.9113,228.4603],[217.9113,228.4603],[217.9113,228.4603],[228.5798,241.6187],[228.5798,241.6187],[228.5798,241.6187],[228.5798,241.6187],[228.5798,241.6187]],"4":[[120.0043,130.1033],[241.3301,251.2347],[241.3301,251.2347],[241.3301,251.2347],[241.3301,251.2347],[241.3301,251.2347],[218.3831,228.4971],[227.9307,249.8691],[251.4381,264.2618],[251.4381,264.2618]]}}
+[
+  {
+    "prompt_type": "concise",
+    "vlm_source": "long",
+    "vlm_frame_count": 30,
+    "parsed_events": [
+      "A man wearing headphones takes pictures with his camera while standing next to another person who has earphones plugged into it.",
+      "Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other in orange shorts.",
+      "The two young men pass by parked cars before entering a building where they appear to be conversing or taking photos together.",
+      "Three boys run along a street near some buildings under overcast skies.",
+      "Two of the three boys carry backpacks as one runs ahead; later, four more individuals join them for a group photo against a backdrop featuring mountains covered in greenery.",
+      "A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed closely by someone else also making similar gestures."
+    ],
+    "predicted_timestamps_chunks": [
+      [
+        236.394,
+        250.0044
+      ],
+      [
+        206.5158,
+        218.892
+      ],
+      [
+        212.0606,
+        228.4743
+      ],
+      [
+        74.7838,
+        84.9939
+      ],
+      [
+        210.0026,
+        220.7943
+      ],
+      [
+        209.4026,
+        227.7951
+      ]
+    ],
+    "predicted_timestamps_sped_up": [
+      [
+        0.7111,
+        7.0591
+      ],
+      [
+        0.6553,
+        5.4311
+      ],
+      [
+        0.0882,
+        4.8587
+      ],
+      [
+        115.3688,
+        125.4862
+      ],
+      [
+        9.9305,
+        26.7612
+      ],
+      [
+        116.0554,
+        127.6363
+      ]
+    ]
+  },
+  {
+    "prompt_type": "detailed",
+    "vlm_source": "long",
+    "vlm_frame_count": 30,
+    "parsed_events": [
+      "A man takes pictures with his camera while another person listens to music through earphones beside him.",
+      "Two young men walk down an alleyway lined with shops, one wearing sunglasses and carrying a backpack, the other wearing orange shorts.",
+      "The two young men enter a building where they appear to be conversing or taking photos together.",
+      "Three boys run along a street near buildings under overcast skies, two of them carrying backpacks as they move.",
+      "Four additional individuals join the three boys for a group photo against a backdrop featuring mountains covered in greenery.",
+      "A shirtless boy stands outdoors at night holding up peace signs towards the sky, followed by someone else making similar gestures."
+    ],
+    "predicted_timestamps_chunks": [
+      [
+        228.7657,
+        249.7944
+      ],
+      [
+        206.5393,
+        219.0424
+      ],
+      [
+        182.9217,
+        191.773
+      ],
+      [
+        207.5389,
+        221.4789
+      ],
+      [
+        250.8759,
+        263.3774
+      ],
+      [
+        209.2213,
+        227.8203
+      ]
+    ],
+    "predicted_timestamps_sped_up": [
+      [
+        1.0617,
+        6.8294
+      ],
+      [
+        0.6483,
+        5.3847
+      ],
+      [
+        0.0917,
+        4.8384
+      ],
+      [
+        115.1862,
+        126.0438
+      ],
+      [
+        14.4875,
+        25.1926
+      ],
+      [
+        116.0343,
+        127.5969
+      ]
+    ]
+  },
+  {
+    "prompt_type": "concise",
+    "vlm_source": "medium",
+    "vlm_frame_count": 30,
+    "parsed_events": [
+      "A man is walking down an alleyway while wearing earphones and taking pictures at night by streetlights.",
+      "The scene transitions to the man sitting outside to take more photos, with the camera still in hand.",
+      "The video cuts to different locations, including mountains, city streets, beaches, and urban areas where people gather for various reasons.",
+      "Footage shows children running through fields near buildings under construction.",
+      "Two men are seen walking past each other holding cameras, likely capturing street scenes or city life.",
+      "A segment features two men standing next to a fence looking out over water during sunset, possibly capturing a scenic view.",
+      "A close-up shot is taken of someone using headphones with graffiti art depicting flowers and birds amidst colorful splashes in the background.",
+      "The video shows individuals engaging in outdoor activities like skateboarding along rocky shores and enjoying beachside gatherings.",
+      "People are seen dancing energetically around tents set up outdoors, as well as socializing among friends gathered closely indoors.",
+      "A final scene captures a person lying shirtless beside their bed covered with blankets, possibly sleeping or relaxing."
+    ],
+    "predicted_timestamps_chunks": [
+      [
+        217.7546,
+        228.4726
+      ],
+      [
+        229.2395,
+        249.6684
+      ],
+      [
+        75.3822,
+        91.4614
+      ],
+      [
+        248.9893,
+        255.4254
+      ],
+      [
+        206.9855,
+        221.9612
+      ],
+      [
+        161.6167,
+        175.6835
+      ],
+      [
+        253.0748,
+        262.7353
+      ],
+      [
+        190.2372,
+        202.2765
+      ],
+      [
+        172.676,
+        183.8671
+      ],
+      [
+        228.5769,
+        241.902
+      ]
+    ],
+    "predicted_timestamps_sped_up": [
+      [
+        115.9076,
+        126.9845
+      ],
+      [
+        1.1871,
+        6.2375
+      ],
+      [
+        43.503,
+        51.1204
+      ],
+      [
+        89.348,
+        96.7569
+      ],
+      [
+        0.2832,
+        4.4236
+      ],
+      [
+        83.6748,
+        95.7296
+      ],
+      [
+        128.3861,
+        139.1047
+      ],
+      [
+        80.7976,
+        110.413
+      ],
+      [
+        99.1657,
+        114.0078
+      ],
+      [
+        125.6176,
+        134.1053
+      ]
+    ]
+  },
+  {
+    "prompt_type": "detailed",
+    "vlm_source": "medium",
+    "vlm_frame_count": 30,
+    "parsed_events": [
+      "A man walks down an alleyway while wearing earphones and takes pictures at night by streetlights.",
+      "Two men walk past each other holding cameras in one segment.",
+      "Children are seen running through fields near buildings under construction.",
+      "The camera captures a close-up shot of someone using headphones against a backdrop of graffiti art.",
+      "Individuals engage in outdoor activities like skateboarding along rocky shores and dancing energetically around tents set up outdoors.",
+      "Friends socialize closely indoors, with one person lying shirtless beside their bed covered with blankets.",
+      "The camera shows people gathering for various reasons, such as playing games or watching something together.",
+      "Two men stand next to a fence looking out over water during sunset in another segment.",
+      "People are seen enjoying beachside gatherings and socializing among friends.",
+      "Footage captures daily life scenes of movement, interaction, leisurely pursuits, communal celebrations, and personal relaxation within diverse settings."
+    ],
+    "predicted_timestamps_chunks": [
+      [
+        217.9113,
+        228.4603
+      ],
+      [
+        241.049,
+        250.9572
+      ],
+      [
+        249.0443,
+        255.1946
+      ],
+      [
+        238.145,
+        250.2234
+      ],
+      [
+        189.6483,
+        202.4893
+      ],
+      [
+        228.5798,
+        241.6187
+      ],
+      [
+        175.0452,
+        201.3957
+      ],
+      [
+        101.6467,
+        110.224
+      ],
+      [
+        190.2095,
+        202.387
+      ],
+      [
+        173.9542,
+        201.4752
+      ]
+    ],
+    "predicted_timestamps_sped_up": [
+      [
+        116.0874,
+        127.0461
+      ],
+      [
+        0.9166,
+        6.7191
+      ],
+      [
+        13.4427,
+        25.5851
+      ],
+      [
+        2.2196,
+        6.8462
+      ],
+      [
+        83.3521,
+        106.7062
+      ],
+      [
+        49.7383,
+        57.0769
+      ],
+      [
+        99.0267,
+        111.147
+      ],
+      [
+        125.835,
+        137.9329
+      ],
+      [
+        82.0664,
+        108.0815
+      ],
+      [
+        0.0245,
+        3.2322
+      ]
+    ]
+  },
+  {
+    "prompt_type": "concise",
+    "vlm_source": "short",
+    "vlm_frame_count": 30,
+    "parsed_events": [
+      "Aerial view of city buildings and streets transitions to scenes on city sidewalks where people engage in various activities.",
+      "Individuals take photos while wearing earphones against different backgrounds, often with graffiti art walls.",
+      "A group gathers around another person holding up their camera for pictures before moving outdoors into bustling urban areas.",
+      "Close-ups inside cars capture moments during travel, showcasing the experience of being on the go.",
+      "Outdoor activities like running down hillsides near water bodies are showcased, highlighting natural landscapes and human interactions.",
+      "Beachside gatherings at night bring people together in a lively social setting.",
+      "Nighttime strolls among trees lining pathways offer quiet reflections and introspection.",
+      "Intimate moments between friends are shared through photographs or everyday interactions.",
+      "Murals and artistic expressions brought forth by graffiti art walls add vibrancy to the narrative.",
+      "The video concludes with someone using headphones amidst other objects scattered across surfaces, highlighting solitary experiences."
+    ],
+    "predicted_timestamps_chunks": [
+      [
+        120.0043,
+        130.1033
+      ],
+      [
+        241.3301,
+        251.2347
+      ],
+      [
+        207.6551,
+        221.4941
+      ],
+      [
+        263.7093,
+        274.0
+      ],
+      [
+        150.2141,
+        168.6121
+      ],
+      [
+        172.9102,
+        183.9198
+      ],
+      [
+        218.3831,
+        228.4971
+      ],
+      [
+        227.9307,
+        249.8691
+      ],
+      [
+        251.4381,
+        264.2618
+      ],
+      [
+        182.4734,
+        191.1547
+      ]
+    ],
+    "predicted_timestamps_sped_up": [
+      [
+        65.7385,
+        74.2094
+      ],
+      [
+        1.4454,
+        6.3432
+      ],
+      [
+        12.4107,
+        23.289
+      ],
+      [
+        3.7919,
+        10.901
+      ],
+      [
+        82.2395,
+        94.9962
+      ],
+      [
+        83.7846,
+        109.5208
+      ],
+      [
+        114.9304,
+        127.2339
+      ],
+      [
+        10.377,
+        34.2651
+      ],
+      [
+        135.1044,
+        146.0309
+      ],
+      [
+        16.2042,
+        27.833
+      ]
+    ]
+  }
+]
