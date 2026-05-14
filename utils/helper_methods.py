@@ -115,7 +115,7 @@ def adjust_video_speed(input_file, output_file, max_duration=150):
         print(f"Video is {duration:.2f}s. No adjustment needed.")
         # Simple copy to output if no change is needed
         subprocess.run(['ffmpeg', '-i', input_file, '-c', 'copy', output_file])
-        return
+        return 1
 
     # Calculate speed factor (e.g., 300s / 150s = 2.0x speed)
     speed_factor = duration / max_duration
@@ -147,6 +147,8 @@ def adjust_video_speed(input_file, output_file, max_duration=150):
         print(f"Video is successfully sped up")
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
+
+    return speed_factor
 
 
 def parse_timestamps(timestamps: str):
