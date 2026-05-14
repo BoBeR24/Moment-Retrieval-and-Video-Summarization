@@ -20,9 +20,11 @@ def split_video_ffmpeg(input_file, output_dir, chunk_size=150):
     command = [
         'ffmpeg',
         '-i', input_file,
+        '-force_key_frames', f'expr:gte(t,n_forced*{chunk_size})',  # inject keyframes
         '-f', 'segment',
         '-segment_time', str(chunk_size),
-        '-c', 'copy',
+        '-c:v', 'libx264',  # must re-encode video to insert keyframes
+        '-c:a', 'copy',  # audio can still be copied
         '-reset_timestamps', '1',
         output_pattern
     ]

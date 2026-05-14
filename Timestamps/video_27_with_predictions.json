@@ -1,0 +1,85 @@
+[
+  {
+    "prompt_type": "concise",
+    "vlm_source": "long",
+    "vlm_frame_count": 50,
+    "parsed_events": [
+      "The video starts with an introduction screen displaying \"MHD\" in white letters against a black background.",
+      "Students are shown participating in various activities such as walking down a path lined with green leaves and wearing garlands made of greenery.",
+      "The students celebrate together outdoors under trees or buildings, waving flags at parades, and engaging in conversations among themselves.",
+      "They dance around bushes covered in foliage, pose for photos while dressed up, and sit indoors talking about something related to college life.",
+      "Students play golf carts through grassy areas, march along streets during festivals, carry large banners reading things like \"Yeeh\", perform synchronized movements, and stand still next to each other looking happy.",
+      "The students take selfies, are interviewed by someone off-camera, give hugs, laugh heartily, raise arms high into the air joyfully, gather close together, converse animatedly, share stories, enjoy outdoor food gatherings, watch performances, interact closely, sing songs, make peace sign gestures, and capture memories using cameras.",
+      "The students express happiness, show excitement, have fun, socialize happily, speak directly to camera, listen attentively, react positively, move energetically, create vibrant colors, reflect sunlight, feel joyful, experience camaraderie, commemorate special occasions, highlight unity, emphasize community spirit, convey pride, demonstrate resilience, foster friendship, promote school culture, encourage participation, instill enthusiasm, build connections, preserve traditions, nurture friendships, support academic achievements, honor heritage, celebrate diversity, recognize excellence, acknowledge contributions, appreciate teamwork, value individuality, respect differences, cherish shared experiences, maintain continuity, sustain legacy, cultivate growth, enhance relationships, strengthen bonds, enrich lives."
+    ],
+    "parsed_events_clean": [
+      "The video starts with an introduction screen displaying \"MHD\" in white letters against a black background.",
+      "Students are shown participating in various activities such as walking down a path lined with green leaves and wearing garlands made of greenery.",
+      "The students celebrate together outdoors under trees or buildings, waving flags at parades, and engaging in conversations among themselves.",
+      "They dance around bushes covered in foliage, pose for photos while dressed up, and sit indoors talking about something related to college life.",
+      "Students ride golf carts through grassy areas while carrying large banners with messages such as \"Yeeh\".",
+      "Students participate in a lively gathering, sharing stories and enjoying each other's company through various joyful activities.",
+      "Students exhibit unbridled joy and camaraderie as they enthusiastically participate in a celebratory event, embodying school culture and community spirit."
+    ],
+    "predicted_timestamps_chunks": [
+      [
+        359.2291,
+        364.0
+      ],
+      [
+        350.5507,
+        359.1454
+      ],
+      [
+        335.2794,
+        354.7462
+      ],
+      [
+        310.8288,
+        319.004
+      ],
+      [
+        338.8403,
+        354.5204
+      ],
+      [
+        325.1071,
+        355.8666
+      ],
+      [
+        334.7901,
+        354.4354
+      ]
+    ],
+    "predicted_timestamps_sped_up": [
+      [
+        336.8086751706,
+        362.8266535563
+      ],
+      [
+        0.3008911591,
+        23.6249344134
+      ],
+      [
+        310.6520294307,
+        353.479356774
+      ],
+      [
+        0.3548038607,
+        23.9367538228
+      ],
+      [
+        62.7614273452,
+        80.6181883844
+      ],
+      [
+        84.2592385444,
+        104.811877515
+      ],
+      [
+        303.5221960654,
+        333.7524078283
+      ]
+    ]
+  }
+]
