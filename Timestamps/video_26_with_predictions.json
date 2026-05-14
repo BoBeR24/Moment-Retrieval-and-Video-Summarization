@@ -14,42 +14,43 @@
       "There appears to be music being played during these festival scenes.",
       "The scene transitions from one vibrant setting to another, showcasing the city's diverse atmosphere and various modes of transportation."
     ],
+    "parsed_events_clean": null,
     "predicted_timestamps_chunks": [
       [
-        18.9835,
-        27.3821
+        18.9366,
+        27.1572
       ],
       [
-        58.5653,
-        73.7727
+        58.6896,
+        74.6353
       ],
       [
-        13.4417,
-        26.4679
+        13.4727,
+        26.7983
       ],
       [
-        0.1346,
-        6.5721
+        0.1322,
+        6.5648
       ],
       [
-        95.845,
-        102.4195
+        96.1163,
+        102.5111
       ],
       [
-        14.1934,
-        24.8692
+        14.0228,
+        24.621
       ],
       [
-        28.5831,
-        51.1365
+        28.5261,
+        50.8526
       ],
       [
-        27.857,
-        49.4171
+        27.8549,
+        48.8653
       ],
       [
-        17.5938,
-        25.8535
+        17.767,
+        25.7743
       ]
     ],
     "predicted_timestamps_sped_up": [
