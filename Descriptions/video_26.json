@@ -106,6 +106,18 @@
         "A crowd of people watches in joy as performers dance and celebrate together.",
         "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
         "Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration."
+      ],
+      "parsed_events_clean": [
+        "Two men study a map, marking potential destinations in Chinatown neighborhood on the \"Car Sia St\".",
+        "A crowd gathers around another man playing traditional Chinese instruments near a building entrance, as individuals walk along sidewalks lined with shops selling various goods.",
+        "A large crowd gathers for a parade or festival event featuring vibrant costumes and performers dancing energetically amidst confetti falling onto them.",
+        "One performer wears elaborate headgear while others dance joyfully under bright lights, with confetti falling over participants dressed in festive attire holding balloons aloft.",
+        "Spectators cheer enthusiastically behind barricades set up across streets filled with cheering crowds lining both sides.",
+        "People wave flags high into the air alongside other dancers performing synchronized routines amid ongoing festivities throughout the day.",
+        "The parade/festival event features performers dancing energetically, with vibrant costumes and confetti falling onto participants.",
+        "A crowd of people watches in joy as performers dance and celebrate together.",
+        "A man plays traditional Chinese instruments near a building entrance to draw in spectators who gather to watch his performance.",
+        "Spectators line both sides of the street filled with cheering crowds, waving flags high into the air during the lively celebration."
       ]
     },
     {
@@ -430,6 +442,15 @@
         "The lively scene captures various aspects of community engagement and cultural expression throughout different segments of the event, showcasing individuals participating in parades, performances by clowns, and communal celebrations marked by colorful costumes and decorations.",
         "Throughout these scenes, there's no direct interaction between characters; instead, they engage individually or collectively in their respective activities.",
         "The parade features a mixture of traditional Chinese attire and festive elements, highlighting the blending of cultural expressions within the celebration."
+      ],
+      "parsed_events_clean": [
+        "Navigators use an aerial map to locate the starting point in New York City's Chinatown area.",
+        "A close-up reveals two individuals behind bars within a jail cell, hinting towards imprisonment themes and setting a somber tone for the narrative.",
+        "People dressed as clowns perform on a street during a parade, adding festive elements amidst the narrative and foreshadowing upcoming celebrations.",
+        "As the celebration continues, more participants join the festivities, including those wearing traditional Chinese attire adorned with vibrant colors like red and gold.",
+        "Dancers participate in a vibrant parade celebration with elaborate costumes and decorations.",
+        "Throughout these scenes, there's no direct interaction between characters; instead, they engage individually or collectively in their respective activities.",
+        "The parade features a mixture of traditional Chinese attire and festive elements, highlighting the blending of cultural expressions within the celebration."
       ]
     },
     {
@@ -497,6 +518,14 @@
       "raw_response": "1. The video begins with an aerial view of tall buildings against a cloudy sky and transitions to show close-ups of city streets lined with cars parked along curbside, setting the scene for urban life.\n2. Two men are shown standing behind metal bars at night under streetlights in what appears to be a correctional facility or detention center.\n3. A colorful parade is showcased featuring performers dressed as clowns or mascots waving flags amidst cheering crowds.\n4. During another festive event, participants are seen wearing colorful costumes and waving red umbrellas while walking down a busy urban sidewalk filled with pedestrians.\n5. Footage of a large truck driving through traffic is shown, marked with the message \"KEEP EM LITTER FREE\" to emphasize environmental awareness.\n6. The video transitions from this environmentally conscious segment to conclude with text encouraging viewers to follow local news sources for more information about neighborhood happenings.",
       "parsed_events": [
         "The video begins with an aerial view of tall buildings against a cloudy sky and transitions to show close-ups of city streets lined with cars parked along curbside, setting the scene for urban life.",
+        "Two men are shown standing behind metal bars at night under streetlights in what appears to be a correctional facility or detention center.",
+        "A colorful parade is showcased featuring performers dressed as clowns or mascots waving flags amidst cheering crowds.",
+        "During another festive event, participants are seen wearing colorful costumes and waving red umbrellas while walking down a busy urban sidewalk filled with pedestrians.",
+        "Footage of a large truck driving through traffic is shown, marked with the message \"KEEP EM LITTER FREE\" to emphasize environmental awareness.",
+        "The video transitions from this environmentally conscious segment to conclude with text encouraging viewers to follow local news sources for more information about neighborhood happenings."
+      ],
+      "parsed_events_clean": [
+        "Aerial footage pans over a cloudy skyline, giving way to close-up shots of people walking on bustling city streets amidst rows of parked cars.",
         "Two men are shown standing behind metal bars at night under streetlights in what appears to be a correctional facility or detention center.",
         "A colorful parade is showcased featuring performers dressed as clowns or mascots waving flags amidst cheering crowds.",
         "During another festive event, participants are seen wearing colorful costumes and waving red umbrellas while walking down a busy urban sidewalk filled with pedestrians.",

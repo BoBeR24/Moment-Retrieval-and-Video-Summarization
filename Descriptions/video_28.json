@@ -321,6 +321,18 @@
         "The scene shifts to show bystanders documenting the events unfolding around them, offering glimpses into moments captured by the camera.",
         "The parade continues with no significant changes in activity, allowing the camera to capture a steady and unobstructed view of the event.",
         "The video showcases the joy and celebration among participants at the parade, highlighting the importance of communal gatherings such as parades."
+      ],
+      "parsed_events_clean": [
+        "A large crowd gathers along a street lined with palm trees and buildings, watching as various vehicles move down the street, including police cars and motorcycles.",
+        "Several people wear distinctive costumes featuring a white \"LAKERS\" logo on black shirts and blue helmets with red feathers.",
+        "Participants join onto moving trucks decorated with flags bearing symbols associated with certain groups' identities, adding to the event's festive atmosphere.",
+        "A large crowd gathers atop a truck bed filled with enthusiastic attendees who wave back enthusiastically, capturing the joy and camaraderie among participants.",
+        "One man on top of the truck wears sunglasses perched above his head, while another individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities.",
+        "The parade procession continues past the spectators, with more participants joining in along the route.",
+        "A camera captures a snapshot of people from different segments of society coming together under shared interests, celebrating life through communal gatherings such as parades.",
+        "The scene shifts to show bystanders documenting the events unfolding around them, offering glimpses into moments captured by the camera.",
+        "The parade continues with no significant changes in activity, allowing the camera to capture a steady and unobstructed view of the event.",
+        "The video showcases the joy and celebration among participants at the parade, highlighting the importance of communal gatherings such as parades."
       ]
     },
     {
@@ -333,6 +345,18 @@
       "raw_response": "1. A large crowd gathers at one point where several individuals stand out due to their costumes; some wear black shirts emblazoned with white letters spelling \"LAKERS,\" while others don colorful outfits that include blue helmets adorned with red feathers.\n2. Participants join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities.\n3. Two men stand atop a truck bed filled with enthusiastic attendees who wave back enthusiastically, one wearing sunglasses perched above his head.\n4. One man beside the first individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities.\n5. Police cars marked \"POLICE\" drive down the street in front of the crowd.\n6. Motorcycles carrying people dressed up for the occasion move down the street past the gathered spectators.\n7. More individuals join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities.\n8. A group of people wearing black shirts emblazoned with white letters spelling \"LAKERS\" stand together, drawing attention due to their costumes.\n9. The crowd enthusiastically waves back at the participants on the truck bed.\n10. Attendees document the events unfolding around them using bystander shots that capture different segments of society coming together under shared interests.",
       "parsed_events": [
         "A large crowd gathers at one point where several individuals stand out due to their costumes; some wear black shirts emblazoned with white letters spelling \"LAKERS,\" while others don colorful outfits that include blue helmets adorned with red feathers.",
+        "Participants join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities.",
+        "Two men stand atop a truck bed filled with enthusiastic attendees who wave back enthusiastically, one wearing sunglasses perched above his head.",
+        "One man beside the first individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities.",
+        "Police cars marked \"POLICE\" drive down the street in front of the crowd.",
+        "Motorcycles carrying people dressed up for the occasion move down the street past the gathered spectators.",
+        "More individuals join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities.",
+        "A group of people wearing black shirts emblazoned with white letters spelling \"LAKERS\" stand together, drawing attention due to their costumes.",
+        "The crowd enthusiastically waves back at the participants on the truck bed.",
+        "Attendees document the events unfolding around them using bystander shots that capture different segments of society coming together under shared interests."
+      ],
+      "parsed_events_clean": [
+        "A group of fans wearing distinctive costumes converge on a specific area, including those with black shirts and blue helmet hats featuring bright red feathers.",
         "Participants join onto moving trucks decorated with flags bearing symbols like skulls and other motifs associated with certain groups' identities.",
         "Two men stand atop a truck bed filled with enthusiastic attendees who wave back enthusiastically, one wearing sunglasses perched above his head.",
         "One man beside the first individual stands beside him holding a drink cup, possibly enjoying refreshments during the festivities.",
@@ -474,6 +498,12 @@
       "raw_response": "1. A parade is happening down a street with palm trees lining it, and people line both sides of the street to watch as police cars drive by carrying people on their backs for cheering purposes.\n2. The crowd cheers loudly at this event, showing enthusiasm and support for the parade participants.\n3. An explosion occurs during the celebration, causing chaos among those watching the parade.\n4. Two men stand next to each other while one holds his hand over his heart, displaying a moment of respect or devotion during another part of the celebration.",
       "parsed_events": [
         "A parade is happening down a street with palm trees lining it, and people line both sides of the street to watch as police cars drive by carrying people on their backs for cheering purposes.",
+        "The crowd cheers loudly at this event, showing enthusiasm and support for the parade participants.",
+        "An explosion occurs during the celebration, causing chaos among those watching the parade.",
+        "Two men stand next to each other while one holds his hand over his heart, displaying a moment of respect or devotion during another part of the celebration."
+      ],
+      "parsed_events_clean": [
+        "People are being lifted high on the backs of police cars, cheered on by crowds lining the street, during a festive parade surrounded by palm trees.",
         "The crowd cheers loudly at this event, showing enthusiasm and support for the parade participants.",
         "An explosion occurs during the celebration, causing chaos among those watching the parade.",
         "Two men stand next to each other while one holds his hand over his heart, displaying a moment of respect or devotion during another part of the celebration."

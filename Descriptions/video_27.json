@@ -85,6 +85,18 @@
         "Traditional attire is worn by some participants, indicating cultural significance and community ties to these celebrations.",
         "Participants show close connection to nature through their attire, accessories, and actions, such as using wreaths made from plants in the celebration.",
         "The scene implies a sense of unity among participants, who seem to feel closely connected due to shared experiences centered around natural elements."
+      ],
+      "parsed_events_clean": [
+        "Two women, each with distinct hairstyle and attire, assemble at a gathering where a man stands in the background, clasping his hands in prayer-like posture.",
+        "Outside the event, a group is gathered near trees, where one person appears to be giving instructions or leading something related to greenery.",
+        "A parade passes through the area, with multiple vehicles carrying happy and excited participants who seem to be part of some larger celebration.",
+        "The scene shifts to various individuals celebrating outdoors during what looks like springtime, surrounded by lush foliage and cultural attire that suggests significance tied to these celebrations.",
+        "Participants engage in joyful activities such as dancing under banners decorated with flowers and leaves, highlighting expressions of happiness among the group.",
+        "Close-ups reveal wreaths made entirely of plants being held aloft amidst cheers and applause, symbolizing unity within communities brought forth by shared experiences centered around natural elements.",
+        "The celebration appears to be a cultural event tied to springtime, given the lush foliage and outdoor setting that suggests a time of renewal.",
+        "Traditional attire is worn by some participants, indicating cultural significance and community ties to these celebrations.",
+        "Participants show close connection to nature through their attire, accessories, and actions, such as using wreaths made from plants in the celebration.",
+        "The scene implies a sense of unity among participants, who seem to feel closely connected due to shared experiences centered around natural elements."
       ]
     },
     {
@@ -105,6 +117,17 @@
         "Close-ups show expressions of happiness among participants as they dance under banners decorated with flowers and leaves.",
         "Wreaths made entirely of plants are held aloft amidst cheers and applause.",
         "The gathering is characterized by a sense of unity among community members, brought together by shared experiences centered around natural elements."
+      ],
+      "parsed_events_clean": [
+        "A woman waves her hand at another woman standing beside her, who wears a white outfit with green ribbons.",
+        "A man stands behind the two women, clasping his hands together as if praying.",
+        "Individuals gather outside near trees, where one person appears to be giving instructions or leading an activity related to greenery.",
+        "Vehicles drive down a street carrying groups of people who are excited and happy, indicating a parade is taking place.",
+        "A group celebrates outdoors during what looks like spring time, surrounded by lush foliage.",
+        "Participants wear traditional attire that suggests cultural significance tied to the celebration.",
+        "Close-ups show expressions of happiness among participants as they dance under banners decorated with flowers and leaves.",
+        "Wreaths made entirely of plants are held aloft amidst cheers and applause.",
+        "The gathering is characterized by a sense of unity among community members, brought together by shared experiences centered around natural elements."
       ]
     },
     {
@@ -117,6 +140,18 @@
       "raw_response": "1. A group of people dressed as leprechauns walk down a street during an event at Mount Holyoke College, carrying large wreaths made of leaves around their necks and wearing green hats with gold bells attached to them.\n2. Some individuals hold cameras or phones up for photos while others wave flags decorated with shamrocks, indicating the festive atmosphere of the event.\n3. One person's major field of study is displayed on a screen with the text \"Major European Studies\".\n4. Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.\n5. Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.\n6. A camera captures close-up shots of various groups participating in different parts of the parade, showcasing the event's diversity and inclusivity.\n7. Images labeled \"Dinner\" and \"Luncheon\" are displayed, implying that past celebrations have been recurring events over multiple years.\n8. A leprechaun participant carries a large wreath made of leaves around their neck, while another person takes a photo in front of the group.\n9. The participants wear green hats with gold bells attached to them, adding to the festive and celebratory atmosphere of the event.\n10. The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences.",
       "parsed_events": [
         "A group of people dressed as leprechauns walk down a street during an event at Mount Holyoke College, carrying large wreaths made of leaves around their necks and wearing green hats with gold bells attached to them.",
+        "Some individuals hold cameras or phones up for photos while others wave flags decorated with shamrocks, indicating the festive atmosphere of the event.",
+        "One person's major field of study is displayed on a screen with the text \"Major European Studies\".",
+        "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
+        "Several older adults wearing similar attire stand together outside near trees, suggesting a continuation or variation of the leprechaun parade theme.",
+        "A camera captures close-up shots of various groups participating in different parts of the parade, showcasing the event's diversity and inclusivity.",
+        "Images labeled \"Dinner\" and \"Luncheon\" are displayed, implying that past celebrations have been recurring events over multiple years.",
+        "A leprechaun participant carries a large wreath made of leaves around their neck, while another person takes a photo in front of the group.",
+        "The participants wear green hats with gold bells attached to them, adding to the festive and celebratory atmosphere of the event.",
+        "The group of people dressed as leprechauns march down the street during the event at Mount Holyoke College, engaging with attendees and creating memorable experiences."
+      ],
+      "parsed_events_clean": [
+        "A group of people in leprechaun costumes march down the street, carrying large leaf wreaths around their necks and adorned with green hats featuring gold bells.",
         "Some individuals hold cameras or phones up for photos while others wave flags decorated with shamrocks, indicating the festive atmosphere of the event.",
         "One person's major field of study is displayed on a screen with the text \"Major European Studies\".",
         "Two women embrace each other outdoors amidst greenery, with one woman wearing white clothing adorned with yellow flowers that may be part of a ceremony related to her studies.",
@@ -168,6 +203,18 @@
         "The students stand shoulder to shoulder in rows that stretch across grassy areas surrounded by tall leafy plants, forming a united front.",
         "A student smiles broadly indoors next to shelves decorated with holiday ornaments, suggesting a moment of quiet reflection or happiness.",
         "Students are shown driving golf carts down paved paths lined with well-manicured lawns and mature trees, possibly as part of a campus activity or outing."
+      ],
+      "parsed_events_clean": [
+        "Students participate in a campus procession, adorned with greenery garlands and posing for photographs.",
+        "The students celebrate graduation by holding up large signs reading '2013', a significant year that marks their achievement.",
+        "Students engage warmly with others at outdoor gatherings during spring break, enjoying each other's company in a relaxed setting.",
+        "Students enjoy food together while dressed casually, showcasing camaraderie and friendship among the group.",
+        "A student waves enthusiastically towards someone off-camera amidst lush foliage, suggesting a sense of excitement or celebration.",
+        "The students raise hands high above their heads against verdant backgrounds, perhaps to cheer on someone or celebrate a momentous occasion.",
+        "Students clasp heartily among themselves near tree branches, indicating a strong bond and shared enthusiasm within the group.",
+        "The students stand shoulder to shoulder in rows that stretch across grassy areas surrounded by tall leafy plants, forming a united front.",
+        "A student smiles broadly indoors next to shelves decorated with holiday ornaments, suggesting a moment of quiet reflection or happiness.",
+        "Students are shown driving golf carts down paved paths lined with well-manicured lawns and mature trees, possibly as part of a campus activity or outing."
       ]
     },
     {
@@ -209,6 +256,17 @@
         "Images capture diverse aspects of the celebration, including children playing energetically next to adults enjoying themselves, emphasizing family bonding in a joyful atmosphere.",
         "Conversations between peers are shown, suggesting deep connections formed during shared academic journeys and significant milestones reached after years spent studying hard.",
         "The focus shifts toward preserving memories etched upon stone walls covered partially by vibrant greens, symbolizing growth beyond educational boundaries."
+      ],
+      "parsed_events_clean": [
+        "A procession of individuals, likely graduates, walks down a paved path lined with greenery, suggesting they might be partaking in some form of ceremony.",
+        "A group of people wearing white dresses gathers near floral arrangements before proceeding to a location where individuals in blue attire hold large yellow flags with the phrase \"We're Really Young! We Can't Be Old.\"",
+        "Students dressed in blue outfits and waving yellow flags are seen participating actively in events marked by celebratory gestures, capturing moments of joy and unity among attendees.",
+        "Two women stand close together against a backdrop of other graduates celebrating outdoors under clear skies, highlighting individual expressions of happiness during festive occasions.",
+        "A woman shares personal anecdotes about her experiences attending similar gatherings over time while sitting indoors and looking contemplative.",
+        "Young girls carrying leafy garlands around campus grounds are seen, possibly preparing for future ceremonial duties.",
+        "Images capture diverse aspects of the celebration, including children playing energetically next to adults enjoying themselves, emphasizing family bonding in a joyful atmosphere.",
+        "Conversations between peers are shown, suggesting deep connections formed during shared academic journeys and significant milestones reached after years spent studying hard.",
+        "The focus shifts toward preserving memories etched upon stone walls covered partially by vibrant greens, symbolizing growth beyond educational boundaries."
       ]
     },
     {
@@ -221,6 +279,18 @@
       "raw_response": "1. A group of people, including those wearing white dresses, walk together along a paved path lined with greenery and leaf arrangements, suggesting they might be part of a procession or ceremony.\n2. Participants wearing blue outfits hold large yellow flags that read \"We're Really Young! We Can't Be Old,\" moving into another area where celebrations continue.\n3. A group of students dressed in similar attire participate in celebratory gestures like raising hands high above heads amidst lush foliage, capturing moments of joy and unity among attendees.\n4. Two women stand close together against a backdrop of other graduates celebrating outdoors under clear skies, highlighting their emotional connection with the moment.\n5. A woman sitting indoors shares personal anecdotes connected to past festivities held at Mount Holyoke College, emphasizing her experiences attending similar gatherings over time.\n6. Young girls carry leafy garlands around campus grounds, possibly preparing for future ceremonial duties.\n7. Children play energetically next to adults enjoying themselves, underscoring family bonding amid the joyful atmosphere.\n8. A conversation between peers shares stories behind camera lenses, suggesting deep connections formed during shared academic journeys.\n9. Participants gather in front of stone walls covered partially by vibrant greens, symbolizing growth beyond educational boundaries.\n10. The final frame presents information regarding production credits, providing transparency about creators involved in bringing forth the visual documentation encapsulating cherished university traditions.",
       "parsed_events": [
         "A group of people, including those wearing white dresses, walk together along a paved path lined with greenery and leaf arrangements, suggesting they might be part of a procession or ceremony.",
+        "Participants wearing blue outfits hold large yellow flags that read \"We're Really Young! We Can't Be Old,\" moving into another area where celebrations continue.",
+        "A group of students dressed in similar attire participate in celebratory gestures like raising hands high above heads amidst lush foliage, capturing moments of joy and unity among attendees.",
+        "Two women stand close together against a backdrop of other graduates celebrating outdoors under clear skies, highlighting their emotional connection with the moment.",
+        "A woman sitting indoors shares personal anecdotes connected to past festivities held at Mount Holyoke College, emphasizing her experiences attending similar gatherings over time.",
+        "Young girls carry leafy garlands around campus grounds, possibly preparing for future ceremonial duties.",
+        "Children play energetically next to adults enjoying themselves, underscoring family bonding amid the joyful atmosphere.",
+        "A conversation between peers shares stories behind camera lenses, suggesting deep connections formed during shared academic journeys.",
+        "Participants gather in front of stone walls covered partially by vibrant greens, symbolizing growth beyond educational boundaries.",
+        "The final frame presents information regarding production credits, providing transparency about creators involved in bringing forth the visual documentation encapsulating cherished university traditions."
+      ],
+      "parsed_events_clean": [
+        "A group of people in white dresses walks along a paved path accompanied by greenery and leaf arrangements, indicating a potential ceremonial processional.",
         "Participants wearing blue outfits hold large yellow flags that read \"We're Really Young! We Can't Be Old,\" moving into another area where celebrations continue.",
         "A group of students dressed in similar attire participate in celebratory gestures like raising hands high above heads amidst lush foliage, capturing moments of joy and unity among attendees.",
         "Two women stand close together against a backdrop of other graduates celebrating outdoors under clear skies, highlighting their emotional connection with the moment.",
@@ -287,6 +357,18 @@
         "The students give hugs, laugh heartily, raise arms high into the air joyfully, and gather close together while conversing animatedly.",
         "Students share stories, enjoy outdoor food gatherings, watch performances, interact closely, sing songs, make peace sign gestures, and capture memories using cameras.",
         "The video ends with a sense of camaraderie, commemorating special occasions, highlighting unity, emphasizing community spirit, conveying pride, demonstrating resilience, fostering friendship, promoting school culture, encouraging participation, instilling enthusiasm, building connections, preserving traditions, nurturing friendships, supporting academic achievements, honoring heritage, celebrating diversity, recognizing excellence, acknowledging contributions, appreciating teamwork, valuing individuality, respecting differences, cherishing shared experiences."
+      ],
+      "parsed_events_clean": [
+        "The video starts with an introduction screen displaying \"MHD\" in white letters against a black background.",
+        "Students are shown participating in various activities such as walking down a path lined with green leaves and wearing garlands made of greenery.",
+        "The students celebrate together outdoors under trees or buildings, waving flags at parades and engaging in conversations among themselves.",
+        "The students dance around bushes covered in foliage, pose for photos while dressed up, and sit indoors talking about something related to college life.",
+        "Students play golf carts through grassy areas and march along streets during festivals.",
+        "The students perform synchronized movements, stand still next to each other looking happy, smile broadly, clap hands enthusiastically, and cheer loudly.",
+        "Students take selfies, embrace warmly, and are interviewed by someone off-camera.",
+        "The students give hugs, laugh heartily, raise arms high into the air joyfully, and gather close together while conversing animatedly.",
+        "Students share stories, enjoy outdoor food gatherings, watch performances, interact closely, sing songs, make peace sign gestures, and capture memories using cameras.",
+        "The event concludes with a heartwarming moment of unity and celebration among participants, marking a special occasion with pride and camaraderie."
       ]
     },
     {
@@ -322,6 +404,18 @@
         "A procession of individuals, likely graduating students or attendees of a commencement ceremony at Mount Holyoke College, walk down a paved path lined with greenery on one side.",
         "More participants join the procession, wearing white dresses and standing together near leaf arrangements adorned alongside their feet, indicating a possible ceremonial tradition.",
         "The group transitions into another area where attendees wear blue outfits holding large yellow flags that read \"We're Really Young! We Can't Be Old,\" suggesting a playful celebration amidst graduation festivities.",
+        "Multiple settings featuring groups of students dressed similarly and celebrating outdoors, marking ongoing processions or parades associated with graduations or commencements.",
+        "Footage shows two women standing close together against a backdrop of other graduates celebrating outdoors under clear skies, highlighting moments of joy and unity among attendees.",
+        "A woman sitting indoors shares personal anecdotes about her experiences attending similar gatherings over time, connecting past festivities to the present.",
+        "Young girls carry leafy garlands around campus grounds, possibly preparing for future ceremonial duties, adding a sense of continuity and tradition.",
+        "Images capture diverse aspects of the celebration, including children playing energetically next to adults enjoying themselves, emphasizing family bonding and camaraderie in college life.",
+        "Conversations between peers are shared behind camera lenses, suggesting deep connections formed during shared academic journeys among students.",
+        "The final frame presents viewers with information regarding production credits, providing transparency about creators involved in bringing forth this visual documentation of cherished university traditions passed down generations."
+      ],
+      "parsed_events_clean": [
+        "A procession of individuals, likely graduating students or attendees of a commencement ceremony at Mount Holyoke College, walk down a paved path lined with greenery on one side.",
+        "More participants join the procession, wearing white dresses and standing together near leaf arrangements adorned alongside their feet, indicating a possible ceremonial tradition.",
+        "Attendees celebrate graduation by wearing blue outfits with large yellow flags displaying their youth and playfulness.",
         "Multiple settings featuring groups of students dressed similarly and celebrating outdoors, marking ongoing processions or parades associated with graduations or commencements.",
         "Footage shows two women standing close together against a backdrop of other graduates celebrating outdoors under clear skies, highlighting moments of joy and unity among attendees.",
         "A woman sitting indoors shares personal anecdotes about her experiences attending similar gatherings over time, connecting past festivities to the present.",
@@ -404,6 +498,15 @@
         "Students play golf carts through grassy areas, march along streets during festivals, carry large banners reading things like \"Yeeh\", perform synchronized movements, and stand still next to each other looking happy.",
         "The students take selfies, are interviewed by someone off-camera, give hugs, laugh heartily, raise arms high into the air joyfully, gather close together, converse animatedly, share stories, enjoy outdoor food gatherings, watch performances, interact closely, sing songs, make peace sign gestures, and capture memories using cameras.",
         "The students express happiness, show excitement, have fun, socialize happily, speak directly to camera, listen attentively, react positively, move energetically, create vibrant colors, reflect sunlight, feel joyful, experience camaraderie, commemorate special occasions, highlight unity, emphasize community spirit, convey pride, demonstrate resilience, foster friendship, promote school culture, encourage participation, instill enthusiasm, build connections, preserve traditions, nurture friendships, support academic achievements, honor heritage, celebrate diversity, recognize excellence, acknowledge contributions, appreciate teamwork, value individuality, respect differences, cherish shared experiences, maintain continuity, sustain legacy, cultivate growth, enhance relationships, strengthen bonds, enrich lives."
+      ],
+      "parsed_events_clean": [
+        "The video starts with an introduction screen displaying \"MHD\" in white letters against a black background.",
+        "Students are shown participating in various activities such as walking down a path lined with green leaves and wearing garlands made of greenery.",
+        "The students celebrate together outdoors under trees or buildings, waving flags at parades, and engaging in conversations among themselves.",
+        "They dance around bushes covered in foliage, pose for photos while dressed up, and sit indoors talking about something related to college life.",
+        "Students ride golf carts through grassy areas while carrying large banners with messages such as \"Yeeh\".",
+        "Students participate in a lively gathering, sharing stories and enjoying each other's company through various joyful activities.",
+        "Students exhibit unbridled joy and camaraderie as they enthusiastically participate in a celebratory event, embodying school culture and community spirit."
       ]
     },
     {
