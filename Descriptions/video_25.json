@@ -202,6 +202,18 @@
         "Solitary contemplation amidst nature's beauty and reflective pauses within personal spaces are also showcased in the video.",
         "Collaborative efforts towards community development projects and joyful reunions post-travels are depicted throughout the narrative.",
         "The video concludes with contemplative stillness reflecting on past journeys and future aspirations, highlighting themes of growth, unity, and purpose."
+      ],
+      "parsed_events_clean": [
+        "Aerial footage of historic buildings precedes a desolate street scene featuring empty sidewalks lined with shuttered shops.",
+        "A person takes photos on public transportation, capturing moments from their travels.",
+        "The video cuts through different environments such as mountainsides, urban areas, parks, city streets, historical sites like monuments, markets, beaches, and shopping malls.",
+        "There is footage of outdoor events at night, nighttime pedestrian paths, residential neighborhoods during daytime, beachside activities under clear skies, and crowded gatherings near waterfront promenades.",
+        "A vibrant party erupts at a public square, with people dancing and cheering amidst confetti and colorful decorations.",
+        "There are scenes of relaxed evenings spent watching television inside homes, intimate conversations over food, adventurous hikes up steep hills, energetic group dances, leisurely strolls around town squares.",
+        "The video features nostalgic visits back home after long travels, casual lounging sessions, spontaneous photography adventures, social interactions among friends, communal festivities celebrating cultural heritage.",
+        "Solitary contemplation amidst nature's beauty and reflective pauses within personal spaces are also showcased in the video.",
+        "Collaborative efforts towards community development projects and joyful reunions post-travels are depicted throughout the narrative.",
+        "The video concludes with contemplative stillness reflecting on past journeys and future aspirations, highlighting themes of growth, unity, and purpose."
       ]
     },
     {
@@ -277,6 +289,18 @@
         "Various groups interact within different settings such as busy streets, parks, and public spaces like malls and beaches, capturing moments of social interaction.",
         "Footage inside shopping centers showcases bustling crowds and vibrant storefronts, highlighting the city's lively atmosphere.",
         "Close-ups of hands adjusting camera equipment amidst lively social gatherings at night, followed by shots capturing everyday life indoors—a man lying naked beside a bed cluttered with clothes and electronics."
+      ],
+      "parsed_events_clean": [
+        "A group of young men wearing orange shirts approach a person holding binoculars, then walk down a busy street lined with shops and cars.",
+        "Inside a train car, one person takes pictures while others sit nearby, capturing a moment of relaxation amidst travel.",
+        "A mountainous landscape shows two individuals walking along a dirt path surrounded by greenery as they immerse themselves in nature.",
+        "A crowded outdoor area is filled with children playing near a fence covered in green vines, showcasing carefree moments of youth.",
+        "Two boys engage in conversation as they move through an urban setting, one wearing headphones during their interaction.",
+        "The boy sits outdoors eating food wrapped in plastic wrap and then performs acrobatic moves against a colorful mural-covered building.",
+        "The boy stands outside again, now shirtless but still using earphones for music playback, amidst an urban backdrop.",
+        "Various groups interact within different settings such as busy streets, parks, and public spaces like malls and beaches, capturing moments of social interaction.",
+        "Footage inside shopping centers showcases bustling crowds and vibrant storefronts, highlighting the city's lively atmosphere.",
+        "Close-ups of hands adjusting camera equipment amidst lively social gatherings at night, followed by shots capturing everyday life indoors—a man lying naked beside a bed cluttered with clothes and electronics."
       ]
     },
     {
@@ -310,6 +334,18 @@
       "raw_response": "1. The video begins with an aerial view of various buildings and structures, including the \"Hotel de la Constitución,\" before transitioning to street scenes showcasing people walking along sidewalks lined by shops or closed storefronts.\n2. A person takes photos on public transportation, marking a moment of spontaneity amidst the daily routines.\n3. The narrative then shifts through different environments, including mountainsides, urban areas, parks, city streets, historical sites like monuments, and beaches.\n4. The video features various forms of outdoor activities such as beachside activities under clear skies, crowded gatherings near waterfront promenades, lively party settings, and festive celebrations outdoors.\n5. Busy commercial districts, serene landscapes, vibrant parties, quiet moments indoors, and dynamic sports competitions are also depicted throughout the narrative.\n6. A sequence showing relaxed evenings spent watching television inside homes highlights the importance of leisure time and self-care.\n7. The video also captures intimate conversations over food and adventurous hikes up steep hills, showcasing personal growth through shared experiences.\n8. Energetic group dances, leisurely strolls around town squares, and nostalgic visits back home after long travels add to the narrative's diverse portrayal of human connection.\n9. Spontaneous photography adventures and social interactions among friends further illustrate the value of camaraderie in everyday life.\n10. The video concludes with contemplative stillness reflecting on past journeys and future aspirations, highlighting the importance of introspection amidst daily routines and experiences.",
       "parsed_events": [
         "The video begins with an aerial view of various buildings and structures, including the \"Hotel de la Constitución,\" before transitioning to street scenes showcasing people walking along sidewalks lined by shops or closed storefronts.",
+        "A person takes photos on public transportation, marking a moment of spontaneity amidst the daily routines.",
+        "The narrative then shifts through different environments, including mountainsides, urban areas, parks, city streets, historical sites like monuments, and beaches.",
+        "The video features various forms of outdoor activities such as beachside activities under clear skies, crowded gatherings near waterfront promenades, lively party settings, and festive celebrations outdoors.",
+        "Busy commercial districts, serene landscapes, vibrant parties, quiet moments indoors, and dynamic sports competitions are also depicted throughout the narrative.",
+        "A sequence showing relaxed evenings spent watching television inside homes highlights the importance of leisure time and self-care.",
+        "The video also captures intimate conversations over food and adventurous hikes up steep hills, showcasing personal growth through shared experiences.",
+        "Energetic group dances, leisurely strolls around town squares, and nostalgic visits back home after long travels add to the narrative's diverse portrayal of human connection.",
+        "Spontaneous photography adventures and social interactions among friends further illustrate the value of camaraderie in everyday life.",
+        "The video concludes with contemplative stillness reflecting on past journeys and future aspirations, highlighting the importance of introspection amidst daily routines and experiences."
+      ],
+      "parsed_events_clean": [
+        "Aerial footage pans over a historic hotel and surrounding cityscape before cutting to people walking through empty streets lined with shuttered shops.",
         "A person takes photos on public transportation, marking a moment of spontaneity amidst the daily routines.",
         "The narrative then shifts through different environments, including mountainsides, urban areas, parks, city streets, historical sites like monuments, and beaches.",
         "The video features various forms of outdoor activities such as beachside activities under clear skies, crowded gatherings near waterfront promenades, lively party settings, and festive celebrations outdoors.",
@@ -389,6 +425,18 @@
       "raw_response": "1. Aerial view of a cityscape showing tall buildings under construction or renovation, as well as a group of young men wearing orange shirts gathering around someone holding binoculars before walking down a street lined with shops and parked cars.\n2. Inside a train car, one person takes pictures while others sit nearby.\n3. Two individuals walk along a dirt path in a mountainous landscape surrounded by greenery.\n4. A crowded outdoor area filled with children playing near a fence covered in green vines and energetically playing next to a concrete wall adorned with graffiti.\n5. Two boys engage in conversation as they move through an urban setting, with one boy wearing headphones during his interaction.\n6. The shirtless boy sits outdoors eating food wrapped in plastic wrap, performing acrobatic moves against a colorful mural-covered building later.\n7. Various groups interact within different settings such as busy streets, parks, and public spaces like malls and beaches.\n8. Footage inside shopping centers showcasing bustling crowds and vibrant storefronts.\n9. Close-ups of hands adjusting camera equipment amidst lively social gatherings at night.\n10. Shots capturing everyday life indoors—a man lying naked beside a bed cluttered with clothes and electronics.",
       "parsed_events": [
         "Aerial view of a cityscape showing tall buildings under construction or renovation, as well as a group of young men wearing orange shirts gathering around someone holding binoculars before walking down a street lined with shops and parked cars.",
+        "Inside a train car, one person takes pictures while others sit nearby.",
+        "Two individuals walk along a dirt path in a mountainous landscape surrounded by greenery.",
+        "A crowded outdoor area filled with children playing near a fence covered in green vines and energetically playing next to a concrete wall adorned with graffiti.",
+        "Two boys engage in conversation as they move through an urban setting, with one boy wearing headphones during his interaction.",
+        "The shirtless boy sits outdoors eating food wrapped in plastic wrap, performing acrobatic moves against a colorful mural-covered building later.",
+        "Various groups interact within different settings such as busy streets, parks, and public spaces like malls and beaches.",
+        "Footage inside shopping centers showcasing bustling crowds and vibrant storefronts.",
+        "Close-ups of hands adjusting camera equipment amidst lively social gatherings at night.",
+        "Shots capturing everyday life indoors—a man lying naked beside a bed cluttered with clothes and electronics."
+      ],
+      "parsed_events_clean": [
+        "A group of young men in orange shirts gather around an individual holding binoculars, then proceed to walk down a street lined with shops and parked cars.",
         "Inside a train car, one person takes pictures while others sit nearby.",
         "Two individuals walk along a dirt path in a mountainous landscape surrounded by greenery.",
         "A crowded outdoor area filled with children playing near a fence covered in green vines and energetically playing next to a concrete wall adorned with graffiti.",
