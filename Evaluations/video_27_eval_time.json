@@ -1,0 +1,39 @@
+{
+  "video_id": 27,
+  "evaluations": [
+    {
+      "combo_key": "vlm=long__frames=50__llm=concise",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "concise",
+      "mr_strategy": "chunks",
+      "metrics": {
+        "gt_duration_sec": 77.0,
+        "pred_duration_sec": 46.98,
+        "intersection_sec": 19.0,
+        "iou": 0.181,
+        "coverage": 0.2468,
+        "precision": 0.4044,
+        "f1": 0.3065,
+        "n_gt_annotations": 11
+      }
+    },
+    {
+      "combo_key": "vlm=long__frames=50__llm=concise",
+      "vlm_prompt_type": "long",
+      "vlm_frame_count": 50,
+      "llm_prompt_type": "concise",
+      "mr_strategy": "sped_up",
+      "metrics": {
+        "gt_duration_sec": 77.0,
+        "pred_duration_sec": 121.35,
+        "intersection_sec": 40.94,
+        "iou": 0.2601,
+        "coverage": 0.5316,
+        "precision": 0.3373,
+        "f1": 0.4128,
+        "n_gt_annotations": 11
+      }
+    }
+  ]
+}
