@@ -49,9 +49,8 @@ Download the TVSum videos assigned to Group 7 (videos 25–28) and place them in
 
 ### Model Weights
 
-Download the pre-trained model checkpoints and place them in `model_weights/`. Required:
-
-TODO
+Download the pre-trained model checkpoints and place them in `model_weights/`. 
+The source of weights for Moment Retrieval  can be found in `moment_retrieval_1.ipynb`
 
 ---
 
@@ -59,16 +58,14 @@ TODO
 
 Run the notebooks in order:
 
-| Step | Notebook | Description |
-|------|----------|-------------|
-| 1 | `vlm_pipeline.ipynb` | Samples frames from each video and generates descriptions using SmolVLM2-2.2B-Instruct across 3 prompt types × 3 frame counts |
-| 2 | `llm_pipeline.ipynb` | Extracts structured salient event lists from VLM descriptions using Llama 3.2 |
-| 3 | `evaluation_annotations_pipeline.ipynb` | Evaluates LLM events against human annotations using sentence embedding cosine similarity |
-| 4 | `moment_retrieval_1.ipynb` | Runs CG-DETR on each event as a text query; supports chunking and speed-up strategies for videos longer than 150s |
-| 4 | `moment_retrieval_2.py` | Runs QD-DETR — [TODO: add usage instructions] |
-| 5 | `evaluation_timestamps_pipeline.ipynb` | Evaluates predicted timestamps against ground truth using IoU, coverage, precision, and F1 |
-
-Each notebook skips already-completed entries, so they can be safely interrupted and re-run.
+| Step | Notebook | Description                                                                                                                                                                                        |
+|------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | `vlm_pipeline.ipynb` | Samples frames from each video and generates descriptions using SmolVLM2-2.2B-Instruct across 3 prompt types × 3 frame counts                                                                      |
+| 2 | `llm_pipeline.ipynb` | Extracts structured salient event lists from VLM descriptions using Llama 3.2                                                                                                                      |
+| 3 | `evaluation_annotations_pipeline.ipynb` | Evaluates LLM events against human annotations using sentence embedding cosine similarity                                                                                                          |
+| 4 | `moment_retrieval_1.ipynb` | (main MR pipeline) Runs CG-DETR(QD-DETR also available) on each event as a text query; supports chunking and speed-up strategies for videos longer than 150s. Generates a video summary in the end |
+| 4 | `moment_retrieval_2.py` | Runs QD-DETR — (optional))                                                                                                                                                                         |
+| 5 | `evaluation_timestamps_pipeline.ipynb` | Evaluates predicted timestamps against ground truth using IoU, coverage, precision, and F1                                                                                                         |
 
 ---
 
