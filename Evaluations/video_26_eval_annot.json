@@ -6,7 +6,7 @@
       "vlm_prompt_type": "long",
       "vlm_frame_count": 30,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.624135+00:00",
+      "timestamp": "2026-05-13T19:25:06.184597+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -211,7 +211,7 @@
       "vlm_prompt_type": "long",
       "vlm_frame_count": 30,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.648717+00:00",
+      "timestamp": "2026-05-13T19:25:06.207473+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -416,7 +416,7 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 30,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.669660+00:00",
+      "timestamp": "2026-05-13T19:25:06.236692+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -561,7 +561,7 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 30,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.694516+00:00",
+      "timestamp": "2026-05-13T19:25:06.268181+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -766,7 +766,7 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 30,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.720595+00:00",
+      "timestamp": "2026-05-13T19:25:06.298744+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -921,7 +921,7 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 30,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.751074+00:00",
+      "timestamp": "2026-05-13T19:25:06.328177+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -1116,7 +1116,7 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 50,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.779953+00:00",
+      "timestamp": "2026-05-13T19:25:06.362319+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -1321,7 +1321,7 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 50,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.815765+00:00",
+      "timestamp": "2026-05-13T19:25:06.392391+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -1516,7 +1516,7 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 50,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.845039+00:00",
+      "timestamp": "2026-05-13T19:25:06.421348+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -1661,7 +1661,7 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 50,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.869636+00:00",
+      "timestamp": "2026-05-13T19:25:06.454234+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -1866,7 +1866,7 @@
       "vlm_prompt_type": "long",
       "vlm_frame_count": 50,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.899307+00:00",
+      "timestamp": "2026-05-13T19:25:06.482896+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -2061,7 +2061,7 @@
       "vlm_prompt_type": "long",
       "vlm_frame_count": 50,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.928233+00:00",
+      "timestamp": "2026-05-13T19:25:06.515589+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -2226,7 +2226,7 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 12,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:26.958704+00:00",
+      "timestamp": "2026-05-13T19:25:06.549589+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -2401,7 +2401,7 @@
       "vlm_prompt_type": "short",
       "vlm_frame_count": 12,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:26.990640+00:00",
+      "timestamp": "2026-05-13T19:25:06.586222+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -2596,7 +2596,7 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 12,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:27.015594+00:00",
+      "timestamp": "2026-05-13T19:25:06.619765+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -2741,7 +2741,7 @@
       "vlm_prompt_type": "medium",
       "vlm_frame_count": 12,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:27.040439+00:00",
+      "timestamp": "2026-05-13T19:25:06.657094+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -2936,7 +2936,7 @@
       "vlm_prompt_type": "long",
       "vlm_frame_count": 12,
       "llm_prompt_type": "concise",
-      "timestamp": "2026-05-13T15:02:27.065851+00:00",
+      "timestamp": "2026-05-13T19:25:06.691493+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
@@ -3101,7 +3101,7 @@
       "vlm_prompt_type": "long",
       "vlm_frame_count": 12,
       "llm_prompt_type": "detailed",
-      "timestamp": "2026-05-13T15:02:27.099069+00:00",
+      "timestamp": "2026-05-13T19:25:06.727816+00:00",
       "threshold": 0.5,
       "human_annotations": [
         "A cityscape of New York is shown",
