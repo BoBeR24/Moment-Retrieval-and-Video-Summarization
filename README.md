@@ -80,3 +80,6 @@ annotation, timestamp, subjectivity_rating
 Timestamps are formatted as `MM:SS - MM:SS`. Subjectivity ratings range from `-2` (highly subjective) to `2` (objectively essential).
 
 
+## AI disclosure
+AI was used only as an assistant for writing utility functions and methods. The main pipeline and analysis was done manually, 
+same as the report and annotations.

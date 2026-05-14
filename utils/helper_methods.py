@@ -64,8 +64,32 @@ def extract_video_segment(video_path, start_time, end_time, output_dir="clips"):
 
     return output_path
 
+def merge_timecodes(timecodes):
+    if not timecodes:
+        return []
+
+    # Sort by start time
+    sorted_codes = sorted(timecodes, key=lambda x: x[0])
+    merged = [list(sorted_codes[0])]
+
+    for start, end in sorted_codes[1:]:
+        last_start, last_end = merged[-1]
+
+        # Overlap or touch: merge into one segment
+        if start <= last_end:
+            merged[-1][1] = max(last_end, end)
+        else:
+            merged.append([start, end])
+
+    return [tuple(x) for x in merged]
+
 
 def extract_clips(input_file, output_file, timecodes):
+    timecodes = merge_timecodes(timecodes)
+
+    if not timecodes:
+        raise ValueError("No valid timecodes provided.")
+
     filter_complex = ""
     inputs = ""
 
