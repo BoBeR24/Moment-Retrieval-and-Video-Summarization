@@ -12,32 +12,17 @@ This project was done as part of an assignment for the Computer Vision course at
 ├── Evaluations/              # Embedding similarity eval results (video_{id}_eval_annot.json)
 │                             # Timestamp IoU eval results     (video_{id}_eval_time.json)
 ├── Timestamps/               # Moment retrieval predictions   (video_{id}_with_predictions.json)
-├── TVSum/                    # Raw video files (video_25.mp4 … video_28.mp4) — not tracked
+├── TVSum/                    # Raw video files (video_25.mp4 … video_28.mp4)
 ├── model_weights/            # Pre-trained model checkpoints  — not tracked, see below
 ├── processed_videos/         # Intermediate video files produced by MR notebooks — not tracked
-├── additional_materials/     # Assignment brief and supporting documents
 ├── utils/                    # Shared utility scripts
-├── vlm_pipeline.ipynb                  # Stage 1: VLM frame description generation
-├── llm_pipeline.ipynb                  # Stage 2: LLM salient event extraction
-├── evaluation_annotations_pipeline.ipynb  # Stage 3: Embedding similarity evaluation
-├── moment_retrieval_1.ipynb            # Stage 4: CG-DETR moment retrieval
-├── moment_retrieval_2.py               # Stage 4: QD-DETR moment retrieval
-├── evaluation_timestamps_pipeline.ipynb   # Stage 5: Timestamp IoU evaluation
+├── vlm_pipeline.ipynb                      # Stage 1: VLM frame description generation
+├── llm_pipeline.ipynb                      # Stage 2: LLM salient event extraction
+├── evaluation_annotations_pipeline.ipynb   # Stage 3: Embedding similarity evaluation
+├── moment_retrieval_1.ipynb                # Stage 4: CG-DETR moment retrieval
+├── moment_retrieval_2.py                   # Stage 4: QD-DETR moment retrieval
+├── evaluation_timestamps_pipeline.ipynb    # Stage 5: Timestamp IoU evaluation
 └── .gitignore
-```
-
----
-
-## Pipeline Overview
-
-```
-Video frames → VLM → descriptions → LLM → events → [embedding eval vs annotations]
-                                                  ↓
-                                         Moment Retrieval (CG-DETR / QD-DETR)
-                                                  ↓
-                                         Timestamps → [IoU eval vs annotations]
-                                                  ↓
-                                         Video Summary (stitching)
 ```
 
 ---
@@ -66,8 +51,7 @@ Download the TVSum videos assigned to Group 7 (videos 25–28) and place them in
 
 Download the pre-trained model checkpoints and place them in `model_weights/`. Required:
 
-- **CG-DETR:** `clip_slowfast_cg_detr_qvhighlight.ckpt` — [TODO: add download link]
-- **QD-DETR:** [TODO: add download link]
+TODO
 
 ---
 
@@ -98,21 +82,4 @@ annotation, timestamp, subjectivity_rating
 
 Timestamps are formatted as `MM:SS - MM:SS`. Subjectivity ratings range from `-2` (highly subjective) to `2` (objectively essential).
 
----
 
-## Results
-
-TODO: add summary of best-performing configurations and key findings.
-
----
-
-## Authors
-
-TODO: add group member names.
-
----
-
-## Course
-
-Computer Vision — Maastricht University, 2026  
-Supervisor: Mirela Popa
